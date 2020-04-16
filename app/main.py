@@ -8,7 +8,7 @@ from fastapi import FastAPI, Request
 app = FastAPI()
 
 
-@lru_cache
+@lru_cache(maxsize=32, typed=False)
 def get_data(kind):
     if kind == 'projects':
         with open('projects.json', 'r') as f:
