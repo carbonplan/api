@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "name": "api",
+    "public": false,
+    "builds": [
+        {
+            "src": "api/hello.py",
+            "use": "@now/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "api/hello.py"
+        },
+        {
+            "src": "/hello",
+            "dest": "api/hello.py"
+        }
+    ]
+}
