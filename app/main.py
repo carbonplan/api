@@ -27,6 +27,10 @@ async def add_no_cache_header(request: Request, call_next):
     response.headers['Cache-Control'] = 'no-cache'
     return response
 
+@app.get('/')
+def root():
+    return {'projects_url': 'https://api.carbonplan.org/projects'}
+
 
 @app.get('/projects')
 def projects(id: str = None):
