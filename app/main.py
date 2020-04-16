@@ -11,7 +11,7 @@ app = FastAPI()
 @lru_cache(maxsize=32, typed=False)
 def get_data(kind):
     if kind == 'projects':
-        with open('projects.json', 'r') as f:
+        with open('app/projects.json', 'r') as f:
             return json.load(f)
     else:
         raise NotImplementedError(kind)
