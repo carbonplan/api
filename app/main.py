@@ -61,7 +61,7 @@ def projects(id: str = None):
         out = data
 
     for p in data['projects']:
-        if p['project_id'] == id:
+        if p['projectId'] == id:
             out = p
             break
 
