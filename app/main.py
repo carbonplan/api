@@ -1,11 +1,26 @@
+import json
 from functools import lru_cache
 
-import json
-
 from fastapi import FastAPI, Request
-
+from fastapi.responses import PlainTextResponse
+from starlette.exceptions import HTTPException as StarletteHTTPException
+from . import json_schema
 
 app = FastAPI()
+
+
+def IndentedResponse(obj, **kwargs):
+    return PlainTextResponse(json.dumps(obj, indent=2), **kwargs)
+
+
+def AppException(status_code=404):
+    data = {"message": "Not Found", "documentation_url": "https://api.carbonplan.org/docs"}
+    return IndentedResponse(data, status_code=status_code)
+
+
+@app.exception_handler(StarletteHTTPException)
+async def http_exception_handler(request, exc):
+    return AppException(status_code=exc.status_code)
 
 
 @lru_cache(maxsize=32, typed=False)
@@ -29,18 +44,34 @@ async def add_no_cache_header(request: Request, call_next):
 
 @app.get('/')
 def root():
-    return {'projects_url': 'https://api.carbonplan.org/projects'}
+    return IndentedResponse({'projects_url': 'https://api.carbonplan.org/projects'})
 
 
 @app.get('/projects')
 def projects(id: str = None):
     data = get_data('projects')
 
+    out = {}
     if id is None:
-        return data
+        out = data
 
     for p in data['features']:
         if p['project_id'] == id:
-            return p
+            out = p
+            break
 
-    return {}
+    return IndentedResponse(out)
+
+
+@app.get('/schema')
+def schema(obj: str = None):
+    summary = {'objects': list(json_schema.objects.keys())}
+    return IndentedResponse(summary)
+
+
+@app.get('/schema/{obj}.json')
+def schema_obj(obj: str):
+    try:
+        return IndentedResponse(json_schema.get(obj))
+    except KeyError:
+        return AppException()
