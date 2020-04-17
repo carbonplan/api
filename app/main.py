@@ -1,4 +1,5 @@
 import json
+
 from functools import lru_cache
 
 from fastapi import FastAPI, Request
@@ -42,9 +43,13 @@ async def add_no_cache_header(request: Request, call_next):
     response.headers['Cache-Control'] = 'no-cache'
     return response
 
+
 @app.get('/')
 def root():
-    return IndentedResponse({'projects_url': 'https://api.carbonplan.org/projects'})
+    return IndentedResponse({
+        'projects_url': 'https://api.carbonplan.org/projects',
+        'schema_url': 'https://api.carbonplan.org/schema'
+    })
 
 
 @app.get('/projects')
@@ -55,7 +60,7 @@ def projects(id: str = None):
     if id is None:
         out = data
 
-    for p in data['features']:
+    for p in data['projects']:
         if p['project_id'] == id:
             out = p
             break

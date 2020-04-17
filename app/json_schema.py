@@ -3,11 +3,12 @@ import requests
 metric = {
     'title': 'CarbonPlan Metric',
     'type': 'object',
-    'required': ['type', 'name', 'value'],
+    'required': ['type', 'name', 'value', 'units'],
     'properties': {
         'type': {'type': 'string', 'enum': ['Metric']},
         'name': {'type': 'string'},
         'value': {'type': 'number'},
+        'units': {'type': 'string'},
         'rating': {'type': 'string'},
         'comment': {'type': 'string'},
     },
@@ -21,21 +22,29 @@ def geojson(name):
 geometry = geojson('Feature')['properties']['geometry']
 
 project = {
-    'title': "CarbonPlan Project",
-    'type': "object",
-    'required': ["type", "name", "metrics", "geometry", "tags", "projectId", "description",],
+    'title': 'CarbonPlan Project',
+    'type': 'object',
+    'required': ['type', 'name', 'metrics', 'geometry', 'tags', 'projectId', 'description',],
     'properties': {
-        'type': {'type': "string", 'enum': ["Project"]},
-        'name': {'type': "string"},
-        'metrics': {'type': "array", 'items': metric},
-        'tags': {'type': "array", 'items': {'type': "string"}},
-        'projectId': {'type': "string"},
-        'description': {'type': "string"},
+        'type': {'type': 'string', 'enum': ['Project']},
+        'name': {'type': 'string'},
+        'metrics': {'type': 'array', 'items': metric},
+        'tags': {'type': 'array', 'items': {'type': 'string'}},
+        'projectId': {'type': 'string'},
+        'description': {'type': 'string'},
         'geometry': {'type': geometry,},
     },
 }
 
-objects = {'Project': project, 'Metric': metric}
+project_collection = {
+    'title': 'CarbonPlan ProjectCollection',
+    'type': 'object',
+    'required': ['type', 'projects'],
+    'properties': {'type': {'type': 'string', 'enum': ['ProjectCollection']},},
+    'projects': {'type': 'array', 'items': project},
+}
+
+objects = {'ProjectCollection': project_collection, 'Project': project, 'Metric': metric}
 
 
 def get(name):
