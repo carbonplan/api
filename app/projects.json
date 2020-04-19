@@ -10,23 +10,8 @@
           "name": "Current annual volume",
           "value": 50.0,
           "units": "tCO2",
-          "rating": "{ }",
-          "comment": "Pilot project in Iceland.",
-          "cycle": {
-            "stock": {
-              "geological": true,
-              "land": false,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "geological",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -80,33 +65,13 @@
           "name": "Current annual volume",
           "value": 120000.0,
           "units": "tCO2",
-          "rating": "{ }",
-          "comment": "No specific project identified in this application; CarbonCure identifies 200 cement production facilities using its technology and appears to be offering volume across this portfolio. CarbonCure expects 60,000 tCO2 removed in 2020 and another 60,000 tCO2 removed across all previous years. ",
-          "cycle": {
-            "stock": {
-              "geological": true,
-              "land": false,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "geological",
-                "type": "enhanced"
-              },
-              {
-                "from": "geological",
-                "to": "atmosphere",
-                "type": "avoided"
-              }
-            ]
-          }
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
           "name": "Net negativity",
-          "value": 0.15,
+          "value": 0.176,
           "units": "",
           "rating": "{ }",
           "comment": "CarbonCure reports 1 tCO2 utilized leads to 0.85 tCO2 mineralized and 0.15 tCO2 emitted. CarboCulture also reports an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete. Using the full set of removed and avoided emissions, the net negativity ratio is reported at 0.0033."
@@ -131,7 +96,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 100.0,
-          "units": "$/tCO3",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -155,23 +120,8 @@
           "name": "Current annual volume",
           "value": 14011.0,
           "units": "tCO2",
-          "rating": "{ }",
-          "comment": "Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. Volumes offered across 10 individual projects, some of which have sold some of their volumes to other buyers.",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": true,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "land",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -201,7 +151,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 16.5,
-          "units": "$/tCO4",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -225,23 +175,8 @@
           "name": "Current annual volume",
           "value": 550000.0,
           "units": "tCO2",
-          "rating": "?",
-          "comment": "No details provided on specific projects. Carbon crediting methodology from Verra not specified; carbon crediting methodology from Climate Action Reserve not yet released in draft form for initial public comment. ",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": true,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "land",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -271,7 +206,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 20.0,
-          "units": "$/tCO5",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -295,9 +230,8 @@
           "name": "Current annual volume",
           "value": 50000.0,
           "units": "tCO2",
-          "rating": "?",
-          "comment": "No details provided on specific projects. Project scale reasonable given technology. ",
-          "cycle": {}
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -327,7 +261,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 99.0,
-          "units": "$/tCO6",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -351,28 +285,8 @@
           "name": "Current annual volume",
           "value": 62.0,
           "units": "tCO2",
-          "rating": "{ }",
-          "comment": "Demonstration project in California's central valley, converting walnut shell waste into biochar. ",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": false,
-              "ocean": false,
-              "material": true
-            },
-            "flux": [
-              {
-                "from": "land",
-                "to": "atmosphere",
-                "type": "avoided"
-              },
-              {
-                "from": "land",
-                "to": "material",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -402,7 +316,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 1000.0,
-          "units": "$/tCO7",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -426,23 +340,8 @@
           "name": "Current annual volume",
           "value": 584.0,
           "units": "tCO2",
-          "rating": "{ }",
-          "comment": "Volumes computed using Climate Forward Reforestation Forecast Methodology Version 1.0.",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": true,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "land",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -450,7 +349,7 @@
           "value": 0.022,
           "units": "",
           "rating": "{ }",
-          "comment": "Project emissions specified in detail. "
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -472,7 +371,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 500.2,
-          "units": "$/tCO8",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -496,23 +395,8 @@
           "name": "Current annual volume",
           "value": 165850.0,
           "units": "tCO2",
-          "rating": "?",
-          "comment": "Estimated sequestration rates in 2020 are reasonable, but the estimate for Rip's Redwoods has been identical over five years and that does not imply the use of remote-sensing based verification of project tons. ",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": true,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "land",
-                "to": "atmosphere",
-                "type": "avoided"
-              }
-            ]
-          }
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -542,7 +426,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 8.0,
-          "units": "$/tCO9",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -566,23 +450,8 @@
           "name": "Current annual volume",
           "value": 693.0,
           "units": "tCO2",
-          "rating": "{ }",
-          "comment": "Demonstration project to be deployed offshore California or Hawaii. Project volume based on expected carbon removal over five years. ",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": false,
-              "ocean": true,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "ocean",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -612,7 +481,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 336.07,
-          "units": "$/tCO10",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -636,9 +505,8 @@
           "name": "Current annual volume",
           "value": 33000.0,
           "units": "tCO2",
-          "rating": "{ }",
-          "comment": "Specific projects not identified; applicant projects 10-30 individual landowners would be needed for this volume.",
-          "cycle": {}
+          "rating": "",
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -651,10 +519,10 @@
         {
           "type": "Metric",
           "name": "Permanence",
-          "value": 1000.0,
+          "value": 10.0,
           "units": "years",
-          "rating": "X",
-          "comment": "Soil carbon storage can be reversed by changed land practices. Permanence most limited by land management decisions that cannot be established on anything resembling this timeframe. Soil Value Exchange only requires 10-year contractual commitments."
+          "rating": "+",
+          "comment": "Soil carbon storage can be reversed by changed land management practices. Soil Value Exchange suggests that carbon storage could last 1000 years or more, but only requires 10-year contractual commitments. The contractual commitment provides a reasonable assurance of a 10-year horizon. "
         },
         {
           "type": "Metric",
@@ -668,7 +536,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 30.0,
-          "units": "$/tCO11",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -690,55 +558,40 @@
         {
           "type": "Metric",
           "name": "Current annual volume",
-          "value": 200.0,
+          "value": 1000.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {
-            "stock": {
-              "geological": true,
-              "land": false,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "geological",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "comment": ""
         },
         {
           "type": "Metric",
           "name": "Net negativity",
-          "value": 0.875,
+          "value": 0.26,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "Project-level analysis is conducted for a different project than the one on offer. "
         },
         {
           "type": "Metric",
           "name": "Permanence",
           "value": 1000.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": "+",
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
           "name": "Additionality",
           "value": "",
           "units": "",
-          "rating": "",
+          "rating": "?",
           "comment": "Carbon removal certificates are offered separately from the olivine sand purchase; because olivine sand will be purchased and used, with the reported use indicated on certificate"
         },
         {
           "type": "Metric",
           "name": "Cost",
           "value": 35.0,
-          "units": "$/tCO12",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -763,52 +616,37 @@
           "value": 15000000.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": true,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "land",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "comment": ""
         },
         {
           "type": "Metric",
           "name": "Net negativity",
           "value": 0.001,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Emissions created only from a small central office and field team in order to support the company's entire range of forest carbon products. "
         },
         {
           "type": "Metric",
           "name": "Permanence",
           "value": 1.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": "+",
+          "comment": "SilviaTerra uses a distinct model where carbon stored in forests is guaranteed on an annual contract basis, denominated in ton-years of CO2. "
         },
         {
           "type": "Metric",
           "name": "Additionality",
           "value": "",
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "By shifting to a ton-year accounting framework, SilviaTerra intends to avoid additionality concerns by measuring actual carbon stored each year. However, other factors, such as exogenous shifts in timber markets, can still affect additionality considerations with respect to forest harvest decisions. Proprietary methods for measurement and verification against field plots were not available at the time of this proposal. "
         },
         {
           "type": "Metric",
           "name": "Cost",
           "value": 15.0,
-          "units": "$/tCO13",
+          "units": "$/tCO2-year",
           "rating": "",
           "comment": ""
         }
@@ -833,52 +671,37 @@
           "value": 98.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": true,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "land",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "comment": ""
         },
         {
           "type": "Metric",
           "name": "Net negativity",
           "value": 0.018,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "Unclear whether livestock emissions are included in silvopasture expansion. "
         },
         {
           "type": "Metric",
           "name": "Permanence",
           "value": 30.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Land is owned by project proponent. "
         },
         {
           "type": "Metric",
           "name": "Additionality",
           "value": "",
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "No analysis conducted in project proposal. "
         },
         {
           "type": "Metric",
           "name": "Cost",
           "value": 100.0,
-          "units": "$/tCO14",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -903,52 +726,37 @@
           "value": 2000.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": false,
-              "ocean": false,
-              "material": true
-            },
-            "flux": [
-              {
-                "from": "land",
-                "to": "material",
-                "type": "enhanced"
-              }
-            ]
-          }
+          "comment": ""
         },
         {
           "type": "Metric",
           "name": "Net negativity",
           "value": 0.016,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "+",
+          "comment": "Project uses low-carbon electricity from the Nordic grid for pelletizing and pyrolysis. "
         },
         {
           "type": "Metric",
           "name": "Permanence",
           "value": 500.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Independent analysis of oxygen : carbon ratio of biochar is 0.039. Project asserts that a ratio < 0.2 implies a half-life of 1000 years. 500 years selected as conservative estimate. "
         },
         {
           "type": "Metric",
           "name": "Additionality",
           "value": "",
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "Feedstock is agricultural (seed) waste, which is unlikely to be used for anything other than co-firing biomass electricity production. "
         },
         {
           "type": "Metric",
           "name": "Cost",
           "value": 100.0,
-          "units": "$/tCO15",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -973,38 +781,37 @@
           "value": 35000.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {}
+          "comment": ""
         },
         {
           "type": "Metric",
           "name": "Net negativity",
-          "value": "Not specified",
+          "value": 0.224,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Based on Puro.earth verification. Numbers reported here only for raw materials through production stage (A1-A3), excluding transport of finished materials and construction-related emissions (A4-A5). "
         },
         {
           "type": "Metric",
           "name": "Permanence",
           "value": 50.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Carbon is stored in building materials."
         },
         {
           "type": "Metric",
           "name": "Additionality",
           "value": "",
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "No specific analysis provided. "
         },
         {
           "type": "Metric",
           "name": "Cost",
           "value": 20.0,
-          "units": "$/tCO16",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -1029,38 +836,37 @@
           "value": 19031.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {}
+          "comment": ""
         },
         {
           "type": "Metric",
           "name": "Net negativity",
           "value": 0.065,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Based on Puro.earth verification. "
         },
         {
           "type": "Metric",
           "name": "Permanence",
           "value": 50.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Carbon is stored as wood-based insultation for buildings. "
         },
         {
           "type": "Metric",
           "name": "Additionality",
           "value": "",
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "Existing industry has been in produciton since the 1980s."
         },
         {
           "type": "Metric",
           "name": "Cost",
           "value": 21.5,
-          "units": "$/tCO17",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -1085,8 +891,7 @@
           "value": 2000.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {}
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -1116,7 +921,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 100.0,
-          "units": "$/tCO18",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -1141,8 +946,7 @@
           "value": 10.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {}
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -1172,7 +976,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 20.0,
-          "units": "$/tCO19",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -1197,8 +1001,7 @@
           "value": 6270.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {}
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -1228,7 +1031,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 20.0,
-          "units": "$/tCO20",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -1253,8 +1056,7 @@
           "value": 64125.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {}
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -1284,7 +1086,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 42.5,
-          "units": "$/tCO21",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -1309,22 +1111,7 @@
           "value": 130000.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {
-            "stock": {
-              "geological": false,
-              "land": true,
-              "ocean": false,
-              "material": false
-            },
-            "flux": [
-              {
-                "from": "atmosphere",
-                "to": "land",
-                "type": "avoided"
-              }
-            ]
-          }
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -1354,7 +1141,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 8.0,
-          "units": "$/tCO22",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -1379,8 +1166,7 @@
           "value": 19700.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {}
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -1410,7 +1196,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 10.0,
-          "units": "$/tCO23",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
@@ -1435,8 +1221,7 @@
           "value": 200.0,
           "units": "tCO2",
           "rating": "",
-          "comment": "",
-          "cycle": {}
+          "comment": ""
         },
         {
           "type": "Metric",
@@ -1466,7 +1251,7 @@
           "type": "Metric",
           "name": "Cost",
           "value": 50.0,
-          "units": "$/tCO24",
+          "units": "$/tCO2",
           "rating": "",
           "comment": ""
         }
