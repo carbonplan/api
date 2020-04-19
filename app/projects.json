@@ -10,8 +10,23 @@
           "name": "Current annual volume",
           "value": 50.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Pilot project in Iceland.",
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -65,8 +80,28 @@
           "name": "Current annual volume",
           "value": 120000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "No specific project identified in this application; CarbonCure identifies 200 cement production facilities using its technology and appears to be offering volume across this portfolio. CarbonCure expects 60,000 tCO2 removed in 2020 and another 60,000 tCO2 removed across all previous years. ",
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              },
+              {
+                "from": "geological",
+                "to": "atmosphere",
+                "type": "avoided"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -120,8 +155,23 @@
           "name": "Current annual volume",
           "value": 14011.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. Volumes offered across 10 individual projects, some of which have sold some of their volumes to other buyers.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -175,8 +225,23 @@
           "name": "Current annual volume",
           "value": 550000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "No details provided on specific projects. Carbon crediting methodology from Verra not specified; carbon crediting methodology from Climate Action Reserve not yet released in draft form for initial public comment. ",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -230,8 +295,9 @@
           "name": "Current annual volume",
           "value": 50000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "No details provided on specific projects. Project scale reasonable given technology. ",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -285,8 +351,28 @@
           "name": "Current annual volume",
           "value": 62.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Demonstration project in California's central valley, converting walnut shell waste into biochar. ",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
+              },
+              {
+                "from": "land",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -340,8 +426,23 @@
           "name": "Current annual volume",
           "value": 584.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Volumes computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0. Projected 100-year removal for project is 64,031 tCO2, with 584 tCO2 occuring in 2020. ",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -395,8 +496,23 @@
           "name": "Current annual volume",
           "value": 165850.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "?",
+          "comment": "Estimated sequestration rates in 2020 are reasonable, but the estimate for Rip's Redwoods has been identical over five years and that does not imply the use of remote-sensing based verification of project tons. ",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -450,8 +566,23 @@
           "name": "Current annual volume",
           "value": 693.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Demonstration project to be deployed offshore California or Hawaii. Project volume based on expected carbon removal over five years. ",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": true,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "ocean",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -505,8 +636,9 @@
           "name": "Current annual volume",
           "value": 33000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Specific projects not identified; applicant projects 10-30 individual landowners would be needed for this volume.",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -560,8 +692,23 @@
           "name": "Current annual volume",
           "value": 1000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Volume is calculated based on expected weathering over 100 years, not removal in a single year. ",
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -615,8 +762,23 @@
           "name": "Current annual volume",
           "value": 15000000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Projects sourced from 11 southern U.S. states via deferring timber harvests to increase carbon stored in forests. ",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -670,8 +832,23 @@
           "name": "Current annual volume",
           "value": 98.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Volumes calculated using USDA COMET-Planner model (56 tCO2) and Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2).",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -725,8 +902,23 @@
           "name": "Current annual volume",
           "value": 2000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Biochard produced from established production facility. ",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -780,8 +972,9 @@
           "name": "Current annual volume",
           "value": 35000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Volume sourced from multiple facilities across Finland.",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -835,8 +1028,9 @@
           "name": "Current annual volume",
           "value": 19031.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": "{ }",
+          "comment": "Volume sourced from multiple facilities across Finland.",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -891,7 +1085,8 @@
           "value": 2000.0,
           "units": "tCO2",
           "rating": "",
-          "comment": ""
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -946,7 +1141,8 @@
           "value": 10.0,
           "units": "tCO2",
           "rating": "",
-          "comment": ""
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -1001,7 +1197,8 @@
           "value": 6270.0,
           "units": "tCO2",
           "rating": "",
-          "comment": ""
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -1056,7 +1253,8 @@
           "value": 64125.0,
           "units": "tCO2",
           "rating": "",
-          "comment": ""
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -1111,7 +1309,22 @@
           "value": 130000.0,
           "units": "tCO2",
           "rating": "",
-          "comment": ""
+          "comment": "",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "avoided"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1166,7 +1379,8 @@
           "value": 19700.0,
           "units": "tCO2",
           "rating": "",
-          "comment": ""
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
@@ -1221,7 +1435,8 @@
           "value": 200.0,
           "units": "tCO2",
           "rating": "",
-          "comment": ""
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
