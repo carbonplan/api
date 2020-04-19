@@ -2,7 +2,7 @@
 
 This repo provides an API for project metrics.
 
-See [https://github.com/carbonplan/schema] for the underlying JSON schema.
+See [`schema`](https://github.com/carbonplan/schema) for the underlying JSON schema.
 
 Currently we are storing all metrics within a JSON file in this repository, derived from a Google Sheet.
 
