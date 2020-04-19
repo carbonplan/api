@@ -662,10 +662,10 @@
         {
           "type": "Metric",
           "name": "permanence",
-          "value": "N/A",
+          "value": 1000.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Carbon dioxide removed to lower ocean depths can be stable for millenia, but ultimately is desitned to affect ocean acidity and to be exposed to surface-atmosphere interactions over the very long run. Unlike geologic storage this stock has an implied end date for effectivess, albeit a potentially very distant one."
+          "comment": "Carbon dioxide removed to lower ocean depths can be stable for millenia, but ultimately is destined to affect ocean acidity and to be exposed to surface-atmosphere interactions over the very long run. Unlike geologic storage this stock has an implied end date for effectivess, albeit a potentially very distant one."
         },
         {
           "type": "Metric",
