@@ -7,31 +7,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 50.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Pilot project in Iceland.",
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.1,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Minimal justificaiton provided; low ratio likely depends on availability of low-carbon energy",
+          "removal": 1.0,
+          "emissions": 0.1,
+          "kind": "ratio"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 1000.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 2.0,
+          "units": "",
+          "rating": 1.0,
+          "comment": "Project is already fully subscribed, so any new investments are better construed as investments in future projects rather than fully additional procurements.",
+          "counterfactual": "Not applicable."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 767.5,
           "units": "$/tCO2",
           "rating": "",
@@ -45,8 +72,12 @@
         "dac",
         "mineralization"
       ],
-      "projectId": "STRP01",
-      "description": "Climeworks captures CO2 with direct air capture technology and permanently removes it from the atmosphere."
+      "id": "STRP01",
+      "description": "Climeworks captures CO2 with direct air capture technology and permanently removes it from the atmosphere.",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -54,31 +85,63 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 120000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "No specific project identified in this application; CarbonCure identifies 200 cement production facilities using its technology and appears to be offering volume across this portfolio. CarbonCure expects 60,000 tCO2 removed in 2020 and another 60,000 tCO2 removed across all previous years.",
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              },
+              {
+                "from": "geological",
+                "to": "atmosphere",
+                "type": "avoided"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
-          "value": 0.15,
+          "name": "negativity",
+          "value": 0.176,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "CarbonCure reports 1 tCO2 utilized leads to 0.85 tCO2 mineralized and 0.15 tCO2 emitted. CarboCulture also reports an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete. Using the full set of removed and avoided emissions, the net negativity ratio is reported at 0.0033.",
+          "removal": 0.85,
+          "emissions": 0.15,
+          "kind": "ratio"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 1000.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Project appears to be monetizing the environmental attributes of cement already sold to others.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 100.0,
           "units": "$/tCO2",
           "rating": "",
@@ -92,8 +155,12 @@
         "mineralization",
         "building materials"
       ],
-      "projectId": "STRP02",
-      "description": "Unlocking 500 Megatonnes of scalable, cost-effective carbon reductions in concrete"
+      "id": "STRP02",
+      "description": "Unlocking 500 Megatonnes of scalable, cost-effective carbon reductions in concrete",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -101,31 +168,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 14011.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. Volumes offered across 10 individual projects, some of which have sold some of their volumes to other buyers.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
-          "value": null,
+          "name": "negativity",
+          "value": "N/A",
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Nori does not report any data for this paramenter. This infromation should be available, however, in order to calculate the volume of tons on offer. Nori guarantees that the net negativity ratio will be less than 1.0 for all projects.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 10.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Soil carbon storage can be reversed by changes to land use or management practices. Nori requires a 10-year contractual commitment from its projects."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Changes to land management practices not specified; significant co-benefits to land managers claimed alongside climate benefits offered for sale.",
+          "counterfactual": "Counterfactual scenarios not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 16.5,
           "units": "$/tCO2",
           "rating": "",
@@ -139,8 +233,12 @@
         "soil",
         "broker"
       ],
-      "projectId": "STRP03",
-      "description": "Accelerating carbon removal and supporting soil health across US croplands."
+      "id": "STRP03",
+      "description": "Accelerating carbon removal and supporting soil health across US croplands.",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -148,31 +246,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 550000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "No details provided on specific projects. Carbon crediting methodology from Verra not specified; carbon crediting methodology from Climate Action Reserve not yet released in draft form for initial public comment.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
-          "value": null,
+          "name": "negativity",
+          "value": "N/A",
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "No information provided.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 100.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Soil carbon storage can be reversed by changed land practices."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Changes to land management practices not specified; significant co-benefits to land managers claimed alongside climate benefits offered for sale.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 20.0,
           "units": "$/tCO2",
           "rating": "",
@@ -186,8 +311,12 @@
         "soil",
         "broker"
       ],
-      "projectId": "STRP04",
-      "description": "Soil carbon sequestration through regenerative farming practices at scale"
+      "id": "STRP04",
+      "description": "Soil carbon sequestration through regenerative farming practices at scale",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -195,31 +324,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 50000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "No details provided on specific projects. Project scale reasonable given technology.",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.053,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "No information provided on projects. Lifecycle emisisons does not include injection, appears to exclude biogenic CO2 emissions not captured from production process. Injection not included. Possible use for enhanced oil recovery, which affects overall lifecycle emissions.",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 1000.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Successful geologic sequestration produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "No detail provided. BECCS projects are likely additioinal, but additionality depends on the economics of any applicable tax credits or policy incentives.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 99.0,
           "units": "$/tCO2",
           "rating": "",
@@ -233,8 +375,12 @@
         "biomass",
         "beccs"
       ],
-      "projectId": "STRP05",
-      "description": "Bio-Energy with Carbon Capture and Storage"
+      "id": "STRP05",
+      "description": "Bio-Energy with Carbon Capture and Storage",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -242,31 +388,63 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 62.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Demonstration project in California's central valley, converting walnut shell waste into biochar.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
+              },
+              {
+                "from": "land",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.035,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Biogenic CO2 emissions excluded from net negativity ratio.",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 100.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "<pending>"
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Project likely additional relative to dumping walnet shells on ground, but additional analysis is warranted on competing uses of waste stream, including biomass electricity generation.",
+          "counterfactual": "Walnut shells dumped on ground or burned in biomass electricity plant."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 1000.0,
           "units": "$/tCO2",
           "rating": "",
@@ -280,8 +458,12 @@
         "biomass",
         "biochar"
       ],
-      "projectId": "STRP06",
-      "description": "Turning woody biomass waste into stable, high-purity biochar"
+      "id": "STRP06",
+      "description": "Turning woody biomass waste into stable, high-purity biochar",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -289,31 +471,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 584.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Volumes computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0. Projected 100-year removal for project is 64,031 tCO2, with 584 tCO2 occuring in 2020.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.022,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "removal": 584.0,
+          "emissions": 8.6,
+          "kind": "project"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 51.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "<pending>"
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 2.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Can reasonably be considered an investment in a new technology to lower the cost of reforestation and aforestation, rather than an investment in a particular project.",
+          "counterfactual": "Reforestation to occur manually or not at all."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 500.2,
           "units": "$/tCO2",
           "rating": "",
@@ -327,8 +536,12 @@
         "forests",
         "reforestation"
       ],
-      "projectId": "STRP07",
-      "description": "Reforesting landscapes via heavy-lift drone swarms and science-based seed enablement"
+      "id": "STRP07",
+      "description": "Reforesting landscapes via heavy-lift drone swarms and science-based seed enablement",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -336,31 +549,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 165850.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Estimated sequestration rates in 2020 are reasonable, but the estimate for Rip's Redwoods has been identical over five years and that does not imply the use of remote-sensing based verification of project tons.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.61,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "No information provided.",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 60.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "<pending>"
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Guanare afforestation project began in 2006. Rip's Redwood project already credited for standing carbon stock above regional baseline, which indicates a promise not to harvest normally and therefore raises questions about the additionality of ongoing carbon removal credits.",
+          "counterfactual": "Counterfactual scenarios specified for both projects."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 8.0,
           "units": "$/tCO2",
           "rating": "",
@@ -374,8 +614,12 @@
         "forests",
         "broker"
       ],
-      "projectId": "STRP08",
-      "description": "Reforestation Projects Verified and Monitored with Satellite and Machine Learning"
+      "id": "STRP08",
+      "description": "Reforestation Projects Verified and Monitored with Satellite and Machine Learning",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -383,31 +627,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 693.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Demonstration project to be deployed offshore California or Hawaii. Project volume based on expected carbon removal over five years.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": true,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "ocean",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.005,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Project emissions specified in detail.",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
-          "value": null,
+          "name": "permanence",
+          "value": "N/A",
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Carbon dioxide removed to lower ocean depths can be stable for millenia, but ultimately is desitned to affect ocean acidity and to be exposed to surface-atmosphere interactions over the very long run. Unlike geologic storage this stock has an implied end date for effectivess, albeit a potentially very distant one."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 2.0,
+          "units": "",
+          "rating": 1.0,
+          "comment": "The only reason to implement a project like this is to generate climate benefits, and no such projects are operating today.",
+          "counterfactual": "Not applicable."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 336.07,
           "units": "$/tCO2",
           "rating": "",
@@ -421,8 +692,12 @@
         "ocean",
         "phytoplankton"
       ],
-      "projectId": "STRP09",
-      "description": "Leveraging biogeochemistry, our wave-powered upwelling/downwelling technology achieves long-term CO2\u200b \u200b sequestration."
+      "id": "STRP09",
+      "description": "Leveraging biogeochemistry, our wave-powered upwelling/downwelling technology achieves long-term CO2\u200b \u200b sequestration.",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -430,31 +705,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 33000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Specific projects not identified; applicant projects 10-30 individual landowners would be needed for this volume.",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.5,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Reported ratio is only provisional, with amended results to be determined in a future study. No clear connection between project-level expectations and future study. Net LCA impacts depend crucially on methane emissions from livestock; no GWP conversion information reported.",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
-          "value": 1000.0,
+          "name": "permanence",
+          "value": 10.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Soil carbon storage can be reversed by changed land management practices. Soil Value Exchange suggests that carbon storage could last 1000 years or more, but only requires 10-year contractual commitments. The contractual commitment provides a reasonable assurance of a 10-year horizon."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "No information provided about participating projects and their past practices.",
+          "counterfactual": "Conventional grazing and intensive feedlot grazing discussed as alternative ranching practices, but no projects identified and no historical practices identified at specific project sites."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 30.0,
           "units": "$/tCO2",
           "rating": "",
@@ -468,8 +756,12 @@
         "soil",
         "broker"
       ],
-      "projectId": "STRP10",
-      "description": "Stripe negative emission purchase launches grassland ecology regeneration at scale"
+      "id": "STRP10",
+      "description": "Stripe negative emission purchase launches grassland ecology regeneration at scale",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -477,31 +769,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 1000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Volume is calculated based on expected weathering over 100 years, not removal in a single year.",
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
-          "value": 0.875,
+          "name": "negativity",
+          "value": 0.26,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Project-level analysis is conducted for a different project than the one on offer.",
+          "removal": 2880.0,
+          "emissions": 750.0,
+          "kind": "project"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 1000.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Carbon removal certificates are offered separately from the olivine sand purchase; because olivine sand will be purchased and used, with the reported use indicated on certificate",
+          "counterfactual": "Alternative rocks used without carbon removal benefits."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 35.0,
           "units": "$/tCO2",
           "rating": "",
@@ -515,8 +834,12 @@
         "mineralization",
         "building materials"
       ],
-      "projectId": "STRP11",
-      "description": "CO2 removal with Olivine"
+      "id": "STRP11",
+      "description": "CO2 removal with Olivine",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -524,33 +847,60 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 15000000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Projects sourced from 11 southern U.S. states via deferring timber harvests to increase carbon stored in forests.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.001,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Emissions created only from a small central office and field team in order to support the company's entire range of forest carbon products.",
+          "removal": 1000.0,
+          "emissions": 1.0,
+          "kind": "ratio"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 1.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "SilviaTerra uses a distinct model where carbon stored in forests is guaranteed on an annual contract basis, denominated in ton-years of CO2."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "By shifting to a ton-year accounting framework, SilviaTerra intends to avoid additionality concerns by measuring actual carbon stored each year. However, other factors, such as exogenous shifts in timber markets, can still affect additionality considerations with respect to forest harvest decisions. Proprietary methods for measurement and verification against field plots were not available at the time of this proposal.",
+          "counterfactual": "Counteractual scenario is active forest product harvest."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 15.0,
-          "units": "$/tCO2",
+          "units": "$/tCO2-year",
           "rating": "",
           "comment": ""
         }
@@ -562,8 +912,12 @@
         "forests",
         "avoided conversion"
       ],
-      "projectId": "STRP12",
-      "description": "Empowering every landowner to participate in forest carbon rental markets"
+      "id": "STRP12",
+      "description": "Empowering every landowner to participate in forest carbon rental markets",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -571,31 +925,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 98.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Volumes calculated using USDA COMET-Planner model (56 tCO2) and Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2).",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.018,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Unclear whether livestock emissions are included in silvopasture expansion.",
+          "removal": 56.0,
+          "emissions": 1.0,
+          "kind": "project"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 30.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Land is owned by project proponent."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": 0.0,
+          "comment": "No analysis conducted in project proposal.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 100.0,
           "units": "$/tCO2",
           "rating": "",
@@ -609,8 +990,12 @@
         "forests",
         "agroforestry"
       ],
-      "projectId": "STRP13",
-      "description": "Conversion of annual cropland to sheep/chestnut silvopasture"
+      "id": "STRP13",
+      "description": "Conversion of annual cropland to sheep/chestnut silvopasture",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -618,31 +1003,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
-          "value": 5000.0,
+          "name": "volume",
+          "value": 2000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Biochard produced from established production facility.",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.016,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Project uses low-carbon electricity from the Nordic grid for pelletizing and pyrolysis.",
+          "removal": 2.7885,
+          "emissions": 0.0455,
+          "kind": "ratio"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 500.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Independent analysis of oxygen : carbon ratio of biochar is 0.039. Project asserts that a ratio < 0.2 implies a half-life of 1000 years. 500 years selected as conservative estimate."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "Feedstock is agricultural (seed) waste, which is unlikely to be used for anything other than co-firing biomass electricity production.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 100.0,
           "units": "$/tCO2",
           "rating": "",
@@ -656,8 +1068,12 @@
         "biomass",
         "biochar"
       ],
-      "projectId": "STRP14",
-      "description": "Biochar production from PYREG P500 and PYREG P1500"
+      "id": "STRP14",
+      "description": "Biochar production from PYREG P500 and PYREG P1500",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -665,31 +1081,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
-          "value": 25000.0,
+          "name": "volume",
+          "value": 35000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Volume sourced from multiple facilities across Finland.",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
-          "value": null,
+          "name": "negativity",
+          "value": 0.224,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Based on Puro.earth verification. Numbers reported here only for raw materials through production stage (A1-A3), excluding transport of finished materials and construction-related emissions (A4-A5).",
+          "removal": 0.71,
+          "emissions": 0.159,
+          "kind": "ratio"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 50.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Carbon is stored in building materials."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "No specific analysis provided.",
+          "counterfactual": "Biomass resources would otherwise decompose or be used to generate heat or electrical energy."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 20.0,
           "units": "$/tCO2",
           "rating": "",
@@ -703,8 +1132,12 @@
         "biomass",
         "building materials"
       ],
-      "projectId": "STRP15",
-      "description": "Laminated log production from lumber feedstock with CO2 sequestration certified by Puro"
+      "id": "STRP15",
+      "description": "Laminated log production from lumber feedstock with CO2 sequestration certified by Puro",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -712,31 +1145,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
-          "value": 21847.0,
+          "name": "volume",
+          "value": 19031.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Volume sourced from multiple facilities across Finland.",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.065,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Based on Puro.earth verification.",
+          "removal": 1.34,
+          "emissions": 0.087,
+          "kind": "ratio"
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 50.0,
           "units": "years",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "Carbon is stored as wood-based insultation for buildings."
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "Existing industry has been in produciton since the 1980s.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 21.5,
           "units": "$/tCO2",
           "rating": "",
@@ -750,8 +1196,12 @@
         "biomass",
         "building materials"
       ],
-      "projectId": "STRP16",
-      "description": "Ekovilla\u2019s net-negative products - emission neutralization with carbon removal"
+      "id": "STRP16",
+      "description": "Ekovilla\u2019s net-negative products - emission neutralization with carbon removal",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -759,31 +1209,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
-          "value": 2500.0,
+          "name": "volume",
+          "value": 2000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.05,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 100.0,
           "units": "years",
-          "rating": "",
+          "rating": 0.0,
           "comment": ""
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "",
+          "counterfactual": ""
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 100.0,
           "units": "$/tCO2",
           "rating": "",
@@ -797,8 +1260,12 @@
         "biomass",
         "biochar"
       ],
-      "projectId": "STRP17",
-      "description": "Biochar and carbon negative energy"
+      "id": "STRP17",
+      "description": "Biochar and carbon negative energy",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -806,31 +1273,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 10.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.6,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 1000.0,
           "units": "years",
-          "rating": "",
+          "rating": 0.0,
           "comment": ""
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "",
+          "counterfactual": ""
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 20.0,
           "units": "$/tCO2",
           "rating": "",
@@ -844,8 +1324,12 @@
         "mineralization",
         "building materials"
       ],
-      "projectId": "STRP18",
-      "description": "Development, production and sales of Facing Bricks and Slips by Carbonation"
+      "id": "STRP18",
+      "description": "Development, production and sales of Facing Bricks and Slips by Carbonation",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -853,31 +1337,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
-          "value": 6350.0,
+          "name": "volume",
+          "value": 6270.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.005,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 100.0,
           "units": "years",
-          "rating": "",
+          "rating": 0.0,
           "comment": ""
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "",
+          "counterfactual": ""
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 20.0,
           "units": "$/tCO2",
           "rating": "",
@@ -891,8 +1388,12 @@
         "forests",
         "reforestation"
       ],
-      "projectId": "STRP19",
-      "description": "Commercially scalable, high-quality, transparent reforestation offset model in a developed economy."
+      "id": "STRP19",
+      "description": "Commercially scalable, high-quality, transparent reforestation offset model in a developed economy.",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -900,31 +1401,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 64125.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.096,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 100.0,
           "units": "years",
-          "rating": "",
+          "rating": 0.0,
           "comment": ""
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "",
+          "counterfactual": ""
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 42.5,
           "units": "$/tCO2",
           "rating": "",
@@ -938,8 +1452,12 @@
         "forests",
         "burial"
       ],
-      "projectId": "STRP20",
-      "description": "Carbon sequestration via logging and wood burial"
+      "id": "STRP20",
+      "description": "Carbon sequestration via logging and wood burial",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -947,31 +1465,58 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
-          "value": 770543.0,
+          "name": "volume",
+          "value": 130000.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "avoided"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.0,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 50.0,
           "units": "years",
-          "rating": "",
+          "rating": 0.0,
           "comment": ""
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "",
+          "counterfactual": ""
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 8.0,
           "units": "$/tCO2",
           "rating": "",
@@ -985,8 +1530,12 @@
         "forests",
         "avoided conversion"
       ],
-      "projectId": "STRP21",
-      "description": "This project protects the carbon stock in the forest."
+      "id": "STRP21",
+      "description": "This project protects the carbon stock in the forest.",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -994,31 +1543,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 19700.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.02,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 50.0,
           "units": "years",
-          "rating": "",
+          "rating": 0.0,
           "comment": ""
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "",
+          "counterfactual": ""
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 10.0,
           "units": "$/tCO2",
           "rating": "",
@@ -1032,8 +1594,12 @@
         "forests",
         "building materials"
       ],
-      "projectId": "STRP22",
-      "description": "The largest giant bamboo reforestation project on earth + engineered lumber"
+      "id": "STRP22",
+      "description": "The largest giant bamboo reforestation project on earth + engineered lumber",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     },
     {
       "type": "Project",
@@ -1041,31 +1607,44 @@
       "metrics": [
         {
           "type": "Metric",
-          "name": "Total project volume",
+          "name": "volume",
           "value": 200.0,
           "units": "tCO2",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "cycle": {}
         },
         {
           "type": "Metric",
-          "name": "Net negativity ratio",
+          "name": "negativity",
           "value": 0.045,
           "units": "",
-          "rating": "",
-          "comment": ""
+          "rating": 0.0,
+          "comment": "",
+          "removal": "",
+          "emissions": "",
+          "kind": ""
         },
         {
           "type": "Metric",
-          "name": "Permanence",
+          "name": "permanence",
           "value": 1000.0,
           "units": "years",
-          "rating": "",
+          "rating": 0.0,
           "comment": ""
         },
         {
           "type": "Metric",
-          "name": "Cost today",
+          "name": "additionality",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "",
+          "counterfactual": ""
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
           "value": 50.0,
           "units": "$/tCO2",
           "rating": "",
@@ -1076,11 +1655,15 @@
         "type": null
       },
       "tags": [
-        "ocean",
-        "mineralization"
+        "mineralization",
+        "ocean"
       ],
-      "projectId": "STRP23",
-      "description": "Accelerate olivine weathering with wave power for carbon dioxide removal."
+      "id": "STRP23",
+      "description": "Accelerate olivine weathering with wave power for carbon dioxide removal.",
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     }
   ]
 }

@@ -24,13 +24,13 @@ geometry = geojson('Feature')['properties']['geometry']
 project = {
     'title': 'CarbonPlan Project',
     'type': 'object',
-    'required': ['type', 'name', 'metrics', 'geometry', 'tags', 'projectId', 'description',],
+    'required': ['type', 'name', 'metrics', 'geometry', 'tags', 'id', 'description',],
     'properties': {
         'type': {'type': 'string', 'enum': ['Project']},
         'name': {'type': 'string'},
         'metrics': {'type': 'array', 'items': metric},
         'tags': {'type': 'array', 'items': {'type': 'string'}},
-        'projectId': {'type': 'string'},
+        'id': {'type': 'string'},
         'description': {'type': 'string'},
         'geometry': {'type': geometry,},
     },
