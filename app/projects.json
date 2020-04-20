@@ -31,7 +31,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.1,
+          "value": 0.9,
           "units": "",
           "rating": 0.0,
           "comment": "Minimal justificaiton provided; low ratio likely depends on availability of low-carbon energy",
@@ -114,7 +114,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.176,
+          "value": 0.824,
           "units": "",
           "rating": 1.0,
           "comment": "CarbonCure reports 1 tCO2 utilized leads to 0.85 tCO2 mineralized and 0.15 tCO2 emitted. CarboCulture also reports an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete. Using the full set of removed and avoided emissions, the net negativity ratio is reported at 0.0033.",
@@ -283,7 +283,7 @@
           "name": "permanence",
           "value": 100.0,
           "units": "years",
-          "rating": 0.0,
+          "rating": -1.0,
           "comment": "Soil carbon storage can be reversed by changed land practices."
         },
         {
@@ -348,7 +348,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.053,
+          "value": 0.947,
           "units": "",
           "rating": 0.0,
           "comment": "No information provided on projects. Lifecycle emisisons does not include injection, appears to exclude biogenic CO2 emissions not captured from production process. Injection not included. Possible use for enhanced oil recovery, which affects overall lifecycle emissions.",
@@ -431,7 +431,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.035,
+          "value": 0.965,
           "units": "",
           "rating": 0.0,
           "comment": "Biogenic CO2 emissions excluded from net negativity ratio.",
@@ -453,7 +453,7 @@
           "value": 1.0,
           "units": "",
           "rating": 0.0,
-          "comment": "Project likely additional relative to dumping walnet shells on ground, but additional analysis is warranted on competing uses of waste stream, including biomass electricity generation.",
+          "comment": "Feedstock is walnut shells that are otherwise dumped on the ground or on roads, e.g. for dust reduction purposes. No analysis provided of competing uses for feedstock.",
           "counterfactual": "Walnut shells dumped on ground or burned in biomass electricity plant."
         },
         {
@@ -509,7 +509,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.022,
+          "value": 0.978,
           "units": "",
           "rating": 0.0,
           "comment": "",
@@ -537,10 +537,10 @@
         {
           "type": "Metric",
           "name": "cost",
-          "value": 500.2,
+          "value": 4.56,
           "units": "$/tCO2",
           "rating": "",
-          "comment": ""
+          "comment": "Droneseed reported its cost per tCO2 using only the small share of expected total project carbon removal expected in 2020 (584 tCO2). Looking just at these expected climate benefits, Droneseed calculates a cost of $500.20/tCO2. Over the lifetime of this specific project, however, Droneseed estimates that 64,031 tCO2 will be removed from the atmosphere. We have adjusted the reported $/tCO2 value to reflect standard industry practice of using total expected benefits across the project's lifetime in order to facilitate comparison with similar forestry projects."
         }
       ],
       "geometry": {
@@ -670,7 +670,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.005,
+          "value": 0.995,
           "units": "",
           "rating": 0.0,
           "comment": "Project emissions specified in detail.",
@@ -826,7 +826,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.26,
+          "value": 0.74,
           "units": "",
           "rating": 1.0,
           "comment": "Project-level analysis is conducted for a different project than the one on offer.",
@@ -909,7 +909,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.001,
+          "value": 0.999,
           "units": "",
           "rating": 0.0,
           "comment": "Emissions created only from a small central office and field team in order to support the company's entire range of forest carbon products.",
@@ -940,7 +940,7 @@
           "value": 15.0,
           "units": "$/tCO2-year",
           "rating": "",
-          "comment": ""
+          "comment": "SilviaTerra uses a ton-year accounting that reflects the cost per tCO2 stored per year. Thus, a contract to store 10 tCO2 for 1 year at $15/tCO2-year would cost $150 and a contract to store 10 tCO2 for 100 years would cost $15,000."
         }
       ],
       "geometry": {
@@ -987,7 +987,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.018,
+          "value": 0.982,
           "units": "",
           "rating": 0.0,
           "comment": "Unclear whether livestock emissions are included in silvopasture expansion.",
@@ -1070,7 +1070,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.016,
+          "value": 0.984,
           "units": "",
           "rating": 1.0,
           "comment": "Project uses low-carbon electricity from the Nordic grid for pelletizing and pyrolysis.",
@@ -1089,10 +1089,10 @@
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 1.0,
           "units": "",
           "rating": 0.0,
-          "comment": "Feedstock is agricultural (seed) waste, which is unlikely to be used for anything other than co-firing biomass electricity production.",
+          "comment": "Feedstock is agricultural (seed) waste. No analysis provided of competing uses for feedstock.",
           "counterfactual": "Counterfactual scenario not specified."
         },
         {
@@ -1148,7 +1148,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.224,
+          "value": 0.776,
           "units": "",
           "rating": 0.0,
           "comment": "Based on Puro.earth verification. Numbers reported here only for raw materials through production stage (A1-A3), excluding transport of finished materials and construction-related emissions (A4-A5).",
@@ -1226,7 +1226,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.065,
+          "value": 0.935,
           "units": "",
           "rating": 0.0,
           "comment": "Based on Puro.earth verification.",
@@ -1284,7 +1284,7 @@
           "value": 2000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Volume sourced from a biochar facility in Finland.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1309,13 +1309,13 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.05,
+          "value": 0.95,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "comment": "Based on Puro.earth verification; however, Puro.earth verification reports a different removal rate (3.11 kgCO2 removed per kg biochar). Excludes 1.69 kg CO2 emissions from biogenic sources per kg biochar; only fossil CO2 emissions included.",
+          "removal": 3.4,
+          "emissions": 0.17,
+          "kind": "ratio"
         },
         {
           "type": "Metric",
@@ -1323,16 +1323,16 @@
           "value": 100.0,
           "units": "years",
           "rating": 0.0,
-          "comment": ""
+          "comment": "Carbofex projects that carbon will be stored for between 100 and 5000 years."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 1.0,
           "units": "",
-          "rating": 0.0,
-          "comment": "",
-          "counterfactual": ""
+          "rating": 1.0,
+          "comment": "Feedstock is residual wood (thinnings). No analysis provided of competing uses for feedstock.",
+          "counterfactual": "Counterfactual scenario not specified."
         },
         {
           "type": "Metric",
@@ -1367,7 +1367,7 @@
           "value": 10.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Volume is based on initial production of 100 tons of underlying product.",
           "cycle": {
             "stock": {
               "geological": true,
@@ -1387,13 +1387,13 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.6,
+          "value": 0.4,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "comment": "Project provides a range of outcomes but no specifics, noting the process can be adjusted to produce different levels of carbon removal relative to emissions.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
         },
         {
           "type": "Metric",
@@ -1401,16 +1401,16 @@
           "value": 1000.0,
           "units": "years",
           "rating": 0.0,
-          "comment": ""
+          "comment": "No specifics provided."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 2.0,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "counterfactual": ""
+          "comment": "Project involves initial production from carbon negative building materials using relatively expensive CO2 inputs (\u20ac75/tCO2).",
+          "counterfactual": "Counterfactual scenario not specified."
         },
         {
           "type": "Metric",
@@ -1465,7 +1465,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.005,
+          "value": 0.995,
           "units": "",
           "rating": 0.0,
           "comment": "",
@@ -1548,7 +1548,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.096,
+          "value": 0.904,
           "units": "",
           "rating": 0.0,
           "comment": "",
@@ -1626,7 +1626,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.0,
+          "value": 1.0,
           "units": "",
           "rating": 0.0,
           "comment": "",
@@ -1709,7 +1709,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.02,
+          "value": 0.98,
           "units": "",
           "rating": 0.0,
           "comment": "",
@@ -1787,7 +1787,7 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.045,
+          "value": 0.955,
           "units": "",
           "rating": 0.0,
           "comment": "",
