@@ -577,6 +577,11 @@
             },
             "flux": [
               {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              },
+              {
                 "from": "land",
                 "to": "atmosphere",
                 "type": "avoided"
@@ -889,6 +894,11 @@
             },
             "flux": [
               {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
+              },
+              {
                 "from": "atmosphere",
                 "to": "land",
                 "type": "enhanced"
@@ -1048,6 +1058,11 @@
                 "from": "land",
                 "to": "material",
                 "type": "enhanced"
+              },
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
               }
             ]
           }
@@ -1282,6 +1297,11 @@
                 "from": "land",
                 "to": "material",
                 "type": "enhanced"
+              },
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
               }
             ]
           }
@@ -1512,6 +1532,11 @@
               "material": true
             },
             "flux": [
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
+              },
               {
                 "from": "atmosphere",
                 "to": "material",
