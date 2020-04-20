@@ -329,7 +329,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "No details provided on specific projects. Project scale reasonable given technology.",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -710,7 +724,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "Specific projects not identified; applicant projects 10-30 individual landowners would be needed for this volume.",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1086,7 +1114,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "Volume sourced from multiple facilities across Finland.",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1150,7 +1192,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "Volume sourced from multiple facilities across Finland.",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1214,7 +1270,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "land",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1278,7 +1348,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1342,7 +1426,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1406,7 +1504,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": false,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1548,7 +1660,26 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": false,
+              "land": true,
+              "ocean": false,
+              "material": true
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "land",
+                "type": "enhanced"
+              },
+              {
+                "from": "land",
+                "to": "material",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
@@ -1612,7 +1743,21 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "",
-          "cycle": {}
+          "cycle": {
+            "stock": {
+              "geological": true,
+              "land": false,
+              "ocean": false,
+              "material": false
+            },
+            "flux": [
+              {
+                "from": "atmosphere",
+                "to": "geological",
+                "type": "enhanced"
+              }
+            ]
+          }
         },
         {
           "type": "Metric",
