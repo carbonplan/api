@@ -103,8 +103,7 @@ if __name__ == '__main__':
         project['tags'].extend(tags)
         project['id'] = row[('id', '')]
         project['description'] = row[('description', '')]
-        # project['location'] = row[('location', '')]
-        
+        project['location'] = {'name': row[('location', 'name')], 'geometry': json.loads(row[('location', 'geometry')])}
         project['source'] = {'name': row[('source', 'name')], 'url': row[('source', 'url')]}
         for name in metrics:
             m = make_metric(name)

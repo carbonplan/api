@@ -74,6 +74,12 @@
       ],
       "id": "STRP01",
       "description": "Climeworks captures CO2 with direct air capture technology and permanently removes it from the atmosphere.",
+      "location": {
+        "name": "Iceland",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -157,6 +163,12 @@
       ],
       "id": "STRP02",
       "description": "Unlocking 500 Megatonnes of scalable, cost-effective carbon reductions in concrete",
+      "location": {
+        "name": "North America",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -235,6 +247,12 @@
       ],
       "id": "STRP03",
       "description": "Accelerating carbon removal and supporting soil health across US croplands.",
+      "location": {
+        "name": "Maryland",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -313,6 +331,12 @@
       ],
       "id": "STRP04",
       "description": "Soil carbon sequestration through regenerative farming practices at scale",
+      "location": {
+        "name": "Mid-West and Southern United States",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -391,6 +415,12 @@
       ],
       "id": "STRP05",
       "description": "Bio-Energy with Carbon Capture and Storage",
+      "location": {
+        "name": "North America / Europe",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -474,6 +504,12 @@
       ],
       "id": "STRP06",
       "description": "Turning woody biomass waste into stable, high-purity biochar",
+      "location": {
+        "name": "Central Valley, California",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -552,6 +588,12 @@
       ],
       "id": "STRP07",
       "description": "Reforesting landscapes via heavy-lift drone swarms and science-based seed enablement",
+      "location": {
+        "name": "Washington State",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -635,6 +677,12 @@
       ],
       "id": "STRP08",
       "description": "Reforestation Projects Verified and Monitored with Satellite and Machine Learning",
+      "location": {
+        "name": "Uruguay & California, USA",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -713,6 +761,12 @@
       ],
       "id": "STRP09",
       "description": "Leveraging biogeochemistry, our wave-powered upwelling/downwelling technology achieves long-term CO2\u200b \u200b sequestration.",
+      "location": {
+        "name": "Pacific Ocean (offshore of California)",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -791,6 +845,12 @@
       ],
       "id": "STRP10",
       "description": "Stripe negative emission purchase launches grassland ecology regeneration at scale",
+      "location": {
+        "name": "",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -869,6 +929,12 @@
       ],
       "id": "STRP11",
       "description": "CO2 removal with Olivine",
+      "location": {
+        "name": "Netherlands",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -952,6 +1018,12 @@
       ],
       "id": "STRP12",
       "description": "Empowering every landowner to participate in forest carbon rental markets",
+      "location": {
+        "name": "US South (multiple states)",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1030,6 +1102,12 @@
       ],
       "id": "STRP13",
       "description": "Conversion of annual cropland to sheep/chestnut silvopasture",
+      "location": {
+        "name": "Johnsonville, NY",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1113,6 +1191,12 @@
       ],
       "id": "STRP14",
       "description": "Biochar production from PYREG P500 and PYREG P1500",
+      "location": {
+        "name": "",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1191,6 +1275,12 @@
       ],
       "id": "STRP15",
       "description": "Laminated log production from lumber feedstock with CO2 sequestration certified by Puro",
+      "location": {
+        "name": "Finland",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1269,6 +1359,12 @@
       ],
       "id": "STRP16",
       "description": "Ekovilla\u2019s net-negative products - emission neutralization with carbon removal",
+      "location": {
+        "name": "Kouvola, Finland",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1352,6 +1448,12 @@
       ],
       "id": "STRP17",
       "description": "Biochar and carbon negative energy",
+      "location": {
+        "name": "Tampere, Finland",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1430,6 +1532,12 @@
       ],
       "id": "STRP18",
       "description": "Development, production and sales of Facing Bricks and Slips by Carbonation",
+      "location": {
+        "name": "Finland",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1508,6 +1616,12 @@
       ],
       "id": "STRP19",
       "description": "Commercially scalable, high-quality, transparent reforestation offset model in a developed economy.",
+      "location": {
+        "name": "Scotland",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1591,6 +1705,12 @@
       ],
       "id": "STRP20",
       "description": "Carbon sequestration via logging and wood burial",
+      "location": {
+        "name": "East Texas",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1669,6 +1789,16 @@
       ],
       "id": "STRP21",
       "description": "This project protects the carbon stock in the forest.",
+      "location": {
+        "name": "Mountain City, TN",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.851,
+            36.442
+          ]
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1752,6 +1882,12 @@
       ],
       "id": "STRP22",
       "description": "The largest giant bamboo reforestation project on earth + engineered lumber",
+      "location": {
+        "name": ", Philippines",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
@@ -1830,6 +1966,12 @@
       ],
       "id": "STRP23",
       "description": "Accelerate olivine weathering with wave power for carbon dioxide removal.",
+      "location": {
+        "name": "\"a Caribbean island nation\"",
+        "geometry": {
+          "type": null
+        }
+      },
       "source": {
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
