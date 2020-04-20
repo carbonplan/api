@@ -87,7 +87,7 @@ if __name__ == '__main__':
         'cost',
     ]
 
-    metric_keys = ['value', 'units', 'comment', 'cycle', 'rating', 
+    metric_keys = ['name', 'geometry', 'value', 'units', 'comment', 'cycle', 'rating', 
          'removal', 'emissions', 'kind', 'counterfactual']
 
     tag_keys = data.columns.levels[0][data.columns.levels[0].str.startswith('tag')]

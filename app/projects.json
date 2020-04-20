@@ -34,7 +34,7 @@
           "value": 0.9,
           "units": "",
           "rating": 0.0,
-          "comment": "Minimal justificaiton provided; low ratio likely depends on availability of low-carbon energy",
+          "comment": "Minimal justificaiton provided; low ratio likely depends on availability of low-carbon energy in Iceland.",
           "removal": 1.0,
           "emissions": 0.1,
           "kind": "ratio"
@@ -1445,7 +1445,7 @@
           "value": 6270.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Volume projected for a single, 174-hectare land project in Scotland.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1468,10 +1468,10 @@
           "value": 0.995,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "comment": "Emission calculations based on one-time planting and fencing emissions amortized over 60 years, various ongoing operations including raising pigs, and average annual sequestration in soil and forest carbon. Projected soil and forest carbon benefits are precisely equal at 3190 tCO2/year.",
+          "removal": 6380.0,
+          "emissions": 29.72,
+          "kind": "project"
         },
         {
           "type": "Metric",
@@ -1479,16 +1479,16 @@
           "value": 100.0,
           "units": "years",
           "rating": 0.0,
-          "comment": ""
+          "comment": "Project involves both soil and forest carbon."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 0.0,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "counterfactual": ""
+          "comment": "No analysis conducted in project proposal.",
+          "counterfactual": "Counterfactual scenario not specified, but appears to involve \"degraded\" land remaining degraded."
         },
         {
           "type": "Metric",
@@ -1523,7 +1523,7 @@
           "value": 64125.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Volume is based on wood waste (slash) to be stored in partially above-ground sealed pits.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1548,30 +1548,30 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.904,
+          "value": 0.906,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "comment": "Reported net removal (64,215 tCO2) does not match net removal calculated from reported components (64,332 tCO2).",
+          "removal": 71019.0,
+          "emissions": 6687.0,
+          "kind": "project"
         },
         {
           "type": "Metric",
           "name": "permanence",
           "value": 100.0,
           "units": "years",
-          "rating": 0.0,
-          "comment": ""
+          "rating": -1.0,
+          "comment": "Project would store biological material in partially above-ground pits; risk of emission leakage, anaerobic decomposition not addressed comprehensively."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 1.0,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "counterfactual": ""
+          "comment": "No commercial value to storing wood waste in pits. However, no analysis provided of alternative feedstock uses such as bioenergy.",
+          "counterfactual": "Counterfactual scenario not specified."
         },
         {
           "type": "Metric",
@@ -1603,10 +1603,10 @@
         {
           "type": "Metric",
           "name": "volume",
-          "value": 130000.0,
+          "value": 631845.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Improved forest management project on 8,485 acres on state-owned land in Tennessee. Project is projected to generate 770,543 tCO2 beneifts, the dominant majority of which (545,254 tCO2 or 71%) are avoided emissions from forest harvesting. An 18% risk buffer pool is set aside to mitigate against potential reversals, producing a net expected removal of 631,845 tCO2. No specific method for calculating forest carbon benefits identified; buffer pool calculated using American Carbon Registry methods.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1629,27 +1629,27 @@
           "value": 1.0,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "comment": "Removal reported as net of 18% buffer pool; project-level emissions reflect monitoring emissions",
+          "removal": 631845.0,
+          "emissions": 40.7,
+          "kind": "project"
         },
         {
           "type": "Metric",
           "name": "permanence",
-          "value": 50.0,
+          "value": 40.0,
           "units": "years",
           "rating": 0.0,
-          "comment": ""
+          "comment": "Project appears to occur over 40 year-period. Project asserts that there is an 82% likelihood of \"permanent\" carbon storage, which is implausible given risks of forest carbon over long time horizons."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 0.0,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "counterfactual": ""
+          "comment": "By the end of 2020, 56% of total project climate benefits will have been earned via avoided harvest. Thus, the project has already committed to avoid harvest and therefore the expected carbon removal is later years is already assured.",
+          "counterfactual": "Counterfactual scenario is harvest of most forest carbon over the period 2018-2021."
         },
         {
           "type": "Metric",
@@ -1787,30 +1787,30 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.955,
+          "value": 0.961,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "comment": "Project reports 49 kg CO2 emitter per ton of olivine produced and 1.25 tCO2 removed per ton of olivine produced.",
+          "removal": 1.25,
+          "emissions": 0.049,
+          "kind": "project"
         },
         {
           "type": "Metric",
           "name": "permanence",
           "value": 1000.0,
           "units": "years",
-          "rating": 0.0,
-          "comment": ""
+          "rating": 1.0,
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 2.0,
           "units": "",
-          "rating": 0.0,
-          "comment": "",
-          "counterfactual": ""
+          "rating": 1.0,
+          "comment": "Project would only be pursued for carbon removal purposes; no intrinsic commerical value.",
+          "counterfactual": "Not applicable."
         },
         {
           "type": "Metric",
