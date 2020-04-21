@@ -52,7 +52,7 @@
           "name": "additionality",
           "value": 2.0,
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "comment": "Project is already fully subscribed, so any new investments are better construed as investments in future projects rather than fully additional procurements.",
           "counterfactual": "Not applicable."
         },
@@ -248,7 +248,7 @@
       "id": "STRP03",
       "description": "Accelerating carbon removal and supporting soil health across US croplands.",
       "location": {
-        "name": "Maryland",
+        "name": "MD, USA",
         "geometry": {
           "type": null
         }
@@ -332,7 +332,7 @@
       "id": "STRP04",
       "description": "Soil carbon sequestration through regenerative farming practices at scale",
       "location": {
-        "name": "Mid-West and Southern United States",
+        "name": "Mid-West and Southern USA",
         "geometry": {
           "type": null
         }
@@ -505,7 +505,7 @@
       "id": "STRP06",
       "description": "Turning woody biomass waste into stable, high-purity biochar",
       "location": {
-        "name": "Central Valley, California",
+        "name": "Central Valley, CA, USA",
         "geometry": {
           "type": null
         }
@@ -548,7 +548,7 @@
           "value": 0.978,
           "units": "",
           "rating": 0.0,
-          "comment": "Project is projected 584 tCO2 sequestered in 2020 and total project emissions of 8.6 tCO2, producing a reported ratio of 0.978. Over its full lifetime, however, project is projected to reduce 64,031 tCO2, which would increase its ratio to 1.000.",
+          "comment": "The reported ratio is based on sequestration only in 2020, but over its full lifetime the project is projected to reduce 64,031 tCO2, which would increase its ratio to 1.000.",
           "removal": 584.0,
           "emissions": 8.6,
           "kind": "project"
@@ -589,7 +589,7 @@
       "id": "STRP07",
       "description": "Reforesting landscapes via heavy-lift drone swarms and science-based seed enablement",
       "location": {
-        "name": "Washington State",
+        "name": "WA, USA",
         "geometry": {
           "type": null
         }
@@ -678,7 +678,7 @@
       "id": "STRP08",
       "description": "Reforestation Projects Verified and Monitored with Satellite and Machine Learning",
       "location": {
-        "name": "Uruguay & California, USA",
+        "name": "Uruguay & CA, USA",
         "geometry": {
           "type": null
         }
@@ -739,7 +739,7 @@
           "name": "additionality",
           "value": 2.0,
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "comment": "The only reason to implement a project like this is to generate climate benefits, and no such projects are operating today.",
           "counterfactual": "Not applicable."
         },
@@ -762,7 +762,7 @@
       "id": "STRP09",
       "description": "Leveraging biogeochemistry, our wave-powered upwelling/downwelling technology achieves long-term CO2\u200b \u200b sequestration.",
       "location": {
-        "name": "Pacific Ocean (offshore of California)",
+        "name": "Pacific Ocean (offshore of CA)",
         "geometry": {
           "type": null
         }
@@ -1019,7 +1019,7 @@
       "id": "STRP12",
       "description": "Empowering every landowner to participate in forest carbon rental markets",
       "location": {
-        "name": "US South (multiple states)",
+        "name": "Southern USA",
         "geometry": {
           "type": null
         }
@@ -1103,7 +1103,7 @@
       "id": "STRP13",
       "description": "Conversion of annual cropland to sheep/chestnut silvopasture",
       "location": {
-        "name": "Johnsonville, NY",
+        "name": "Johnsonville, NY, USA",
         "geometry": {
           "type": null
         }
@@ -1192,7 +1192,7 @@
       "id": "STRP14",
       "description": "Biochar production from PYREG P500 and PYREG P1500",
       "location": {
-        "name": "",
+        "name": "South Sweden",
         "geometry": {
           "type": null
         }
@@ -1426,7 +1426,7 @@
           "name": "additionality",
           "value": 1.0,
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "comment": "Feedstock is residual wood (thinnings). No analysis provided of competing uses for feedstock.",
           "counterfactual": "Counterfactual scenario not specified."
         },
@@ -1706,7 +1706,7 @@
       "id": "STRP20",
       "description": "Carbon sequestration via logging and wood burial",
       "location": {
-        "name": "East Texas",
+        "name": "East Texas, USA",
         "geometry": {
           "type": null
         }
@@ -1767,7 +1767,7 @@
           "name": "additionality",
           "value": 0.0,
           "units": "",
-          "rating": -1.0,
+          "rating": 0.0,
           "comment": "By the end of 2020, 56% of total project climate benefits will have been earned via avoided harvest. Thus, the project has already committed to avoid harvest and therefore the expected carbon removal is later years is already assured.",
           "counterfactual": "Counterfactual scenario is harvest of most forest carbon over the period 2018-2021."
         },
@@ -1790,7 +1790,7 @@
       "id": "STRP21",
       "description": "This project protects the carbon stock in the forest.",
       "location": {
-        "name": "Mountain City, TN",
+        "name": "Mountain City, TN, USA",
         "geometry": {
           "type": "Point",
           "coordinates": [
@@ -1944,7 +1944,7 @@
           "name": "additionality",
           "value": 2.0,
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "comment": "Project would only be pursued for carbon removal purposes; no intrinsic commerical value.",
           "counterfactual": "Not applicable."
         },
