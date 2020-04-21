@@ -11,7 +11,7 @@
           "value": 50.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Pilot project in Iceland.",
+          "comment": "Project removes carbon from atmosphere for geologic sequestration in mineral form. Pilot project in Iceland.",
           "cycle": {
             "stock": {
               "geological": true,
@@ -95,7 +95,7 @@
           "value": 120000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "No specific project identified in this application; CarbonCure identifies 200 cement production facilities using its technology and appears to be offering volume across this portfolio. CarbonCure expects 60,000 tCO2 removed in 2020 and another 60,000 tCO2 removed across all previous years.",
+          "comment": "Project removes carbon from the atmophere for sequestration in mineralized building materials. No specific project identified in this application; CarbonCure identifies 200 cement production facilities using its technology and appears to be offering volume across this portfolio. CarbonCure expects 60,000 tCO2 removed in 2020 and another 60,000 tCO2 removed across all previous years.",
           "cycle": {
             "stock": {
               "geological": true,
@@ -184,7 +184,7 @@
           "value": 14011.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. Volumes offered across 10 individual projects, some of which have sold some of their volumes to other buyers.",
+          "comment": "Projects remove carbon from the atmosphere for sequestration in soils. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. Volumes offered across 10 individual projects, some of which have sold some of their volumes to other buyers.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -268,7 +268,7 @@
           "value": 550000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "No details provided on specific projects. Carbon crediting methodology from Verra not specified; carbon crediting methodology from Climate Action Reserve not yet released in draft form for initial public comment.",
+          "comment": "Projects remove carbon from the atmosphere for sequestration in soils. No details provided on specific projects. Carbon crediting methodology from Verra not specified; carbon crediting methodology from Climate Action Reserve not yet released in draft form for initial public comment.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -302,7 +302,7 @@
           "value": 100.0,
           "units": "years",
           "rating": -1.0,
-          "comment": "Soil carbon storage can be reversed by changed land practices."
+          "comment": "Soil carbon storage can be reversed by changed land practices, but IndigoAg provides no information about the duration of contractual or other legal obligations to maintain soil carbon practices. Project cites two protocol development processes ongoing at the Climate Action Reserve and Verra, but neither was complete at the time of project application."
         },
         {
           "type": "Metric",
@@ -352,7 +352,7 @@
           "value": 50000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "No details provided on specific projects. Project scale reasonable given technology.",
+          "comment": "Project avoids emissions from biogenic carbon sources to atmosphere and instead captures that carbon for geologic sequestration in rocks' pore space. No details provided on specific projects. Project scale reasonable given technology.",
           "cycle": {
             "stock": {
               "geological": true,
@@ -376,9 +376,9 @@
           "units": "",
           "rating": 0.0,
           "comment": "No information provided on projects. Lifecycle emisisons does not include injection, appears to exclude biogenic CO2 emissions not captured from production process. Injection not included. Possible use for enhanced oil recovery, which affects overall lifecycle emissions.",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
         },
         {
           "type": "Metric",
@@ -436,7 +436,7 @@
           "value": 62.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Demonstration project in California's central valley, converting walnut shell waste into biochar.",
+          "comment": "Project avoids emissions from biomass resources and transforms them into long-lived biochar materials. Demonstration project in California's central valley, converting walnut shell waste into biochar.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -465,9 +465,9 @@
           "units": "",
           "rating": 0.0,
           "comment": "Biogenic CO2 emissions excluded from net negativity ratio.",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
         },
         {
           "type": "Metric",
@@ -475,7 +475,7 @@
           "value": 100.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "<pending>"
+          "comment": "Standard biochar permanence considerations apply."
         },
         {
           "type": "Metric",
@@ -525,7 +525,7 @@
           "value": 584.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volumes computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0. Projected 100-year removal for project is 64,031 tCO2, with 584 tCO2 occuring in 2020.",
+          "comment": "Project removes carbon from atmosphere for sequestration in forests. Volumes computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0. Projected 100-year removal for project is 64,031 tCO2, with 584 tCO2 occuring in 2020.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -548,7 +548,7 @@
           "value": 0.978,
           "units": "",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Project is projected 584 tCO2 sequestered in 2020 and total project emissions of 8.6 tCO2, producing a reported ratio of 0.978. Over its full lifetime, however, project is projected to reduce 64,031 tCO2, which would increase its ratio to 1.000.",
           "removal": 584.0,
           "emissions": 8.6,
           "kind": "project"
@@ -559,12 +559,12 @@
           "value": 51.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "<pending>"
+          "comment": "Standard forest carbon permanence risk considerations apply."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": 2.0,
+          "value": 1.0,
           "units": "",
           "rating": 0.0,
           "comment": "Can reasonably be considered an investment in a new technology to lower the cost of reforestation and aforestation, rather than an investment in a particular project.",
@@ -609,7 +609,7 @@
           "value": 165850.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Estimated sequestration rates in 2020 are reasonable, but the estimate for Rip's Redwoods has been identical over five years and that does not imply the use of remote-sensing based verification of project tons.",
+          "comment": "Projects include both avoided emissions of carbon from forests as well as removal of atmospheric for sequestration in forests and forest products. Estimated sequestration rates in 2020 are reasonable, but the estimate for Rip's Redwoods has been identical over five years and that does not imply the use of remote-sensing based verification of project tons.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -634,13 +634,13 @@
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.61,
+          "value": 0.39,
           "units": "",
-          "rating": 0.0,
-          "comment": "No information provided.",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "rating": -1.0,
+          "comment": "Self-reported value appears unreasonably high, but information is not available to independently calculate. Based on project type, we would expect a higher (more favorable) negativity ratio.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
         },
         {
           "type": "Metric",
@@ -648,7 +648,7 @@
           "value": 60.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "<pending>"
+          "comment": "Standard forest carbon permanence risk considerations apply."
         },
         {
           "type": "Metric",
@@ -698,7 +698,7 @@
           "value": 693.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Demonstration project to be deployed offshore California or Hawaii. Project volume based on expected carbon removal over five years.",
+          "comment": "Project removes carbon from atmosphere via sequestration in phytoplankton and transport of phytoplankton biomass to deep ocean. Demonstration project to be deployed offshore California or Hawaii. Project volume based on expected carbon removal over five years.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -722,9 +722,9 @@
           "units": "",
           "rating": 0.0,
           "comment": "Project emissions specified in detail.",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "removal": 697.0,
+          "emissions": 3.6854,
+          "kind": "project"
         },
         {
           "type": "Metric",
@@ -782,7 +782,7 @@
           "value": 33000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Specific projects not identified; applicant projects 10-30 individual landowners would be needed for this volume.",
+          "comment": "Projects remove carbon from the atmosphere for sequestration in soils. Specific projects not identified; applicant projects 10-30 individual landowners would be needed for this volume.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -805,10 +805,10 @@
           "value": 0.5,
           "units": "",
           "rating": 0.0,
-          "comment": "Reported ratio is only provisional, with amended results to be determined in a future study. No clear connection between project-level expectations and future study. Net LCA impacts depend crucially on methane emissions from livestock; no GWP conversion information reported.",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "comment": "Reported ratio is only provisional, with amended results to be determined in a future study. No clear connection expressed between detailed, project-level expectations and promised future study. Net LCA impacts depend crucially on methane emissions from livestock; no GWP conversion information reported.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
         },
         {
           "type": "Metric",
@@ -866,7 +866,7 @@
           "value": 1000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume is calculated based on expected weathering over 100 years, not removal in a single year.",
+          "comment": "Project removes carbon from atmosphere for geologic sequestration in mineral form. Volume is calculated based on expected weathering over 100 years, not removal in a single year.",
           "cycle": {
             "stock": {
               "geological": true,
@@ -908,7 +908,7 @@
           "value": 0.0,
           "units": "",
           "rating": 0.0,
-          "comment": "Carbon removal certificates are offered separately from the olivine sand purchase; because olivine sand will be purchased and used, with the reported use indicated on certificate",
+          "comment": "Carbon removal certificates are offered separately from the olivine sand purchase; because olivine sand will be purchased and used, with the reported use indicated on certificate.",
           "counterfactual": "Alternative rocks used without carbon removal benefits."
         },
         {
@@ -950,7 +950,7 @@
           "value": 15000000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Projects sourced from 11 southern U.S. states via deferring timber harvests to increase carbon stored in forests.",
+          "comment": "Projects remove carbon from atmosphere by extending time between forest harvests, sequestering carbon in forests and forest products. Projects sourced from 11 southern U.S. states via deferring timber harvests to increase carbon stored in forests.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1039,7 +1039,7 @@
           "value": 98.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volumes calculated using USDA COMET-Planner model (56 tCO2) and Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2).",
+          "comment": "Project removes carbon from atmosphere for sequestration in forest carbon. Volumes calculated using USDA COMET-Planner model (56 tCO2) and Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2).",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1073,12 +1073,12 @@
           "value": 30.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Land is owned by project proponent."
+          "comment": "Land is owned by project proponent. Standard forest carbon permanence risk considerations apply."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": 0.0,
+          "value": 1.0,
           "units": "",
           "rating": 0.0,
           "comment": "No analysis conducted in project proposal.",
@@ -1123,7 +1123,7 @@
           "value": 2000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Biochard produced from established production facility.",
+          "comment": "Project avoids emissions from biomass resources and transforms them into long-lived biochar materials. Biochar produced from established production facility.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1212,7 +1212,7 @@
           "value": 35000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume sourced from multiple facilities across Finland.",
+          "comment": "Project avoids emissions from biomass and sequesters carbon in building materials. Volume sourced from multiple facilities across Finland.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1251,7 +1251,7 @@
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 1.0,
           "units": "",
           "rating": 0.0,
           "comment": "No specific analysis provided.",
@@ -1296,7 +1296,7 @@
           "value": 19031.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume sourced from multiple facilities across Finland.",
+          "comment": "Project avoids emissions from biomass and sequesters carbon in building materials. Volume sourced from multiple facilities across Finland.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1335,7 +1335,7 @@
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 1.0,
           "units": "",
           "rating": 0.0,
           "comment": "Existing industry has been in produciton since the 1980s.",
@@ -1380,7 +1380,7 @@
           "value": 2000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume sourced from a biochar facility in Finland.",
+          "comment": "Project avoids emissions from biomass resources and transforms them into long-lived biochar materials. Volume sourced from a biochar facility in Finland.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1469,7 +1469,7 @@
           "value": 10.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume is based on initial production of 100 tons of underlying product.",
+          "comment": "Project removes carbon from atmosphere and sequesters in mineralized building materials; project also displaces need for carbon-emitting production processes for substitute, conventinal building materials. Volume is based on initial production of 100 tons of underlying product.",
           "cycle": {
             "stock": {
               "geological": true,
@@ -1553,7 +1553,7 @@
           "value": 6270.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume projected for a single, 174-hectare land project in Scotland.",
+          "comment": "Project removes carbon from atmosphere for sequestration in forest and soil carbon stocks. Volume projected for a single, 174-hectare land project in Scotland.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1587,7 +1587,7 @@
           "value": 100.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Project involves both soil and forest carbon."
+          "comment": "Project involves both soil and forest carbon. Standard forest carbon and soil permanence risk considerations apply."
         },
         {
           "type": "Metric",
@@ -1637,7 +1637,7 @@
           "value": 64125.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume is based on wood waste (slash) to be stored in partially above-ground sealed pits.",
+          "comment": "Project avoids biomass emissions by burying wood waste in covered pits. Volume is based on wood waste (slash) to be stored in partially above-ground sealed pits.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1718,7 +1718,7 @@
     },
     {
       "type": "Project",
-      "name": "Bluesource",
+      "name": "Bluesource Doe Mountain",
       "metrics": [
         {
           "type": "Metric",
@@ -1726,7 +1726,7 @@
           "value": 631845.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Improved forest management project on 8,485 acres on state-owned land in Tennessee. Project is projected to generate 770,543 tCO2 beneifts, the dominant majority of which (545,254 tCO2 or 71%) are avoided emissions from forest harvesting. An 18% risk buffer pool is set aside to mitigate against potential reversals, producing a net expected removal of 631,845 tCO2. No specific method for calculating forest carbon benefits identified; buffer pool calculated using American Carbon Registry methods.",
+          "comment": "Project avoids emissions from forest carbon and removes carbon from the atmosphere for sequestration in forest carbon. Improved forest management project on 8,485 acres on state-owned land in Tennessee. Project is projected to generate 770,543 tCO2 beneifts, the dominant majority of which (545,254 tCO2 or 71%) are avoided emissions from forest harvesting. An 18% risk buffer pool is set aside to mitigate against potential reversals, producing a net expected removal of 631,845 tCO2. No specific method for calculating forest carbon benefits identified; buffer pool calculated using American Carbon Registry methods.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1760,14 +1760,14 @@
           "value": 40.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Project appears to occur over 40 year-period. Project asserts that there is an 82% likelihood of \"permanent\" carbon storage, which is implausible given risks of forest carbon over long time horizons."
+          "comment": "Project appears to occur over 40 year-period. Project asserts that there is an 82% likelihood of \"permanent\" carbon storage, which is implausible given risks of forest carbon over long time horizons. Standard forest carbon permanence risk considerations apply."
         },
         {
           "type": "Metric",
           "name": "additionality",
           "value": 0.0,
           "units": "",
-          "rating": 0.0,
+          "rating": -1.0,
           "comment": "By the end of 2020, 56% of total project climate benefits will have been earned via avoided harvest. Thus, the project has already committed to avoid harvest and therefore the expected carbon removal is later years is already assured.",
           "counterfactual": "Counterfactual scenario is harvest of most forest carbon over the period 2018-2021."
         },
@@ -1814,7 +1814,7 @@
           "value": 19700.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Project removes carbon from atmosphere for sequestration in bamboo and bamboo building materials. Volume projected using unspecified Verified Carbon Standard protocol.",
           "cycle": {
             "stock": {
               "geological": false,
@@ -1842,10 +1842,10 @@
           "value": 0.98,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "removal": "",
-          "emissions": "",
-          "kind": ""
+          "comment": "Minimal information reported.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
         },
         {
           "type": "Metric",
@@ -1853,16 +1853,16 @@
           "value": 50.0,
           "units": "years",
           "rating": 0.0,
-          "comment": ""
+          "comment": "Project projects permanence of 80 years for bamboo clumps and 50-100 years for engineered wood products."
         },
         {
           "type": "Metric",
           "name": "additionality",
-          "value": "",
+          "value": 0.0,
           "units": "",
           "rating": 0.0,
-          "comment": "",
-          "counterfactual": ""
+          "comment": "Project claims that bamboo building materials have reached parity with conventional wood products. This suggests bamboo planting may not require climate policy incentives. No analysis of competing economics of conventional wood products, alternative land management options.",
+          "counterfactual": "Counterfactual not specified. Project appears to target degraded land and suggests alternative land uses, such as native forest plantations, might be feasible but would produce lower overall carbon removal services due to bamboo's extremely high annual productivity."
         },
         {
           "type": "Metric",
@@ -1883,7 +1883,7 @@
       "id": "STRP22",
       "description": "The largest giant bamboo reforestation project on earth + engineered lumber",
       "location": {
-        "name": ", Philippines",
+        "name": "Philippines",
         "geometry": {
           "type": null
         }
@@ -1903,7 +1903,7 @@
           "value": 200.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Project removes carbon from the atmosphere for sequestration in the ocean in mineral form. Volume projected based on total crushed olivine supply to pilot project site.",
           "cycle": {
             "stock": {
               "geological": true,
@@ -1926,7 +1926,7 @@
           "value": 0.961,
           "units": "",
           "rating": 0.0,
-          "comment": "Project reports 49 kg CO2 emitter per ton of olivine produced and 1.25 tCO2 removed per ton of olivine produced.",
+          "comment": "Project reports 49 kg CO2 emitted per ton of olivine produced and 1.25 tCO2 removed per ton of olivine produced. Project claims higher negativity ratio by using wave energy to displace secondary and tertiary grinding of olivine to small particles needed for carbon removal.",
           "removal": 1.25,
           "emissions": 0.049,
           "kind": "project"
@@ -1967,7 +1967,7 @@
       "id": "STRP23",
       "description": "Accelerate olivine weathering with wave power for carbon dioxide removal.",
       "location": {
-        "name": "\"a Caribbean island nation\"",
+        "name": "Caribbean",
         "geometry": {
           "type": null
         }
