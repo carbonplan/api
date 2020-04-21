@@ -1230,6 +1230,11 @@
                 "from": "land",
                 "to": "material",
                 "type": "enhanced"
+              },
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
               }
             ]
           }
@@ -1314,6 +1319,11 @@
                 "from": "land",
                 "to": "material",
                 "type": "enhanced"
+              },
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
               }
             ]
           }
