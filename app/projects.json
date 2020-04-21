@@ -73,7 +73,7 @@
         "mineralization"
       ],
       "id": "STRP01",
-      "description": "Direct air capture and mineralization",
+      "description": "Direct air capture and mineralization.",
       "location": {
         "name": "Iceland",
         "geometry": {
@@ -162,7 +162,7 @@
         "building materials"
       ],
       "id": "STRP02",
-      "description": "Carbon reductions in concrete",
+      "description": "Carbon reductions in concrete.",
       "location": {
         "name": "North America",
         "geometry": {
@@ -246,7 +246,7 @@
         "broker"
       ],
       "id": "STRP03",
-      "description": "Increasing soil carbon sequestration and soil health",
+      "description": "Increasing soil carbon sequestration and soil health.",
       "location": {
         "name": "MD, USA",
         "geometry": {
@@ -330,7 +330,7 @@
         "broker"
       ],
       "id": "STRP04",
-      "description": "Rgenerative farming practices for soil carbon sequestration",
+      "description": "Rgenerative farming practices for soil carbon sequestration.",
       "location": {
         "name": "Mid-West and Southern USA",
         "geometry": {
@@ -419,7 +419,7 @@
         "beccs"
       ],
       "id": "STRP05",
-      "description": "Supporting bio-energy with carbon capture and storage",
+      "description": "Supporting bio-energy with carbon capture and storage.",
       "location": {
         "name": "North America / Europe",
         "geometry": {
@@ -508,7 +508,7 @@
         "biochar"
       ],
       "id": "STRP06",
-      "description": "Turning woody biomass waste into biochar",
+      "description": "Turning woody biomass waste into biochar.",
       "location": {
         "name": "Central Valley, CA, USA",
         "geometry": {
@@ -592,7 +592,7 @@
         "reforestation"
       ],
       "id": "STRP07",
-      "description": "Reforestation using drone swarms and seed enablement",
+      "description": "Reforestation using drone swarms and seed enablement.",
       "location": {
         "name": "WA, USA",
         "geometry": {
@@ -681,7 +681,7 @@
         "broker"
       ],
       "id": "STRP08",
-      "description": "Reforestation projects with verification and monitoring",
+      "description": "Reforestation projects with verification and monitoring.",
       "location": {
         "name": "Uruguay & CA, USA",
         "geometry": {
@@ -765,7 +765,7 @@
         "phytoplankton"
       ],
       "id": "STRP09",
-      "description": "Wave-powered upwelling/downwelling for carbon\u200b sequestration",
+      "description": "Wave-powered upwelling/downwelling for carbon\u200b sequestration.",
       "location": {
         "name": "Pacific Ocean (offshore of CA)",
         "geometry": {
@@ -849,7 +849,7 @@
         "broker"
       ],
       "id": "STRP10",
-      "description": "Grassland ecology regeneration",
+      "description": "Grassland ecology regeneration.",
       "location": {
         "name": "",
         "geometry": {
@@ -933,7 +933,7 @@
         "building materials"
       ],
       "id": "STRP11",
-      "description": "CO2 removal with olivine",
+      "description": "CO2 removal with olivine.",
       "location": {
         "name": "Netherlands",
         "geometry": {
@@ -1022,7 +1022,7 @@
         "avoided conversion"
       ],
       "id": "STRP12",
-      "description": "Forest carbon rental markets",
+      "description": "Forest carbon rental markets.",
       "location": {
         "name": "Southern USA",
         "geometry": {
@@ -1106,7 +1106,7 @@
         "agroforestry"
       ],
       "id": "STRP13",
-      "description": "Conversion of annual cropland to sheep/chestnut silvopasture",
+      "description": "Conversion of annual cropland to sheep/chestnut silvopasture.",
       "location": {
         "name": "Johnsonville, NY, USA",
         "geometry": {
@@ -1195,7 +1195,7 @@
         "biochar"
       ],
       "id": "STRP14",
-      "description": "Biochar production from PYREG P500 and PYREG P1500",
+      "description": "Biochar production from PYREG P500 and PYREG P1500.",
       "location": {
         "name": "South Sweden",
         "geometry": {
@@ -1279,7 +1279,7 @@
         "building materials"
       ],
       "id": "STRP15",
-      "description": "Laminated log production from lumber feedstock with CO2 sequestration",
+      "description": "Laminated log production from lumber with CO2 sequestration.",
       "location": {
         "name": "Finland",
         "geometry": {
@@ -1363,7 +1363,7 @@
         "building materials"
       ],
       "id": "STRP16",
-      "description": "Net-negative wood products",
+      "description": "Net-negative wood products.",
       "location": {
         "name": "Kouvola, Finland",
         "geometry": {
@@ -1452,7 +1452,7 @@
         "biochar"
       ],
       "id": "STRP17",
-      "description": "Biochar and carbon negative energy",
+      "description": "Biochar and carbon negative energy.",
       "location": {
         "name": "Tampere, Finland",
         "geometry": {
@@ -1536,7 +1536,7 @@
         "building materials"
       ],
       "id": "STRP18",
-      "description": "Producing bricks and slips by carbonation",
+      "description": "Producing bricks and slips by carbonation.",
       "location": {
         "name": "Finland",
         "geometry": {
@@ -1620,7 +1620,7 @@
         "reforestation"
       ],
       "id": "STRP19",
-      "description": "Reforestation offset model",
+      "description": "Reforestation offset model.",
       "location": {
         "name": "Scotland",
         "geometry": {
@@ -1709,7 +1709,7 @@
         "burial"
       ],
       "id": "STRP20",
-      "description": "Carbon sequestration via logging and wood burial",
+      "description": "Carbon sequestration via logging and wood burial.",
       "location": {
         "name": "East Texas, USA",
         "geometry": {
@@ -1793,7 +1793,7 @@
         "avoided conversion"
       ],
       "id": "STRP21",
-      "description": "Protecting forest carbon stock",
+      "description": "Protecting forest carbon stock.",
       "location": {
         "name": "Mountain City, TN, USA",
         "geometry": {
@@ -1886,7 +1886,7 @@
         "building materials"
       ],
       "id": "STRP22",
-      "description": "Bamboo reforestation and engineered lumber",
+      "description": "Bamboo reforestation and engineered lumber.",
       "location": {
         "name": "Philippines",
         "geometry": {
@@ -1970,7 +1970,7 @@
         "ocean"
       ],
       "id": "STRP23",
-      "description": "Accelerating olivine weathering with wave power for CO2 removal",
+      "description": "Accelerating olivine weathering with wave power for CO2 removal.",
       "location": {
         "name": "Caribbean",
         "geometry": {
