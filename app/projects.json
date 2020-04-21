@@ -123,7 +123,7 @@
           "value": 0.824,
           "units": "",
           "rating": 1.0,
-          "comment": "CarbonCure reports 1 tCO2 utilized leads to 0.85 tCO2 mineralized and 0.15 tCO2 emitted. CarboCulture also reports an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete. Using the full set of removed and avoided emissions, the net negativity ratio is reported at 0.0033.",
+          "comment": "Project also reports an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete. Using the full set of removed and avoided emissions, negativity would be 0.99.",
           "removal": 0.85,
           "emissions": 0.15,
           "kind": "ratio"
@@ -207,7 +207,7 @@
           "value": "N/A",
           "units": "",
           "rating": 0.0,
-          "comment": "Nori does not report any data for this paramenter. This infromation should be available, however, in order to calculate the volume of tons on offer. Nori guarantees that the net negativity ratio will be less than 1.0 for all projects.",
+          "comment": "No data available on this paramenter. This infromation ought to be available, however, as it would be needed to calculate the volume of tons on offer. Nori guarantees that negativity will be less than 1.0 for all projects.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -380,7 +380,7 @@
           "value": 0.947,
           "units": "",
           "rating": 0.0,
-          "comment": "No information provided on projects. Lifecycle emisisons does not include injection, appears to exclude biogenic CO2 emissions not captured from production process. Injection not included. Possible use for enhanced oil recovery, which affects overall lifecycle emissions.",
+          "comment": "No information provided on specific projects. Using available data, lifecycle emisisons do not include injection, and appear to exclude biogenic CO2 emissions not captured from production process. Possible uses for enhanced oil recovery would affect overall lifecycle emissions.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -553,7 +553,7 @@
           "value": 0.978,
           "units": "",
           "rating": 0.0,
-          "comment": "The reported ratio is based on sequestration only in 2020, but over its full lifetime the project is projected to reduce 64,031 tCO2, which would increase its ratio to 1.000.",
+          "comment": "The reported ratio is based on sequestration only in 2020, but over its full lifetime the project is projected to remove 64,031 tCO2, which would increase its ratio to 1.000.",
           "removal": 584.0,
           "emissions": 8.6,
           "kind": "project"
@@ -642,7 +642,7 @@
           "value": 0.39,
           "units": "",
           "rating": -1.0,
-          "comment": "Self-reported value appears unreasonably high, but information is not available to independently calculate. Based on project type, we would expect a higher (more favorable) negativity ratio.",
+          "comment": "Self-reported value appears unreasonably high, but data is not available to independently calculate. Based on project type, we would expect a higher (more favorable) negativity ratio.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -726,7 +726,7 @@
           "value": 0.995,
           "units": "",
           "rating": 0.0,
-          "comment": "Project emissions specified in detail.",
+          "comment": "Project emissions specified in detail, although technology is early-stage and experimental.",
           "removal": 697.0,
           "emissions": 3.6854,
           "kind": "project"
@@ -983,7 +983,7 @@
           "value": 0.999,
           "units": "",
           "rating": 0.0,
-          "comment": "Emissions created only from a small central office and field team in order to support the company's entire range of forest carbon products.",
+          "comment": "Emissions estimates created only from a small central office and field team in order to support the company's entire range of forest carbon products.",
           "removal": 1000.0,
           "emissions": 1.0,
           "kind": "ratio"
@@ -1259,7 +1259,7 @@
           "value": 1.0,
           "units": "",
           "rating": 0.0,
-          "comment": "No specific analysis provided.",
+          "comment": "No specific analysis available.",
           "counterfactual": "Biomass resources would otherwise decompose or be used to generate heat or electrical energy."
         },
         {
@@ -1581,7 +1581,7 @@
           "value": 0.995,
           "units": "",
           "rating": 0.0,
-          "comment": "Emission calculations based on one-time planting and fencing emissions amortized over 60 years, various ongoing operations including raising pigs, and average annual sequestration in soil and forest carbon. Projected soil and forest carbon benefits are precisely equal at 3190 tCO2/year.",
+          "comment": "Emission calculations based on one-time planting and fencing emissions amortized over 60 years. Various ongoing operations including raising pigs, and average annual sequestration in soil and forest carbon. Projected soil and forest carbon benefits are precisely equal at 3190 tCO2/year.",
           "removal": 6380.0,
           "emissions": 29.72,
           "kind": "project"
@@ -1600,7 +1600,7 @@
           "value": 0.0,
           "units": "",
           "rating": 0.0,
-          "comment": "No analysis conducted in project proposal.",
+          "comment": "No specific analysis available.",
           "counterfactual": "Counterfactual scenario not specified, but appears to involve \"degraded\" land remaining degraded."
         },
         {
@@ -1657,7 +1657,7 @@
                 "type": "avoided"
               },
               {
-                "from": "atmosphere",
+                "from": "land",
                 "to": "material",
                 "type": "enhanced"
               }
@@ -1741,9 +1741,14 @@
             },
             "flux": [
               {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
+              },
+              {
                 "from": "atmosphere",
                 "to": "land",
-                "type": "avoided"
+                "type": "enhaned"
               }
             ]
           }
@@ -1931,7 +1936,7 @@
           "value": 0.961,
           "units": "",
           "rating": 0.0,
-          "comment": "Project reports 49 kg CO2 emitted per ton of olivine produced and 1.25 tCO2 removed per ton of olivine produced. Project claims higher negativity ratio by using wave energy to displace secondary and tertiary grinding of olivine to small particles needed for carbon removal.",
+          "comment": "Project claims higher negativity ratio by using wave energy to displace secondary and tertiary grinding of olivine to small particles needed for carbon removal.",
           "removal": 1.25,
           "emissions": 0.049,
           "kind": "project"
