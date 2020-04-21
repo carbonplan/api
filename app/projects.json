@@ -73,7 +73,7 @@
         "mineralization"
       ],
       "id": "STRP01",
-      "description": "Climeworks captures CO2 with direct air capture technology and permanently removes it from the atmosphere.",
+      "description": "Direct air capture and mineralization",
       "location": {
         "name": "Iceland",
         "geometry": {
@@ -162,7 +162,7 @@
         "building materials"
       ],
       "id": "STRP02",
-      "description": "Unlocking 500 Megatonnes of scalable, cost-effective carbon reductions in concrete",
+      "description": "Carbon reductions in concrete",
       "location": {
         "name": "North America",
         "geometry": {
@@ -246,7 +246,7 @@
         "broker"
       ],
       "id": "STRP03",
-      "description": "Accelerating carbon removal and supporting soil health across US croplands.",
+      "description": "Increasing soil carbon sequestration and soil health",
       "location": {
         "name": "MD, USA",
         "geometry": {
@@ -330,7 +330,7 @@
         "broker"
       ],
       "id": "STRP04",
-      "description": "Soil carbon sequestration through regenerative farming practices at scale",
+      "description": "Rgenerative farming practices for soil carbon sequestration",
       "location": {
         "name": "Mid-West and Southern USA",
         "geometry": {
@@ -365,6 +365,11 @@
                 "from": "atmosphere",
                 "to": "geological",
                 "type": "enhanced"
+              },
+              {
+                "from": "land",
+                "to": "atmosphere",
+                "type": "avoided"
               }
             ]
           }
@@ -414,7 +419,7 @@
         "beccs"
       ],
       "id": "STRP05",
-      "description": "Bio-Energy with Carbon Capture and Storage",
+      "description": "Supporting bio-energy with carbon capture and storage",
       "location": {
         "name": "North America / Europe",
         "geometry": {
@@ -503,7 +508,7 @@
         "biochar"
       ],
       "id": "STRP06",
-      "description": "Turning woody biomass waste into stable, high-purity biochar",
+      "description": "Turning woody biomass waste into biochar",
       "location": {
         "name": "Central Valley, CA, USA",
         "geometry": {
@@ -587,7 +592,7 @@
         "reforestation"
       ],
       "id": "STRP07",
-      "description": "Reforesting landscapes via heavy-lift drone swarms and science-based seed enablement",
+      "description": "Reforestation using drone swarms and seed enablement",
       "location": {
         "name": "WA, USA",
         "geometry": {
@@ -676,7 +681,7 @@
         "broker"
       ],
       "id": "STRP08",
-      "description": "Reforestation Projects Verified and Monitored with Satellite and Machine Learning",
+      "description": "Reforestation projects with verification and monitoring",
       "location": {
         "name": "Uruguay & CA, USA",
         "geometry": {
@@ -760,7 +765,7 @@
         "phytoplankton"
       ],
       "id": "STRP09",
-      "description": "Leveraging biogeochemistry, our wave-powered upwelling/downwelling technology achieves long-term CO2\u200b \u200b sequestration.",
+      "description": "Wave-powered upwelling/downwelling for carbon\u200b sequestration",
       "location": {
         "name": "Pacific Ocean (offshore of CA)",
         "geometry": {
@@ -844,7 +849,7 @@
         "broker"
       ],
       "id": "STRP10",
-      "description": "Stripe negative emission purchase launches grassland ecology regeneration at scale",
+      "description": "Grassland ecology regeneration",
       "location": {
         "name": "",
         "geometry": {
@@ -928,7 +933,7 @@
         "building materials"
       ],
       "id": "STRP11",
-      "description": "CO2 removal with Olivine",
+      "description": "CO2 removal with olivine",
       "location": {
         "name": "Netherlands",
         "geometry": {
@@ -1017,7 +1022,7 @@
         "avoided conversion"
       ],
       "id": "STRP12",
-      "description": "Empowering every landowner to participate in forest carbon rental markets",
+      "description": "Forest carbon rental markets",
       "location": {
         "name": "Southern USA",
         "geometry": {
@@ -1274,7 +1279,7 @@
         "building materials"
       ],
       "id": "STRP15",
-      "description": "Laminated log production from lumber feedstock with CO2 sequestration certified by Puro",
+      "description": "Laminated log production from lumber feedstock with CO2 sequestration",
       "location": {
         "name": "Finland",
         "geometry": {
@@ -1358,7 +1363,7 @@
         "building materials"
       ],
       "id": "STRP16",
-      "description": "Ekovilla\u2019s net-negative products - emission neutralization with carbon removal",
+      "description": "Net-negative wood products",
       "location": {
         "name": "Kouvola, Finland",
         "geometry": {
@@ -1531,7 +1536,7 @@
         "building materials"
       ],
       "id": "STRP18",
-      "description": "Development, production and sales of Facing Bricks and Slips by Carbonation",
+      "description": "Producing bricks and slips by carbonation",
       "location": {
         "name": "Finland",
         "geometry": {
@@ -1615,7 +1620,7 @@
         "reforestation"
       ],
       "id": "STRP19",
-      "description": "Commercially scalable, high-quality, transparent reforestation offset model in a developed economy.",
+      "description": "Reforestation offset model",
       "location": {
         "name": "Scotland",
         "geometry": {
@@ -1788,7 +1793,7 @@
         "avoided conversion"
       ],
       "id": "STRP21",
-      "description": "This project protects the carbon stock in the forest.",
+      "description": "Protecting forest carbon stock",
       "location": {
         "name": "Mountain City, TN, USA",
         "geometry": {
@@ -1881,7 +1886,7 @@
         "building materials"
       ],
       "id": "STRP22",
-      "description": "The largest giant bamboo reforestation project on earth + engineered lumber",
+      "description": "Bamboo reforestation and engineered lumber",
       "location": {
         "name": "Philippines",
         "geometry": {
@@ -1965,7 +1970,7 @@
         "ocean"
       ],
       "id": "STRP23",
-      "description": "Accelerate olivine weathering with wave power for carbon dioxide removal.",
+      "description": "Accelerating olivine weathering with wave power for CO2 removal",
       "location": {
         "name": "Caribbean",
         "geometry": {
