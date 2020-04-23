@@ -650,10 +650,10 @@
         {
           "type": "Metric",
           "name": "permanence",
-          "value": 60.0,
+          "value": 46.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Standard forest carbon permanence risk considerations apply."
+          "comment": "We report the minimum across the estimated permanence for the underlying projects (46 and 97). Standard forest carbon permanence risk considerations apply."
         },
         {
           "type": "Metric",
@@ -1078,7 +1078,7 @@
           "value": 30.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Land is owned by project proponent. Standard forest carbon permanence risk considerations apply."
+          "comment": "We report 30 as the minimum of the project's estimated range of 30 to 100. Land is owned by project proponent. Standard forest carbon permanence risk considerations apply."
         },
         {
           "type": "Metric",
@@ -1434,7 +1434,7 @@
           "value": 100.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Carbofex projects that carbon will be stored for between 100 and 5000 years."
+          "comment": "We report 100 as the minium of the provided range of 100 to 5000."
         },
         {
           "type": "Metric",
@@ -1873,7 +1873,7 @@
           "value": 50.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Project projects permanence of 80 years for bamboo clumps and 50-100 years for engineered wood products."
+          "comment": "Project projects permanence of 80 years for bamboo clumps and 50-100 years for engineered wood products, so we report the minimum across all ranges."
         },
         {
           "type": "Metric",
