@@ -77,18 +77,20 @@ def maybe_float(value):
 
 if __name__ == '__main__':
 
-    data = get_sheet('Sheet1', 'Stripe reports 0.1 [internal]').loc[:22]
+    data = get_sheet('Sheet1', 'Stripe reports 0.1 [internal]').loc[:2]
 
     metrics = [
+        'mechanism',
         'volume',
         'negativity',
         'permanence',
         'additionality',
         'cost',
+        'transparency',
     ]
 
-    metric_keys = ['name', 'geometry', 'value', 'units', 'comment', 'cycle', 'rating', 
-         'removal', 'emissions', 'kind', 'counterfactual']
+    metric_keys = ['name', 'geometry', 'value', 'units', 'claim', 'comment', 'rating', 
+         'removal', 'emissions', 'kind', 'counterfactual', 'removal', 'avoided']
 
     tag_keys = data.columns.levels[0][data.columns.levels[0].str.startswith('tag')]
     tag_keys = [(t, '') for t in tag_keys]
@@ -112,11 +114,6 @@ if __name__ == '__main__':
                     val = row[(name, key)]
                 except KeyError:
                     continue
-                if key == 'cycle':
-                    try:
-                        m[key] = json.loads(val)
-                    except:
-                        print(row[('Name', '')], val)
                 else:
                     m[key] = maybe_float(val)
                 
