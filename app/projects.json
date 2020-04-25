@@ -203,7 +203,7 @@
           "value": 400000.0,
           "units": "tCO2",
           "rating": -1.0,
-          "comment": "While Nori provides specific locations for exemplar projects and COMET is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the project described (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates, raising concerns.",
+          "comment": "While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates, raising concerns.",
           "claim": "Total volume reflects the stated range of 300k-500k tCO2 across the Nori supply pipeline. Detailed information only available for one supplier, Harborview Farms, which itself includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori."
         },
         {
@@ -283,9 +283,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 0.0,
+          "rating": 1.0,
           "comment": "Projects remove carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
-          "removal": 0.0,
+          "removal": 1.0,
           "avoided": 0.0
         },
         {
