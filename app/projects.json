@@ -30,7 +30,7 @@
           "value": 0.9,
           "units": "",
           "rating": 0.0,
-          "comment": "Minimal public justification provided and is pending publication. Low ratio likely depends on availability of low-carbon energy in Iceland.",
+          "comment": "Minimal public justification provided, and detailed assessment in collaboration with research group is pending publication. Low ratio likely depends on availability of low-carbon energy in Iceland.",
           "claim": "Project claims total emissions are 0.1 tCO2 for 1 tCO2 removed based on technology parameters.",
           "removal": 1.0,
           "emissions": 0.1,
@@ -121,7 +121,7 @@
           "value": 0.824,
           "units": "",
           "rating": 1.0,
-          "comment": "We estimate a negativity ratio only for the carbon removal component, which is 850 kg mineralized while 150 kg of CO\u200b2\u200b is emitted. LCA boundary conditions are well specified, and several third-party audits of the LCA analysis have been performed.",
+          "comment": "LCA boundary conditions are well specified, and several third-party audits of the LCA analysis have been performed. For consistency, we estimate the negativity ratio only for the carbon removal component, which is 850 kg mineralized while 150 kg of CO\u200b2\u200b is emitted.",
           "claim": "Project reports a ratio of 0.9967 by including an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete.",
           "removal": 0.85,
           "emissions": 0.15,
@@ -193,7 +193,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Projects remove carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
+          "comment": "Projects remove carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -202,9 +202,9 @@
           "name": "volume",
           "value": 400000.0,
           "units": "tCO2",
-          "rating": 0.0,
-          "comment": "Volumes appear consistent with available literature. While Nori provides specific locations and COMET is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used. Also, detailed estimates are not publicly available across all Nori suppliers.",
-          "claim": "Total volume reflects the stated range of 300k-500k tCO2 across the Nori supply pipeline. Detailed information only available for one supplier, Harborview Farms, which itself includes 10+ individual projects totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori."
+          "rating": -1.0,
+          "comment": "While Nori provides specific locations for exemplar projects and COMET is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the project described (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates, raising concerns.",
+          "claim": "Total volume reflects the stated range of 300k-500k tCO2 across the Nori supply pipeline. Detailed information only available for one supplier, Harborview Farms, which itself includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori."
         },
         {
           "type": "Metric",
@@ -213,7 +213,7 @@
           "units": "",
           "rating": 0.0,
           "comment": "Emissions information ought to be available in the COMET-Farm model outputs, but cannot be reproduced as model parameters are not publicly available.",
-          "claim": "No data available on this paramenter, and high likelihood it will vary across projects. Stated guarantee that negativity will be greater than 0.",
+          "claim": "No data available, and high likelihood it will vary across projects. Stated guarantee that negativity will be greater than 0.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -233,7 +233,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
-          "comment": "Changes to land management practices not specified; significant co-benefits to land managers claimed alongside climate benefits offered for sale.",
+          "comment": "Changes to land management practices not specified. Significant co-benefits to land managers claimed alongside climate benefits offered for sale.",
           "counterfactual": "Counterfactual scenarios not specified."
         },
         {
@@ -242,7 +242,7 @@
           "value": 16.5,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Cost is set by the supplier and additionally includes a 10% fee.",
+          "comment": "Cost is set by the supplier and additionally includes a 10% fee. Values are commensurate with at least some existing estimates of costs for switching practices.",
           "claim": ""
         },
         {
@@ -265,6 +265,97 @@
       "description": "Increasing soil carbon sequestration and soil health.",
       "location": {
         "name": "USA",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "IndigoAg",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "Projects remove carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
+          "removal": 0.0,
+          "avoided": 0.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 550000.0,
+          "units": "tCO2",
+          "rating": -1.0,
+          "comment": "Validation of volume would at a minimum require public information on specific projects, values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment.",
+          "claim": "Range of 100k-1M tCO2 based on potential participants in program."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": "N/A",
+          "units": "",
+          "rating": 0.0,
+          "comment": "",
+          "claim": "No data available.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 100.0,
+          "units": "years",
+          "rating": -1.0,
+          "comment": "Soil carbon storage can be reversed by changed land practices. Payment schemes may incentive prevention of reversals, but no information is available about the duration of contractual or other legal obligations to maintain soil carbon practices. Project cites two protocol development processes ongoing at the Climate Action Reserve and Verra, but neither is currently complete or public.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "Changes to land management practices not specified. Significant co-benefits to land managers claimed alongside climate benefits offered for sale.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 20.0,
+          "units": "$/tCO2",
+          "rating": 0.0,
+          "comment": "Cost includes 75% for farmers and 25% for monitoring, reporting, and verification work. Cost to farmers is commensurate with at least some existing estimates of costs for switching practices, but justification of the monitoring costs are not provided.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "No data on specific projects are publicly available, and methods and protocols are not publicly available."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "soil",
+        "broker"
+      ],
+      "id": "STRP04",
+      "description": "Rgenerative farming practices for soil carbon sequestration.",
+      "location": {
+        "name": "Mid-West and Southern USA",
         "geometry": {
           "type": null
         }
