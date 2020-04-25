@@ -101,7 +101,7 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 0.0,
+          "rating": 1.0,
           "comment": "Project removes carbon from the atmophere for sequestration in mineralized building materials, and also reduces emissions associated with conventional concrete production.",
           "removal": 1.0,
           "avoided": 1.0
@@ -192,7 +192,7 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 0.0,
+          "rating": 1.0,
           "comment": "Projects remove carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
           "removal": 1.0,
           "avoided": 0.0
