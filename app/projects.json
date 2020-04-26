@@ -859,7 +859,7 @@
           "rating": 1.0,
           "claim": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
           "comment": "",
-          "removal": 0.0,
+          "removal": 1.0,
           "avoided": 0.0
         },
         {
@@ -1078,7 +1078,7 @@
           "units": "years",
           "rating": 1.0,
           "claim": "Claims a range from 1 to 10 years.",
-          "comment": "Given the annual contracting model, we report 1 year as it will be the minimum of the contract duration and any other potential estimate."
+          "comment": "Given the annual contracting model, we report 1 year as the minimum of the contract duration and any other potential estimate."
         },
         {
           "type": "Metric",
