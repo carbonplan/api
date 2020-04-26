@@ -83,6 +83,7 @@
       ],
       "id": "STRP01",
       "description": "Direct air capture and mineralization.",
+      "score": "8",
       "location": {
         "name": "Iceland",
         "geometry": {
@@ -176,6 +177,7 @@
       ],
       "id": "STRP02",
       "description": "Carbon reductions in concrete.",
+      "score": "10",
       "location": {
         "name": "North America",
         "geometry": {
@@ -269,6 +271,7 @@
       ],
       "id": "STRP03",
       "description": "Increasing soil carbon sequestration and soil health.",
+      "score": "7",
       "location": {
         "name": "USA",
         "geometry": {
@@ -362,6 +365,7 @@
       ],
       "id": "STRP04",
       "description": "Rgenerative farming practices for soil carbon sequestration.",
+      "score": "3",
       "location": {
         "name": "Mid-West and Southern USA",
         "geometry": {
@@ -384,7 +388,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Facilitates late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space.",
-          "comment": "Exact nature of Biorecro's role not entirely clear.",
+          "comment": "Biorecro's role in projects not clear.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -455,6 +459,7 @@
       ],
       "id": "STRP05",
       "description": "Supporting bio-energy with carbon capture and storage.",
+      "score": "7",
       "location": {
         "name": "North America / Europe",
         "geometry": {
@@ -548,6 +553,7 @@
       ],
       "id": "STRP06",
       "description": "Turning woody biomass waste into biochar.",
+      "score": "7",
       "location": {
         "name": "Central Valley, CA, USA",
         "geometry": {
@@ -641,6 +647,7 @@
       ],
       "id": "STRP07",
       "description": "Reforestation using drone swarms and seed enablement.",
+      "score": "8",
       "location": {
         "name": "WA, USA",
         "geometry": {
@@ -734,6 +741,7 @@
       ],
       "id": "STRP08",
       "description": "Reforestation projects with verification and monitoring.",
+      "score": "5",
       "location": {
         "name": "Uruguay & CA, USA",
         "geometry": {
@@ -827,6 +835,7 @@
       ],
       "id": "STRP09",
       "description": "Wave-powered upwelling/downwelling for carbon\u200b sequestration.",
+      "score": "5",
       "location": {
         "name": "Pacific Ocean (offshore of CA)",
         "geometry": {
@@ -920,6 +929,7 @@
       ],
       "id": "STRP10",
       "description": "Regenerative land management.",
+      "score": "7",
       "location": {
         "name": "",
         "geometry": {
@@ -1013,6 +1023,7 @@
       ],
       "id": "STRP11",
       "description": "CO2 removal with olivine.",
+      "score": "9",
       "location": {
         "name": "Netherlands",
         "geometry": {
@@ -1106,6 +1117,7 @@
       ],
       "id": "STRP12",
       "description": "Forest carbon rental markets.",
+      "score": "9",
       "location": {
         "name": "Southern USA",
         "geometry": {
@@ -1199,6 +1211,7 @@
       ],
       "id": "STRP13",
       "description": "Conversion of annual cropland to sheep/chestnut silvopasture.",
+      "score": "8",
       "location": {
         "name": "Johnsonville, NY, USA",
         "geometry": {
@@ -1291,7 +1304,8 @@
         "biochar"
       ],
       "id": "STRP14",
-      "description": "Biochar production from PYREG P500 and PYREG P1500.",
+      "description": "Biochar production through pyrolysis.",
+      "score": "9",
       "location": {
         "name": "South Sweden",
         "geometry": {
@@ -1385,6 +1399,7 @@
       ],
       "id": "STRP15",
       "description": "Laminated log production from lumber with CO2 sequestration.",
+      "score": "8",
       "location": {
         "name": "Finland",
         "geometry": {
@@ -1478,6 +1493,7 @@
       ],
       "id": "STRP16",
       "description": "Net-negative wood products.",
+      "score": "7",
       "location": {
         "name": "Kouvola, Finland",
         "geometry": {
@@ -1571,6 +1587,7 @@
       ],
       "id": "STRP17",
       "description": "Biochar and carbon negative energy.",
+      "score": "9",
       "location": {
         "name": "Tampere, Finland",
         "geometry": {
@@ -1664,6 +1681,7 @@
       ],
       "id": "STRP18",
       "description": "Producing bricks and slips by carbonation.",
+      "score": "6",
       "location": {
         "name": "Finland",
         "geometry": {
@@ -1757,6 +1775,7 @@
       ],
       "id": "STRP19",
       "description": "Reforestation offset model.",
+      "score": "8",
       "location": {
         "name": "Scotland",
         "geometry": {
@@ -1850,6 +1869,7 @@
       ],
       "id": "STRP20",
       "description": "Carbon sequestration via logging and wood burial.",
+      "score": "3",
       "location": {
         "name": "East Texas, USA",
         "geometry": {
@@ -1943,6 +1963,7 @@
       ],
       "id": "STRP21",
       "description": "Protecting forest carbon stock.",
+      "score": "9",
       "location": {
         "name": "Mountain City, TN, USA",
         "geometry": {
@@ -2040,6 +2061,7 @@
       ],
       "id": "STRP22",
       "description": "Bamboo reforestation and engineered lumber.",
+      "score": "5",
       "location": {
         "name": "Philippines",
         "geometry": {
@@ -2133,6 +2155,7 @@
       ],
       "id": "STRP23",
       "description": "Accelerating olivine weathering with wave power for CO2 removal.",
+      "score": "8",
       "location": {
         "name": "Caribbean",
         "geometry": {

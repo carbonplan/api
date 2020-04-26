@@ -105,6 +105,7 @@ if __name__ == '__main__':
         tags = [t.lower().strip() for t in tags]
         project['tags'].extend(tags)
         project['id'] = row[('id', '')]
+        project['score'] = row[('score', '')]
         project['description'] = row[('description', '')]
         project['location'] = {'name': row[('location', 'name')], 'geometry': json.loads(row[('location', 'geometry')])}
         project['source'] = {'name': row[('source', 'name')], 'url': row[('source', 'url')]}
