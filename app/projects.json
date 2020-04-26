@@ -11,7 +11,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Removes carbon from the atmosphere for geologic sequestration in mineral form.",
+          "comment": "",
+          "claim": "Removes carbon from the atmosphere for geologic sequestration in mineral form.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -102,7 +103,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Removes carbon from the atmophere for sequestration in mineralized building materials, and also reduces emissions associated with conventional concrete production.",
+          "comment": "",
+          "claim": "Removes carbon from the atmophere for sequestration in mineralized building materials, and also reduces emissions associated with conventional concrete production.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -193,7 +195,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
+          "comment": "",
+          "claim": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -284,7 +287,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
+          "comment": "",
+          "claim": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -375,7 +379,8 @@
           "value": "",
           "units": "",
           "rating": 0.0,
-          "comment": "Facilitates late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space. Exact nature of Biorecro's role not entirely clear.",
+          "comment": "Exact nature of Biorecro's role not entirely clear.",
+          "claim": "Facilitates late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -466,7 +471,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Avoids emissions from biomass resources and transforms them into long-lived biochar materials.",
+          "comment": "",
+          "claim": "Avoids emissions from biomass resources and transforms them into long-lived biochar materials.",
           "removal": 0.0,
           "avoided": 1.0
         },
@@ -557,7 +563,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Drone technology accelerates reforestation to remove carbon from atmosphere for sequestration in forests.",
+          "comment": "",
+          "claim": "Drone technology accelerates reforestation to remove carbon from atmosphere for sequestration in forests.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -648,7 +655,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Supports verification and evaluation of forest projects, avoiding emissions due to forest loss and removing atmospheric carbon for sequestration in forests and forest products.",
+          "comment": "",
+          "claim": "Supports verification and evaluation of forest projects, avoiding emissions due to forest loss and removing atmospheric carbon for sequestration in forests and forest products.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -739,7 +747,8 @@
           "value": "",
           "units": "",
           "rating": 0.0,
-          "comment": "Removes carbon from atmosphere via sequestration in phytoplankton and transport of phytoplankton biomass to deep ocean. Very early-stage technology.",
+          "comment": "Very early-stage technology.",
+          "claim": "Removes carbon from atmosphere via sequestration in phytoplankton and transport of phytoplankton biomass to deep ocean.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -830,7 +839,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
+          "comment": "",
+          "claim": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
           "removal": 0.0,
           "avoided": 0.0
         },
@@ -921,7 +931,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Project removes carbon from atmosphere for geologic sequestration in mineral form.",
+          "comment": "",
+          "claim": "Project removes carbon from atmosphere for geologic sequestration in mineral form.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -1012,7 +1023,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Facilities removing carbon from the atmosphere by extending time between forest harvests, avoiding emissions due to harvests and sequestering additional carbon in forests and forest products.",
+          "comment": "",
+          "claim": "Facilities removing carbon from the atmosphere by extending time between forest harvests, avoiding emissions due to harvests and sequestering additional carbon in forests and forest products.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -1103,7 +1115,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Project integrates tree crops and grazing livestock as silvopasture systems, to sequester carbon in both soil and aboveground biomass.",
+          "comment": "",
+          "claim": "Project integrates tree crops and grazing livestock as silvopasture systems, to sequester carbon in both soil and aboveground biomass.",
           "removal": 1.0,
           "avoided": 0.0
         },
