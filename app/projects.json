@@ -11,7 +11,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Project removes carbon from the atmosphere for geologic sequestration in mineral form.",
+          "comment": "Removes carbon from the atmosphere for geologic sequestration in mineral form.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -31,7 +31,7 @@
           "units": "",
           "rating": 0.0,
           "comment": "Minimal public justification provided, and detailed assessment in collaboration with research group is pending publication. Low ratio likely depends on availability of low-carbon energy in Iceland.",
-          "claim": "Project claims total emissions are 0.1 tCO2 for 1 tCO2 removed based on technology parameters.",
+          "claim": "Total emissions are 0.1 tCO2 for 1 tCO2 removed based on technology parameters.",
           "removal": 1.0,
           "emissions": 0.1,
           "kind": "ratio"
@@ -59,8 +59,8 @@
           "name": "cost",
           "value": 767.5,
           "units": "$/tCO2",
-          "rating": 0.0,
-          "comment": "Commensurate with other early stage DAC costs on a $/tCO2 basis, but should be independently verified as a function of technology parameters and energy sources.",
+          "rating": 1.0,
+          "comment": "Commensurate with other early stage DAC costs on a $/tCO2 basis. Could be independently verified as a function of technology parameters and energy sources.",
           "claim": ""
         },
         {
@@ -102,7 +102,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Project removes carbon from the atmophere for sequestration in mineralized building materials, and also reduces emissions associated with conventional concrete production.",
+          "comment": "Removes carbon from the atmophere for sequestration in mineralized building materials, and also reduces emissions associated with conventional concrete production.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -112,7 +112,7 @@
           "value": 60000.0,
           "units": "tCO2",
           "rating": 1.0,
-          "comment": "Total claimed reduction combines direct sequestration and avoided emissions. Based on provided ratios, we infer 1,126 total tCO2 removed and 58,874 tCO2 avoided, though we have yet to validate this breakdown based on specific project parameters.",
+          "comment": "Reporting 60k as an estimate of current annual volume. Total claimed reduction combines direct sequestration and avoided emissions. Based on ratios provided in LCA, we infer 1,126 total tCO2 removed and 58,874 tCO2 avoided, though we have yet to validate this breakdown based on specific project parameters.",
           "claim": "Identifies 200 cement production facilities using its technology and is offering volume across this portfolio. Claims 60,000 tCO2 removed in previous years and 60,000 tCO2 removed in 2020. Every 1 tCO2 used results in 0.85 tCO2 mineralized and 44.45 tCO2 avoided by reducing conventional concrete production emissions from 0.263 tCO\u200b2\u200b / m3\u200b to 0.220 tCO\u200b2\u200b / m\u200b3."
         },
         {
@@ -121,8 +121,8 @@
           "value": 0.824,
           "units": "",
           "rating": 1.0,
-          "comment": "LCA boundary conditions are well specified, and several third-party audits of the LCA analysis have been performed. For consistency, we estimate the negativity ratio only for the carbon removal component, which is 850 kg mineralized while 150 kg of CO\u200b2\u200b is emitted.",
-          "claim": "Project reports a ratio of 0.9967 by including an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete.",
+          "comment": "For consistency, we report negativity only for the carbon removal component, which is 850 kg mineralized while 150 kg of CO\u200b2\u200b is emitted. LCA boundary conditions are well specified, and several third-party audits of the LCA analysis have been performed.",
+          "claim": "Reported ratio of 0.9967 includes an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete.",
           "removal": 0.85,
           "emissions": 0.15,
           "kind": "ratio"
@@ -151,7 +151,7 @@
           "value": 100.0,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Cost charged specifically for carbon removal is arbitrarily set to incentize utilization of the product (which is already economically favorable).",
+          "comment": "Amount charged specifically for carbon removal is arbitrarily set to incentize utilization of the product, which is already economically favorable.",
           "claim": ""
         },
         {
@@ -193,7 +193,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Projects remove carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
+          "comment": "Removes carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -203,7 +203,7 @@
           "value": 400000.0,
           "units": "tCO2",
           "rating": -1.0,
-          "comment": "While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates, raising concerns.",
+          "comment": "Reported as average of range. While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates, raising concerns.",
           "claim": "Total volume reflects the stated range of 300k-500k tCO2 across the Nori supply pipeline. Detailed information only available for one supplier, Harborview Farms, which itself includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori."
         },
         {
@@ -242,7 +242,7 @@
           "value": 16.5,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Cost is set by the supplier and additionally includes a 10% fee. Values are commensurate with at least some existing estimates of costs for switching practices.",
+          "comment": "Set by the supplier and additionally includes a 10% fee. Commensurate with (or lower than) existing estimates.",
           "claim": ""
         },
         {
@@ -284,7 +284,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Projects remove carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
+          "comment": "Removes carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -294,7 +294,7 @@
           "value": 550000.0,
           "units": "tCO2",
           "rating": -1.0,
-          "comment": "Validation of volume would at a minimum require public information on specific projects, values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment.",
+          "comment": "Reported as average of range. Validation of volume would at a minimum require public information on specific projects, values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment.",
           "claim": "Range of 100k-1M tCO2 based on potential participants in program."
         },
         {
@@ -333,7 +333,7 @@
           "value": 20.0,
           "units": "$/tCO2",
           "rating": 0.0,
-          "comment": "Cost includes 75% for farmers and 25% for monitoring, reporting, and verification work. Cost to farmers is commensurate with at least some existing estimates of costs for switching practices, but justification of the monitoring costs are not provided.",
+          "comment": "Includes 75% for farmers and 25% for monitoring, reporting, and verification work. Cost to farmers is commensurate with (or lower than) existing estimates, but justification of monitoring costs are not provided.",
           "claim": ""
         },
         {
