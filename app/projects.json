@@ -31,7 +31,7 @@
           "units": "",
           "rating": 0.0,
           "comment": "Minimal public justification provided, and detailed assessment in collaboration with research group is pending publication. Low ratio likely depends on availability of low-carbon energy in Iceland.",
-          "claim": "Total emissions are 0.1 tCO2 for 1 tCO2 removed based on technology parameters.",
+          "claim": "Claims total emissions are 0.1 tCO2 for every 1 tCO2 removed.",
           "removal": 1.0,
           "emissions": 0.1,
           "kind": "ratio"
@@ -113,7 +113,7 @@
           "units": "tCO2",
           "rating": 1.0,
           "comment": "Reporting 60k as an estimate of current annual volume. Total claimed reduction combines direct sequestration and avoided emissions. Based on ratios provided in LCA, we infer 1,126 total tCO2 removed and 58,874 tCO2 avoided, though we have yet to validate this breakdown based on specific project parameters.",
-          "claim": "Identifies 200 cement production facilities using its technology and is offering volume across this portfolio. Claims 60,000 tCO2 removed in previous years and 60,000 tCO2 removed in 2020. Every 1 tCO2 used results in 0.85 tCO2 mineralized and 44.45 tCO2 avoided by reducing conventional concrete production emissions from 0.263 tCO\u200b2\u200b / m3\u200b to 0.220 tCO\u200b2\u200b / m\u200b3."
+          "claim": "Volume reflects 200 cement production facilities using technology. Claims 60,000 tCO2 removed in previous years and 60,000 tCO2 removed in 2020. Every 1 tCO2 used results in 0.85 tCO2 mineralized and 44.45 tCO2 avoided by reducing conventional concrete production emissions from 0.263 tCO\u200b2\u200b / m3\u200b to 0.220 tCO\u200b2\u200b / m\u200b3."
         },
         {
           "type": "Metric",
@@ -121,8 +121,8 @@
           "value": 0.824,
           "units": "",
           "rating": 1.0,
-          "comment": "For consistency, we report negativity only for the carbon removal component, which is 850 kg mineralized while 150 kg of CO\u200b2\u200b is emitted. LCA boundary conditions are well specified, and several third-party audits of the LCA analysis have been performed.",
-          "claim": "Reported ratio of 0.9967 includes an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete.",
+          "comment": "For consistency, we recompute negativity only for the carbon removal component, yielding a lower number. LCA boundary conditions are well specified, and several third-party audits of the LCA analysis have been performed.",
+          "claim": "Claims 0.85 tCO2 mineralized and 0.15 tCO2 emitted for every 1 tCO2. Reported ratio of 0.9967 also includes an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete.",
           "removal": 0.85,
           "emissions": 0.15,
           "kind": "ratio"
@@ -193,7 +193,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Removes carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
+          "comment": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -203,7 +203,7 @@
           "value": 400000.0,
           "units": "tCO2",
           "rating": -1.0,
-          "comment": "Reported as average of range. While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates, raising concerns.",
+          "comment": "Value reported is the average of range. While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the one published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates (including the range Nori provides in its Croplands Methodology of 0.5 to 7.4 tCO2 / ha / yr), raising concerns.",
           "claim": "Total volume reflects the stated range of 300k-500k tCO2 across the Nori supply pipeline. Detailed information only available for one supplier, Harborview Farms, which itself includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori."
         },
         {
@@ -213,7 +213,7 @@
           "units": "",
           "rating": 0.0,
           "comment": "Emissions information ought to be available in the COMET-Farm model outputs, but cannot be reproduced as model parameters are not publicly available.",
-          "claim": "No data available, and high likelihood it will vary across projects. Stated guarantee that negativity will be greater than 0.",
+          "claim": "No data available, but high likelihood it will vary across projects. Claimed guarantee that negativity will be greater than 0.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -224,7 +224,7 @@
           "value": 10.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Soil carbon storage can last for decades or more, but it can also be reversed by changes to land use or management practices. Nori requires a 10-year contractual commitment from its projects. so we consider the permanence 10 years, as it is the minimum of the contractual agreement and the biogephysical potential.",
+          "comment": "Soil carbon storage can last for decades or more, but it can also be reversed by changes to land use or management practices. Nori requires a 10-year contractual commitment from its projects. so we report the minimum of the contractual agreement and the biogephysical reality.",
           "claim": ""
         },
         {
@@ -284,7 +284,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Removes carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils, including  changes from conventional tillage to no tillage and the addition of cover crops.",
+          "comment": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -303,7 +303,7 @@
           "value": "N/A",
           "units": "",
           "rating": 0.0,
-          "comment": "",
+          "comment": "Nothing to say without more information.",
           "claim": "No data available.",
           "removal": "N/A",
           "emissions": "N/A",
@@ -375,7 +375,7 @@
           "value": "",
           "units": "",
           "rating": 0.0,
-          "comment": "Facilities late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space. Exact nature of Biorecro's role not entirely clear.",
+          "comment": "Facilitates late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space. Exact nature of Biorecro's role not entirely clear.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -476,7 +476,7 @@
           "value": 62.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume is based on producing 20t of biochar with fraction C of at least 85%. Complete accounting would require comparing the C in biochar to the expected emissions from the feedstock, but detailed information on feedstock and conversion process not available.",
+          "comment": "Volume is based on producing 20 tC of biochar with fraction C of at least 85%. Complete accounting would require comparing the C in biochar to the expected emissions from the feedstock, but detailed information on feedstock and conversion process not available.",
           "claim": "Demonstration project in California's central valley, converting walnut shell waste into biochar."
         },
         {
@@ -498,7 +498,7 @@
           "units": "years",
           "rating": 1.0,
           "comment": "Permanence of biochar depends on chemical composition, storage conditons, and other factors. Using the reported O:C ratio of 0.08 we estimate 100 years as the duration during which 90% of biochar C volume remains.",
-          "claim": "100 years or more."
+          "claim": "Claims 100 years or more."
         },
         {
           "type": "Metric",
@@ -557,7 +557,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "Removes carbon from atmosphere for sequestration in forests",
+          "comment": "Drone technology accelerates reforestation to remove carbon from atmosphere for sequestration in forests.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -568,7 +568,7 @@
           "units": "tCO2",
           "rating": 0.0,
           "comment": "Independently validated for consistency with USFS yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Note that project materials list both 584 and 510 for the same project; we use the latter.",
-          "claim": "Volume based on a specific pilot project in the Pacific Northwest, East. Volume computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years."
+          "claim": "Volume based on a pilot project in the Pacific Northwest, East. Volume computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years."
         },
         {
           "type": "Metric",
@@ -589,7 +589,7 @@
           "units": "years",
           "rating": 0.0,
           "comment": "We report 51 as the minimum of the claimed range. Location may have high risk for wildfire and insects, detailed quantification pending exact location. Stated minimum time horizon could be better assured through contractual agreements with buyers.",
-          "claim": "51 years with economic incentives for longer durations."
+          "claim": "Claims 51 years with economic incentives for longer durations."
         },
         {
           "type": "Metric",
