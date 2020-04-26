@@ -242,7 +242,7 @@
           "value": 16.5,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Set by the supplier and additionally includes a 10% fee. Commensurate with (or lower than) existing estimates.",
+          "comment": "Set by the supplier and additionally includes a 10% fee. Commensurate with (or lower than) existing soil carbon project cost estimates.",
           "claim": ""
         },
         {
@@ -333,7 +333,7 @@
           "value": 20.0,
           "units": "$/tCO2",
           "rating": 0.0,
-          "comment": "Includes 75% for farmers and 25% for monitoring, reporting, and verification work. Cost to farmers is commensurate with (or lower than) existing estimates, but justification of monitoring costs are not provided.",
+          "comment": "Includes 75% for farmers and 25% for monitoring, reporting, and verification work. Cost to farmers is commensurate with (or lower than) existing soil carbon project cost estimates, but justification of monitoring costs are not provided.",
           "claim": ""
         },
         {
@@ -375,7 +375,7 @@
           "value": "",
           "units": "",
           "rating": 0.0,
-          "comment": "Facilities late-stage BECCS projects, which avoid emissions from biogenic carbon sources to atmosphere and instead capture that carbon for geologic sequestration in rocks' pore space.",
+          "comment": "Facilities late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space. Exact nature of Biorecro's role not entirely clear.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -385,8 +385,8 @@
           "value": 50000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Overall volume reasonable given technology, but no specifics available to determine proportion related to carbon removal rather than avoided emissions.",
-          "claim": "No public details available on any specific projects."
+          "comment": "No public details available on any specific projects, but overall volume reasonable given technology. No specifics available to distinguish relative amounts of removal vs avoided emissions.",
+          "claim": ""
         },
         {
           "type": "Metric",
@@ -424,7 +424,7 @@
           "value": 99.0,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Cost commensurate with existing estimates.",
+          "comment": "Cost commensurate with existing estimates for BECCS.",
           "claim": ""
         },
         {
@@ -556,7 +556,7 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 0.0,
+          "rating": 1.0,
           "comment": "Removes carbon from atmosphere for sequestration in forests",
           "removal": 1.0,
           "avoided": 0.0
