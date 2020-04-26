@@ -637,6 +637,552 @@
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
       }
+    },
+    {
+      "type": "Project",
+      "name": "Pachama",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 1.0,
+          "comment": "Supports verification and evaluation of forest projects, avoiding emissions due to forest loss and removing atmospheric carbon for sequestration in forests and forest products.",
+          "removal": 1.0,
+          "avoided": 1.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 165850.0,
+          "units": "tCO2",
+          "rating": 0.0,
+          "comment": "Sequestration rates of 16 and 26 tCO2 / ha / year are within bounds of independent estimates. No evidence provided for specific utility of advanced monitoring methods for improving volume estimates.",
+          "claim": "Volume based on two exemplar projects, Rip's Redwoods and Guanare, and thus does not represent all projects offered by Pachama."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.39,
+          "units": "",
+          "rating": -1.0,
+          "comment": "Self-reported value appears unreasonably high, but data is not available to independently calculate. Based on project type, we would expect a higher (more favorable) negativity ratio.",
+          "claim": "",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 46.0,
+          "units": "years",
+          "rating": 0.0,
+          "comment": "We report the minimum across the estimated permanence for the underlying projects (46 and 97), relative to the current year. Standard forest carbon permanence risk considerations apply, and risks of wildfire are particularly high for one of the projects. Stated minimum time horizon could be better assured through contractual agreements with buyers.",
+          "claim": "Claims 60 years from 2006 for one project and 100 years from 2013 for the other."
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "Guanare afforestation project began in 2006. Rip's Redwood project already credited for standing carbon stock above regional baseline, which indicates a promise not to harvest normally and therefore raises questions about the additionality of ongoing carbon removal credits.",
+          "counterfactual": "Counterfactual scenarios specified for both projects."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 8.0,
+          "units": "$/tCO2",
+          "rating": 1.0,
+          "comment": "Cost commensurate with similar forest projects.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "No public details on projects other than shapefiles, and no public or published materials on quantification methods."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "forests",
+        "broker"
+      ],
+      "id": "STRP08",
+      "description": "Reforestation projects with verification and monitoring.",
+      "location": {
+        "name": "Uruguay & CA, USA",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "Ocean-based",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "Removes carbon from atmosphere via sequestration in phytoplankton and transport of phytoplankton biomass to deep ocean. Very early-stage technology.",
+          "removal": 1.0,
+          "avoided": 0.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 693.0,
+          "units": "tCO2",
+          "rating": 0.0,
+          "comment": "Difficult to assess volume due to early stage of technology.",
+          "claim": "Demonstration project to be deployed offshore California or Hawaii. Project volume based on expected carbon removal over five years."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.995,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Project emissions specified in detail, although technology is early-stage and experimental.",
+          "claim": "",
+          "removal": 697.0,
+          "emissions": 3.6854,
+          "kind": "project"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 1000.0,
+          "units": "years",
+          "rating": 0.0,
+          "comment": "Carbon dioxide removed to lower ocean depths can be stable for millenia, but over the long run will affect ocean acidity and be exposed to surface-atmosphere interactions. Unlike geologic storage this stock has an implied end date for effectivess, albeit a potentially very distant one.",
+          "claim": "Claims a maximum of 5000 but with unknown reductions due to the potential for outgassing."
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 2.0,
+          "units": "",
+          "rating": "",
+          "comment": "The only reason to implement a project like this is to generate climate benefits, and no such projects are operating today.",
+          "counterfactual": "Not applicable."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 336.07,
+          "units": "$/tCO2",
+          "rating": 0.0,
+          "comment": "No cost comparisons available due to uniqueness of technology.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "Reasonably thorough description of technology with references, but no publications or public data on the specific approach."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "ocean",
+        "phytoplankton"
+      ],
+      "id": "STRP09",
+      "description": "Wave-powered upwelling/downwelling for carbon\u200b sequestration.",
+      "location": {
+        "name": "Pacific Ocean (offshore of CA)",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "Soil Value Exchange",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 1.0,
+          "comment": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
+          "removal": 0.0,
+          "avoided": 0.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 33000.0,
+          "units": "tCO2",
+          "rating": 0.0,
+          "comment": "Lack of detail on projects raises questions about overall volume, but per 2.5 tCO2 / ha / year is consistent with existing literature and models.",
+          "claim": "Specific projects not identified. Claimed volume reflects 10-30 plots totaling 13355 ha with an average of 2.5 tCO2 / ha / year."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.5,
+          "units": "",
+          "rating": 0.0,
+          "comment": "No clear connection expressed between detailed, project-level expectations and promised future study. Net LCA impacts depend crucially on methane emissions from livestock and no GWP conversion information reported.",
+          "claim": "Reported ratio is only provisional, with amended results to be determined in a future study.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 10.0,
+          "units": "years",
+          "rating": 1.0,
+          "comment": "Soil carbon storage can be reversed by changed land management practices. Soil Value Exchange requires 10-year contractual commitments, so we report the minimum of the contractual agreement and the biogeophysical reality.",
+          "claim": "Claims 1000+ years in the abscence of behavioral changes."
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "No information provided about participating projects and their past practices.",
+          "counterfactual": "Conventional grazing and intensive feedlot grazing discussed as alternative ranching practices, but no projects identified and no historical practices identified at specific project sites."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 30.0,
+          "units": "$/tCO2",
+          "rating": 0.0,
+          "comment": "Cost appears to include payments to farmers and monitoring, veritification, and reporting, but no breakdown is specified.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "No public details on projects, no public or published details on planned quantification methods."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "soil",
+        "broker"
+      ],
+      "id": "STRP10",
+      "description": "Regenerative land management.",
+      "location": {
+        "name": "",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "GreenSand",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 1.0,
+          "comment": "Project removes carbon from atmosphere for geologic sequestration in mineral form.",
+          "removal": 1.0,
+          "avoided": 0.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 1000.0,
+          "units": "tCO2",
+          "rating": 1.0,
+          "comment": "Details on specific projects underlying volume, including size and duration, are public and appear reasonable.",
+          "claim": "Claimed volume is calculated based on expected weathering over 100 years, not removal in a single year."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.74,
+          "units": "",
+          "rating": 0.0,
+          "comment": "For consistency, we recompute negativity only for the carbon removal component, yielding a lower number. Detailed analysis only available for one exemplar project, so uncertainty remains for full project portfolio.",
+          "claim": "Reported ratio for exemplar project is based on 2,880 tCO2 removed, 750 tCO2 emitted, and 509 tCO2 avoided.",
+          "removal": 2880.0,
+          "emissions": 750.0,
+          "kind": "project"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 1000.0,
+          "units": "years",
+          "rating": 1.0,
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "Carbon removal certificates are offered separately from the olivine sand purchase; because olivine sand will be purchased and used, with the reported use indicated on certificate.",
+          "counterfactual": "Alternative rocks used without carbon removal benefits."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 35.0,
+          "units": "$/tCO2",
+          "rating": 1.0,
+          "comment": "Cost at the lower end relative to existing approaches. Appears to mainly reflect mining activity and logistics.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 2.0,
+          "units": "",
+          "rating": "",
+          "comment": "Project details (including locations and durations) are publicly available."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "mineralization",
+        "building materials"
+      ],
+      "id": "STRP11",
+      "description": "CO2 removal with olivine.",
+      "location": {
+        "name": "Netherlands",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "SilviaTerra",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 1.0,
+          "comment": "Facilities removing carbon from the atmosphere by extending time between forest harvests, avoiding emissions due to harvests and sequestering additional carbon in forests and forest products.",
+          "removal": 1.0,
+          "avoided": 1.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 15000000.0,
+          "units": "tCO2",
+          "rating": 0.0,
+          "comment": "Volume estimates will be relatively straightforward via stocking estimates given the 1 year duration. Plausibility of total number depends entirely on the number of particpants.",
+          "claim": "Volume extrapolated from a pilot implementation in 6 counties in Pennsylvania. Projects in 2020 will be sourced from 11 southern US states. Supply will be allocated via an auction."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.999,
+          "units": "",
+          "rating": 1.0,
+          "comment": "No reason to consider additional emissions given program design.",
+          "claim": "Emissions estimates based soley on the operations of the small team that will run the program.",
+          "removal": 1000.0,
+          "emissions": 1.0,
+          "kind": "ratio"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 1.0,
+          "units": "years",
+          "rating": 1.0,
+          "comment": "Given the annual contracting model, we report 1 year as it will be the minimum of the contract duration and any other potential estimate.",
+          "claim": "Claims a range from 1 to 10 years."
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": "",
+          "comment": "By shifting to a ton-year accounting framework, SilviaTerra intends to avoid additionality concerns by measuring actual carbon stored each year. However, other factors, such as exogenous shifts in timber markets, can still affect additionality considerations with respect to forest harvest decisions. Proprietary methods for measurement and verification against field plots were not available at the time of this proposal.",
+          "counterfactual": "Counteractual scenario is active forest product harvest."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 15.0,
+          "units": "$/tCO2-year",
+          "rating": 1.0,
+          "comment": "SilviaTerra uses a ton-year accounting that reflects the cost per tCO2 stored per year. Thus, assuming constant price, a contract to store 10 tCO2 for 1 year at $15/tCO2-year would cost $150 and a contract to store 10 tCO2 for 100 years would cost $15,000.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "No public details on specific projects or methods for project quantification or selection are currently available."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "forests",
+        "avoided conversion"
+      ],
+      "id": "STRP12",
+      "description": "Forest carbon rental markets.",
+      "location": {
+        "name": "Southern USA",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "Breadtree Farms",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 1.0,
+          "comment": "Project integrates tree crops and grazing livestock as silvopasture systems, to sequester carbon in both soil and aboveground biomass.",
+          "removal": 1.0,
+          "avoided": 0.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 98.0,
+          "units": "tCO2",
+          "rating": 0.0,
+          "comment": "Average of range reported. Methods publicly described but not yet independently validated. Overall rate of 12.1 tCO2 / ha is consistent with existing litearture.",
+          "claim": "Volume estimated as range based on calculations using USDA COMET-Planner model (56 tCO2) and Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2). Reflects 3.2 current ha and 4.9 ha to be added."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.982,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Ratios are consistent with reforestation projects, but lifecycle boundaries are not explicit. Specifically, no detail provided on methane emissions from livestock expansion and/or any soil carbon benefits.",
+          "claim": "",
+          "removal": 56.0,
+          "emissions": 1.0,
+          "kind": "project"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 30.0,
+          "units": "years",
+          "rating": 1.0,
+          "comment": "We report 30 as the minimum of the claimed range. Location has relatively low physical risk, and land is owned by project proponent. Stated minimum time horizon could be assured in a contract with a buyer.",
+          "claim": "Reports a range of 30 to 100."
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": "",
+          "comment": "No analysis available in public materials.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 100.0,
+          "units": "$/tCO2",
+          "rating": 1.0,
+          "comment": "Cost is conservative as it is based on total costs divided by a lower bound on volume estimate. The average cost per acre in year 1 of each project is $3,500.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 1.0,
+          "units": "",
+          "rating": "",
+          "comment": "Methods publicly described and shapefiles for locations provided, but model parameters and life cycle boundaries are missing."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "forests",
+        "agroforestry"
+      ],
+      "id": "STRP13",
+      "description": "Conversion of annual cropland to sheep/chestnut silvopasture.",
+      "location": {
+        "name": "Johnsonville, NY, USA",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     }
   ]
 }
