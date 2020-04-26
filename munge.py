@@ -65,7 +65,7 @@ def make_metric(name):
         'value': '',
         'units': '',
         'rating': '',
-        'claim': '',   
+        'notes': '',   
         'comment': ''   
     }
 
@@ -78,7 +78,7 @@ def maybe_float(value):
 
 if __name__ == '__main__':
 
-    data = get_sheet('Sheet1', 'Stripe reports 0.1 [internal]').loc[:12]
+    data = get_sheet('Sheet1', 'Stripe reports 0.1 [internal]').loc[:23]
 
     metrics = [
         'mechanism',
@@ -90,7 +90,7 @@ if __name__ == '__main__':
         'transparency',
     ]
 
-    metric_keys = ['name', 'geometry', 'value', 'units', 'claim', 'comment', 'rating', 
+    metric_keys = ['name', 'geometry', 'value', 'units', 'notes', 'comment', 'rating', 
          'removal', 'emissions', 'kind', 'counterfactual', 'removal', 'avoided']
 
     tag_keys = data.columns.levels[0][data.columns.levels[0].str.startswith('tag')]
