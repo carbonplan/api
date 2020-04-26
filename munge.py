@@ -65,6 +65,7 @@ def make_metric(name):
         'value': '',
         'units': '',
         'rating': '',
+        'claim': '',   
         'comment': ''   
     }
 

@@ -11,8 +11,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Removes carbon from the atmosphere for geologic sequestration in mineral form.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -22,8 +22,8 @@
           "value": 50.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "No publication or public data available on volume estimates, but scale is approximately consistent with literature. Actual volumes will be straightforward to verify.",
-          "claim": "Volume based on a pilot plant in Iceland commissioned in October 2017."
+          "claim": "Volume based on a pilot plant in Iceland commissioned in October 2017.",
+          "comment": "No publication or public data available on volume estimates, but scale is approximately consistent with literature. Actual volumes will be straightforward to verify."
         },
         {
           "type": "Metric",
@@ -31,8 +31,8 @@
           "value": 0.9,
           "units": "",
           "rating": 0.0,
-          "comment": "Minimal public justification provided, and detailed assessment in collaboration with research group is pending publication. Low ratio likely depends on availability of low-carbon energy in Iceland.",
           "claim": "Claims total emissions are 0.1 tCO2 for every 1 tCO2 removed.",
+          "comment": "Minimal public justification provided, and detailed assessment in collaboration with research group is pending publication. Low ratio likely depends on availability of low-carbon energy in Iceland.",
           "removal": 1.0,
           "emissions": 0.1,
           "kind": "ratio"
@@ -43,8 +43,8 @@
           "value": 1000.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage.",
-          "claim": ""
+          "claim": "",
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
@@ -52,6 +52,7 @@
           "value": 2.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Project is already fully subscribed, so any new investments are better construed as investments in future projects rather than fully additional procurements.",
           "counterfactual": "Not applicable."
         },
@@ -61,8 +62,8 @@
           "value": 767.5,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Commensurate with other early stage DAC costs on a $/tCO2 basis. Could be independently verified as a function of technology parameters and energy sources.",
-          "claim": ""
+          "claim": "",
+          "comment": "Commensurate with other early stage DAC costs on a $/tCO2 basis. Could be independently verified as a function of technology parameters and energy sources."
         },
         {
           "type": "Metric",
@@ -70,6 +71,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Publications on LCA are pending and no publications or public datasets on technology are avaialble."
         }
       ],
@@ -103,8 +105,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Removes carbon from the atmophere for sequestration in mineralized building materials, and also reduces emissions associated with conventional concrete production.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -114,8 +116,8 @@
           "value": 60000.0,
           "units": "tCO2",
           "rating": 1.0,
-          "comment": "Reporting 60k as an estimate of current annual volume. Total claimed reduction combines direct sequestration and avoided emissions. Based on ratios provided in LCA, we infer 1,126 total tCO2 removed and 58,874 tCO2 avoided, though we have yet to validate this breakdown based on specific project parameters.",
-          "claim": "Volume reflects 200 cement production facilities using technology. Claims 60,000 tCO2 removed in previous years and 60,000 tCO2 removed in 2020. Every 1 tCO2 used results in 0.85 tCO2 mineralized and 44.45 tCO2 avoided by reducing conventional concrete production emissions from 0.263 tCO\u200b2\u200b / m3\u200b to 0.220 tCO\u200b2\u200b / m\u200b3."
+          "claim": "Volume reflects 200 cement production facilities using technology. Claims 60,000 tCO2 removed in previous years and 60,000 tCO2 removed in 2020. Every 1 tCO2 used results in 0.85 tCO2 mineralized and 44.45 tCO2 avoided by reducing conventional concrete production emissions from 0.263 tCO\u200b2\u200b / m3\u200b to 0.220 tCO\u200b2\u200b / m\u200b3.",
+          "comment": "Reporting 60k as an estimate of current annual volume. Total claimed reduction combines direct sequestration and avoided emissions. Based on ratios provided in LCA, we infer 1,126 total tCO2 removed and 58,874 tCO2 avoided, though we have yet to validate this breakdown based on specific project parameters."
         },
         {
           "type": "Metric",
@@ -123,8 +125,8 @@
           "value": 0.824,
           "units": "",
           "rating": 1.0,
-          "comment": "For consistency, we recompute negativity only for the carbon removal component, yielding a lower number. LCA boundary conditions are well specified, and several third-party audits of the LCA analysis have been performed.",
           "claim": "Claims 0.85 tCO2 mineralized and 0.15 tCO2 emitted for every 1 tCO2. Reported ratio of 0.9967 also includes an additional 44.45 tCO2 in avoided emissions arising from its product replacing conventional concrete.",
+          "comment": "For consistency, we recompute negativity only for the carbon removal component, yielding a lower number. LCA boundary conditions are well specified, and several third-party audits of the LCA analysis have been performed.",
           "removal": 0.85,
           "emissions": 0.15,
           "kind": "ratio"
@@ -135,8 +137,8 @@
           "value": 1000.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage.",
-          "claim": ""
+          "claim": "",
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
@@ -144,6 +146,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Project appears to be monetizing the environmental attributes of cement already sold to others.",
           "counterfactual": "Counterfactual scenario not specified."
         },
@@ -153,8 +156,8 @@
           "value": 100.0,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Amount charged specifically for carbon removal is arbitrarily set to incentize utilization of the product, which is already economically favorable.",
-          "claim": ""
+          "claim": "",
+          "comment": "Amount charged specifically for carbon removal is arbitrarily set to incentize utilization of the product, which is already economically favorable."
         },
         {
           "type": "Metric",
@@ -162,6 +165,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No publications on primary techology, but references to several third-party LCAs available upon request."
         }
       ],
@@ -195,8 +199,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -206,8 +210,8 @@
           "value": 400000.0,
           "units": "tCO2",
           "rating": -1.0,
-          "comment": "Value reported is the average of range. While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the one published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates (including the range Nori provides in its Croplands Methodology of 0.5 to 7.4 tCO2 / ha / yr), raising concerns.",
-          "claim": "Total volume reflects the stated range of 300k-500k tCO2 across the Nori supply pipeline. Detailed information only available for one supplier, Harborview Farms, which itself includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori."
+          "claim": "Total volume reflects the stated range of 300k-500k tCO2 across the Nori supply pipeline. Detailed information only available for one supplier, Harborview Farms, which itself includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori.",
+          "comment": "Value reported is the average of range. While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the one published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates (including the range Nori provides in its Croplands Methodology of 0.5 to 7.4 tCO2 / ha / yr), raising concerns."
         },
         {
           "type": "Metric",
@@ -215,8 +219,8 @@
           "value": "N/A",
           "units": "",
           "rating": 0.0,
-          "comment": "Emissions information ought to be available in the COMET-Farm model outputs, but cannot be reproduced as model parameters are not publicly available.",
           "claim": "No data available, but high likelihood it will vary across projects. Claimed guarantee that negativity will be greater than 0.",
+          "comment": "Emissions information ought to be available in the COMET-Farm model outputs, but cannot be reproduced as model parameters are not publicly available.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -227,8 +231,8 @@
           "value": 10.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Soil carbon storage can last for decades or more, but it can also be reversed by changes to land use or management practices. Nori requires a 10-year contractual commitment from its projects. so we report the minimum of the contractual agreement and the biogephysical reality.",
-          "claim": ""
+          "claim": "",
+          "comment": "Soil carbon storage can last for decades or more, but it can also be reversed by changes to land use or management practices. Nori requires a 10-year contractual commitment from its projects. so we report the minimum of the contractual agreement and the biogephysical reality."
         },
         {
           "type": "Metric",
@@ -236,6 +240,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Changes to land management practices not specified. Significant co-benefits to land managers claimed alongside climate benefits offered for sale.",
           "counterfactual": "Counterfactual scenarios not specified."
         },
@@ -245,8 +250,8 @@
           "value": 16.5,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Set by the supplier and additionally includes a 10% fee. Commensurate with (or lower than) existing soil carbon project cost estimates.",
-          "claim": ""
+          "claim": "",
+          "comment": "Set by the supplier and additionally includes a 10% fee. Commensurate with (or lower than) existing soil carbon project cost estimates."
         },
         {
           "type": "Metric",
@@ -254,6 +259,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Volume and LCA methods based on the public and peer-reviewed COMET-Farm model, but specific project parameters are not made public so analysis and quantification cannot be reproduced."
         }
       ],
@@ -287,8 +293,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -298,8 +304,8 @@
           "value": 550000.0,
           "units": "tCO2",
           "rating": -1.0,
-          "comment": "Reported as average of range. Validation of volume would at a minimum require public information on specific projects, values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment.",
-          "claim": "Range of 100k-1M tCO2 based on potential participants in program."
+          "claim": "Range of 100k-1M tCO2 based on potential participants in program.",
+          "comment": "Reported as average of range. Validation of volume would at a minimum require public information on specific projects, values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment."
         },
         {
           "type": "Metric",
@@ -307,8 +313,8 @@
           "value": "N/A",
           "units": "",
           "rating": 0.0,
-          "comment": "Nothing to say without more information.",
           "claim": "No data available.",
+          "comment": "Nothing to say without more information.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -319,8 +325,8 @@
           "value": 100.0,
           "units": "years",
           "rating": -1.0,
-          "comment": "Soil carbon storage can be reversed by changed land practices. Payment schemes may incentive prevention of reversals, but no information is available about the duration of contractual or other legal obligations to maintain soil carbon practices. Project cites two protocol development processes ongoing at the Climate Action Reserve and Verra, but neither is currently complete or public.",
-          "claim": ""
+          "claim": "",
+          "comment": "Soil carbon storage can be reversed by changed land practices. Payment schemes may incentive prevention of reversals, but no information is available about the duration of contractual or other legal obligations to maintain soil carbon practices. Project cites two protocol development processes ongoing at the Climate Action Reserve and Verra, but neither is currently complete or public."
         },
         {
           "type": "Metric",
@@ -328,6 +334,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Changes to land management practices not specified. Significant co-benefits to land managers claimed alongside climate benefits offered for sale.",
           "counterfactual": "Counterfactual scenario not specified."
         },
@@ -337,8 +344,8 @@
           "value": 20.0,
           "units": "$/tCO2",
           "rating": 0.0,
-          "comment": "Includes 75% for farmers and 25% for monitoring, reporting, and verification work. Cost to farmers is commensurate with (or lower than) existing soil carbon project cost estimates, but justification of monitoring costs are not provided.",
-          "claim": ""
+          "claim": "",
+          "comment": "Includes 75% for farmers and 25% for monitoring, reporting, and verification work. Cost to farmers is commensurate with (or lower than) existing soil carbon project cost estimates, but justification of monitoring costs are not provided."
         },
         {
           "type": "Metric",
@@ -346,6 +353,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No data on specific projects are publicly available, and methods and protocols are not publicly available."
         }
       ],
@@ -379,8 +387,8 @@
           "value": "",
           "units": "",
           "rating": 0.0,
-          "comment": "Exact nature of Biorecro's role not entirely clear.",
           "claim": "Facilitates late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space.",
+          "comment": "Exact nature of Biorecro's role not entirely clear.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -390,8 +398,8 @@
           "value": 50000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "No public details available on any specific projects, but overall volume reasonable given technology. No specifics available to distinguish relative amounts of removal vs avoided emissions.",
-          "claim": ""
+          "claim": "",
+          "comment": "No public details available on any specific projects, but overall volume reasonable given technology. No specifics available to distinguish relative amounts of removal vs avoided emissions."
         },
         {
           "type": "Metric",
@@ -399,8 +407,8 @@
           "value": 0.9475,
           "units": "",
           "rating": 0.0,
-          "comment": "No information provided on specific projects. Based on available data, lifecycle emisisons do not include injection, and appear to exclude biogenic CO2 emissions not captured from production process. Possible uses for enhanced oil recovery would affect overall lifecycle emissions.",
           "claim": "Range expected to vary across sites from 0.9 to 0.995.",
+          "comment": "No information provided on specific projects. Based on available data, lifecycle emisisons do not include injection, and appear to exclude biogenic CO2 emissions not captured from production process. Possible uses for enhanced oil recovery would affect overall lifecycle emissions.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -411,8 +419,8 @@
           "value": 1000.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Successful geologic sequestration produces reliable, effectively permanent carbon storage.",
-          "claim": ""
+          "claim": "",
+          "comment": "Successful geologic sequestration produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
@@ -420,6 +428,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No detail provided. BECCS projects are likely additioinal, but additionality depends on the economics of any applicable tax credits or policy incentives.",
           "counterfactual": "Counterfactual scenario not specified."
         },
@@ -429,8 +438,8 @@
           "value": 99.0,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Cost commensurate with existing estimates for BECCS.",
-          "claim": ""
+          "claim": "",
+          "comment": "Cost commensurate with existing estimates for BECCS."
         },
         {
           "type": "Metric",
@@ -438,6 +447,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No data on specific projects, no publications on technologies, and no references or third-party analyses for LCA."
         }
       ],
@@ -471,8 +481,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Avoids emissions from biomass resources and transforms them into long-lived biochar materials.",
+          "comment": "",
           "removal": 0.0,
           "avoided": 1.0
         },
@@ -482,8 +492,8 @@
           "value": 62.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume is based on producing 20 tC of biochar with fraction C of at least 85%. Complete accounting would require comparing the C in biochar to the expected emissions from the feedstock, but detailed information on feedstock and conversion process not available.",
-          "claim": "Demonstration project in California's central valley, converting walnut shell waste into biochar."
+          "claim": "Demonstration project in California's central valley, converting walnut shell waste into biochar.",
+          "comment": "Volume is based on producing 20 tC of biochar with fraction C of at least 85%. Complete accounting would require comparing the C in biochar to the expected emissions from the feedstock, but detailed information on feedstock and conversion process not available."
         },
         {
           "type": "Metric",
@@ -491,8 +501,8 @@
           "value": 0.965,
           "units": "",
           "rating": 0.0,
-          "comment": "Biogenic CO2 emissions are excluded from ratio and few details available on LCA, but boundary conditions seem reasonably specified.",
           "claim": "",
+          "comment": "Biogenic CO2 emissions are excluded from ratio and few details available on LCA, but boundary conditions seem reasonably specified.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -503,8 +513,8 @@
           "value": 100.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Permanence of biochar depends on chemical composition, storage conditons, and other factors. Using the reported O:C ratio of 0.08 we estimate 100 years as the duration during which 90% of biochar C volume remains.",
-          "claim": "Claims 100 years or more."
+          "claim": "Claims 100 years or more.",
+          "comment": "Permanence of biochar depends on chemical composition, storage conditons, and other factors. Using the reported O:C ratio of 0.08 we estimate 100 years as the duration during which 90% of biochar C volume remains."
         },
         {
           "type": "Metric",
@@ -512,6 +522,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Feedstock is walnut shells that are otherwise dumped on the ground or on roads, e.g. for dust reduction purposes. No analysis provided of competing uses for feedstock.",
           "counterfactual": "Walnut shells dumped on ground or burned in biomass electricity plant."
         },
@@ -521,8 +532,8 @@
           "value": 1000.0,
           "units": "$/tCO2",
           "rating": 0.0,
-          "comment": "Notably higher than other biochar projects without justification.",
-          "claim": ""
+          "claim": "",
+          "comment": "Notably higher than other biochar projects without justification."
         },
         {
           "type": "Metric",
@@ -530,6 +541,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Minimal data on specific projects and no publications or public data on underlying process."
         }
       ],
@@ -563,8 +575,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Drone technology accelerates reforestation to remove carbon from atmosphere for sequestration in forests.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -574,8 +586,8 @@
           "value": 510.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Independently validated for consistency with USFS yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Note that project materials list both 584 and 510 for the same project; we use the latter.",
-          "claim": "Volume based on a pilot project in the Pacific Northwest, East. Volume computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years."
+          "claim": "Volume based on a pilot project in the Pacific Northwest, East. Volume computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years.",
+          "comment": "Independently validated for consistency with USFS yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Note that project materials list both 584 and 510 for the same project; we use the latter."
         },
         {
           "type": "Metric",
@@ -583,8 +595,8 @@
           "value": 0.9831372549,
           "units": "",
           "rating": 1.0,
-          "comment": "Boundary conditions well specified and drone-related emissions seem thoroughly documented.",
           "claim": "Reported ratio is based on sequestration only in 2020 but the estimated 8.6 tCO2 emissions are fixed over entire project lifetime. Considering carbon removed over the full project lifetime would increase the ratio to 1.000.",
+          "comment": "Boundary conditions well specified and drone-related emissions seem thoroughly documented.",
           "removal": 510.0,
           "emissions": 8.6,
           "kind": "project"
@@ -595,8 +607,8 @@
           "value": 51.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "We report 51 as the minimum of the claimed range. Location may have high risk for wildfire and insects, detailed quantification pending exact location. Stated minimum time horizon could be better assured through contractual agreements with buyers.",
-          "claim": "Claims 51 years with economic incentives for longer durations."
+          "claim": "Claims 51 years with economic incentives for longer durations.",
+          "comment": "We report 51 as the minimum of the claimed range. Location may have high risk for wildfire and insects, detailed quantification pending exact location. Stated minimum time horizon could be better assured through contractual agreements with buyers."
         },
         {
           "type": "Metric",
@@ -604,6 +616,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Can reasonably be considered an investment in a new technology to lower the cost of reforestation and aforestation, rather than an investment in a particular project.",
           "counterfactual": "Reforestation to occur manually or not at all."
         },
@@ -613,8 +626,8 @@
           "value": 3.98,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Costs of $500.20/tCO2 were reported using only the carbon removal expected in 2020. Over the project lifetime, however, an estimated 64,031 tCO2 will be removed. We have adjusted the reported $/tCO2 value to reflect standard industry practice of using total expected benefits across the project's lifetime in order to facilitate comparison with other forestry projects.",
-          "claim": ""
+          "claim": "",
+          "comment": "Costs of $500.20/tCO2 were reported using only the carbon removal expected in 2020. Over the project lifetime, however, an estimated 64,031 tCO2 will be removed. We have adjusted the reported $/tCO2 value to reflect standard industry practice of using total expected benefits across the project's lifetime in order to facilitate comparison with other forestry projects."
         },
         {
           "type": "Metric",
@@ -622,6 +635,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Public project description is thorough, but specific data on project location pending, and no publications or public data are available on the approach."
         }
       ],
@@ -655,8 +669,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Supports verification and evaluation of forest projects, avoiding emissions due to forest loss and removing atmospheric carbon for sequestration in forests and forest products.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -666,8 +680,8 @@
           "value": 165850.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Sequestration rates of 16 and 26 tCO2 / ha / year are within bounds of independent estimates. No evidence provided for specific utility of advanced monitoring methods for improving volume estimates.",
-          "claim": "Volume based on two exemplar projects, Rip's Redwoods and Guanare, and thus does not represent all projects offered by Pachama."
+          "claim": "Volume based on two exemplar projects, Rip's Redwoods and Guanare, and thus does not represent all projects offered by Pachama.",
+          "comment": "Sequestration rates of 16 and 26 tCO2 / ha / year are within bounds of independent estimates. No evidence provided for specific utility of advanced monitoring methods for improving volume estimates."
         },
         {
           "type": "Metric",
@@ -675,8 +689,8 @@
           "value": 0.39,
           "units": "",
           "rating": -1.0,
-          "comment": "Self-reported value appears unreasonably high, but data is not available to independently calculate. Based on project type, we would expect a higher (more favorable) negativity ratio.",
           "claim": "",
+          "comment": "Self-reported value appears unreasonably high, but data is not available to independently calculate. Based on project type, we would expect a higher (more favorable) negativity ratio.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -687,8 +701,8 @@
           "value": 46.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "We report the minimum across the estimated permanence for the underlying projects (46 and 97), relative to the current year. Standard forest carbon permanence risk considerations apply, and risks of wildfire are particularly high for one of the projects. Stated minimum time horizon could be better assured through contractual agreements with buyers.",
-          "claim": "Claims 60 years from 2006 for one project and 100 years from 2013 for the other."
+          "claim": "Claims 60 years from 2006 for one project and 100 years from 2013 for the other.",
+          "comment": "We report the minimum across the estimated permanence for the underlying projects (46 and 97), relative to the current year. Standard forest carbon permanence risk considerations apply, and risks of wildfire are particularly high for one of the projects. Stated minimum time horizon could be better assured through contractual agreements with buyers."
         },
         {
           "type": "Metric",
@@ -696,6 +710,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Guanare afforestation project began in 2006. Rip's Redwood project already credited for standing carbon stock above regional baseline, which indicates a promise not to harvest normally and therefore raises questions about the additionality of ongoing carbon removal credits.",
           "counterfactual": "Counterfactual scenarios specified for both projects."
         },
@@ -705,8 +720,8 @@
           "value": 8.0,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Cost commensurate with similar forest projects.",
-          "claim": ""
+          "claim": "",
+          "comment": "Cost commensurate with similar forest projects."
         },
         {
           "type": "Metric",
@@ -714,6 +729,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No public details on projects other than shapefiles, and no public or published materials on quantification methods."
         }
       ],
@@ -747,8 +763,8 @@
           "value": "",
           "units": "",
           "rating": 0.0,
-          "comment": "Very early-stage technology.",
           "claim": "Removes carbon from atmosphere via sequestration in phytoplankton and transport of phytoplankton biomass to deep ocean.",
+          "comment": "Very early-stage technology.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -758,8 +774,8 @@
           "value": 693.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Difficult to assess volume due to early stage of technology.",
-          "claim": "Demonstration project to be deployed offshore California or Hawaii. Project volume based on expected carbon removal over five years."
+          "claim": "Demonstration project to be deployed offshore California or Hawaii. Project volume based on expected carbon removal over five years.",
+          "comment": "Difficult to assess volume due to early stage of technology."
         },
         {
           "type": "Metric",
@@ -767,8 +783,8 @@
           "value": 0.995,
           "units": "",
           "rating": 0.0,
-          "comment": "Project emissions specified in detail, although technology is early-stage and experimental.",
           "claim": "",
+          "comment": "Project emissions specified in detail, although technology is early-stage and experimental.",
           "removal": 697.0,
           "emissions": 3.6854,
           "kind": "project"
@@ -779,8 +795,8 @@
           "value": 1000.0,
           "units": "years",
           "rating": 0.0,
-          "comment": "Carbon dioxide removed to lower ocean depths can be stable for millenia, but over the long run will affect ocean acidity and be exposed to surface-atmosphere interactions. Unlike geologic storage this stock has an implied end date for effectivess, albeit a potentially very distant one.",
-          "claim": "Claims a maximum of 5000 but with unknown reductions due to the potential for outgassing."
+          "claim": "Claims a maximum of 5000 but with unknown reductions due to the potential for outgassing.",
+          "comment": "Carbon dioxide removed to lower ocean depths can be stable for millenia, but over the long run will affect ocean acidity and be exposed to surface-atmosphere interactions. Unlike geologic storage this stock has an implied end date for effectivess, albeit a potentially very distant one."
         },
         {
           "type": "Metric",
@@ -788,6 +804,7 @@
           "value": 2.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "The only reason to implement a project like this is to generate climate benefits, and no such projects are operating today.",
           "counterfactual": "Not applicable."
         },
@@ -797,8 +814,8 @@
           "value": 336.07,
           "units": "$/tCO2",
           "rating": 0.0,
-          "comment": "No cost comparisons available due to uniqueness of technology.",
-          "claim": ""
+          "claim": "",
+          "comment": "No cost comparisons available due to uniqueness of technology."
         },
         {
           "type": "Metric",
@@ -806,6 +823,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Reasonably thorough description of technology with references, but no publications or public data on the specific approach."
         }
       ],
@@ -839,8 +857,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
+          "comment": "",
           "removal": 0.0,
           "avoided": 0.0
         },
@@ -850,8 +868,8 @@
           "value": 33000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Lack of detail on projects raises questions about overall volume, but per 2.5 tCO2 / ha / year is consistent with existing literature and models.",
-          "claim": "Specific projects not identified. Claimed volume reflects 10-30 plots totaling 13355 ha with an average of 2.5 tCO2 / ha / year."
+          "claim": "Specific projects not identified. Claimed volume reflects 10-30 plots totaling 13355 ha with an average of 2.5 tCO2 / ha / year.",
+          "comment": "Lack of detail on projects raises questions about overall volume, but per 2.5 tCO2 / ha / year is consistent with existing literature and models."
         },
         {
           "type": "Metric",
@@ -859,8 +877,8 @@
           "value": 0.5,
           "units": "",
           "rating": 0.0,
-          "comment": "No clear connection expressed between detailed, project-level expectations and promised future study. Net LCA impacts depend crucially on methane emissions from livestock and no GWP conversion information reported.",
           "claim": "Reported ratio is only provisional, with amended results to be determined in a future study.",
+          "comment": "No clear connection expressed between detailed, project-level expectations and promised future study. Net LCA impacts depend crucially on methane emissions from livestock and no GWP conversion information reported.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -871,8 +889,8 @@
           "value": 10.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Soil carbon storage can be reversed by changed land management practices. Soil Value Exchange requires 10-year contractual commitments, so we report the minimum of the contractual agreement and the biogeophysical reality.",
-          "claim": "Claims 1000+ years in the abscence of behavioral changes."
+          "claim": "Claims 1000+ years in the abscence of behavioral changes.",
+          "comment": "Soil carbon storage can be reversed by changed land management practices. Soil Value Exchange requires 10-year contractual commitments, so we report the minimum of the contractual agreement and the biogeophysical reality."
         },
         {
           "type": "Metric",
@@ -880,6 +898,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No information provided about participating projects and their past practices.",
           "counterfactual": "Conventional grazing and intensive feedlot grazing discussed as alternative ranching practices, but no projects identified and no historical practices identified at specific project sites."
         },
@@ -889,8 +908,8 @@
           "value": 30.0,
           "units": "$/tCO2",
           "rating": 0.0,
-          "comment": "Cost appears to include payments to farmers and monitoring, veritification, and reporting, but no breakdown is specified.",
-          "claim": ""
+          "claim": "",
+          "comment": "Cost appears to include payments to farmers and monitoring, veritification, and reporting, but no breakdown is specified."
         },
         {
           "type": "Metric",
@@ -898,6 +917,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No public details on projects, no public or published details on planned quantification methods."
         }
       ],
@@ -931,8 +951,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Project removes carbon from atmosphere for geologic sequestration in mineral form.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -942,8 +962,8 @@
           "value": 1000.0,
           "units": "tCO2",
           "rating": 1.0,
-          "comment": "Details on specific projects underlying volume, including size and duration, are public and appear reasonable.",
-          "claim": "Claimed volume is calculated based on expected weathering over 100 years, not removal in a single year."
+          "claim": "Claimed volume is calculated based on expected weathering over 100 years, not removal in a single year.",
+          "comment": "Details on specific projects underlying volume, including size and duration, are public and appear reasonable."
         },
         {
           "type": "Metric",
@@ -951,8 +971,8 @@
           "value": 0.74,
           "units": "",
           "rating": 0.0,
-          "comment": "For consistency, we recompute negativity only for the carbon removal component, yielding a lower number. Detailed analysis only available for one exemplar project, so uncertainty remains for full project portfolio.",
           "claim": "Reported ratio for exemplar project is based on 2,880 tCO2 removed, 750 tCO2 emitted, and 509 tCO2 avoided.",
+          "comment": "For consistency, we recompute negativity only for the carbon removal component, yielding a lower number. Detailed analysis only available for one exemplar project, so uncertainty remains for full project portfolio.",
           "removal": 2880.0,
           "emissions": 750.0,
           "kind": "project"
@@ -963,8 +983,8 @@
           "value": 1000.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage.",
-          "claim": ""
+          "claim": "",
+          "comment": "Successful mineralization produces reliable, effectively permanent carbon storage."
         },
         {
           "type": "Metric",
@@ -972,6 +992,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Carbon removal certificates are offered separately from the olivine sand purchase; because olivine sand will be purchased and used, with the reported use indicated on certificate.",
           "counterfactual": "Alternative rocks used without carbon removal benefits."
         },
@@ -981,8 +1002,8 @@
           "value": 35.0,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Cost at the lower end relative to existing approaches. Appears to mainly reflect mining activity and logistics.",
-          "claim": ""
+          "claim": "",
+          "comment": "Cost at the lower end relative to existing approaches. Appears to mainly reflect mining activity and logistics."
         },
         {
           "type": "Metric",
@@ -990,6 +1011,7 @@
           "value": 2.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Project details (including locations and durations) are publicly available."
         }
       ],
@@ -1023,8 +1045,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Facilities removing carbon from the atmosphere by extending time between forest harvests, avoiding emissions due to harvests and sequestering additional carbon in forests and forest products.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -1034,8 +1056,8 @@
           "value": 15000000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Volume estimates will be relatively straightforward via stocking estimates given the 1 year duration. Plausibility of total number depends entirely on the number of particpants.",
-          "claim": "Volume extrapolated from a pilot implementation in 6 counties in Pennsylvania. Projects in 2020 will be sourced from 11 southern US states. Supply will be allocated via an auction."
+          "claim": "Volume extrapolated from a pilot implementation in 6 counties in Pennsylvania. Projects in 2020 will be sourced from 11 southern US states. Supply will be allocated via an auction.",
+          "comment": "Volume estimates will be relatively straightforward via stocking estimates given the 1 year duration. Plausibility of total number depends entirely on the number of particpants."
         },
         {
           "type": "Metric",
@@ -1043,8 +1065,8 @@
           "value": 0.999,
           "units": "",
           "rating": 1.0,
-          "comment": "No reason to consider additional emissions given program design.",
           "claim": "Emissions estimates based soley on the operations of the small team that will run the program.",
+          "comment": "No reason to consider additional emissions given program design.",
           "removal": 1000.0,
           "emissions": 1.0,
           "kind": "ratio"
@@ -1055,8 +1077,8 @@
           "value": 1.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "Given the annual contracting model, we report 1 year as it will be the minimum of the contract duration and any other potential estimate.",
-          "claim": "Claims a range from 1 to 10 years."
+          "claim": "Claims a range from 1 to 10 years.",
+          "comment": "Given the annual contracting model, we report 1 year as it will be the minimum of the contract duration and any other potential estimate."
         },
         {
           "type": "Metric",
@@ -1064,6 +1086,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "By shifting to a ton-year accounting framework, SilviaTerra intends to avoid additionality concerns by measuring actual carbon stored each year. However, other factors, such as exogenous shifts in timber markets, can still affect additionality considerations with respect to forest harvest decisions. Proprietary methods for measurement and verification against field plots were not available at the time of this proposal.",
           "counterfactual": "Counteractual scenario is active forest product harvest."
         },
@@ -1073,8 +1096,8 @@
           "value": 15.0,
           "units": "$/tCO2-year",
           "rating": 1.0,
-          "comment": "SilviaTerra uses a ton-year accounting that reflects the cost per tCO2 stored per year. Thus, assuming constant price, a contract to store 10 tCO2 for 1 year at $15/tCO2-year would cost $150 and a contract to store 10 tCO2 for 100 years would cost $15,000.",
-          "claim": ""
+          "claim": "",
+          "comment": "SilviaTerra uses a ton-year accounting that reflects the cost per tCO2 stored per year. Thus, assuming constant price, a contract to store 10 tCO2 for 1 year at $15/tCO2-year would cost $150 and a contract to store 10 tCO2 for 100 years would cost $15,000."
         },
         {
           "type": "Metric",
@@ -1082,6 +1105,7 @@
           "value": 0.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No public details on specific projects or methods for project quantification or selection are currently available."
         }
       ],
@@ -1115,8 +1139,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "comment": "",
           "claim": "Project integrates tree crops and grazing livestock as silvopasture systems, to sequester carbon in both soil and aboveground biomass.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -1126,8 +1150,8 @@
           "value": 98.0,
           "units": "tCO2",
           "rating": 0.0,
-          "comment": "Average of range reported. Methods publicly described but not yet independently validated. Overall rate of 12.1 tCO2 / ha is consistent with existing litearture.",
-          "claim": "Volume estimated as range based on calculations using USDA COMET-Planner model (56 tCO2) and Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2). Reflects 3.2 current ha and 4.9 ha to be added."
+          "claim": "Volume estimated as range based on calculations using USDA COMET-Planner model (56 tCO2) and Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2). Reflects 3.2 current ha and 4.9 ha to be added.",
+          "comment": "Average of range reported. Methods publicly described but not yet independently validated. Overall rate of 12.1 tCO2 / ha is consistent with existing litearture."
         },
         {
           "type": "Metric",
@@ -1135,8 +1159,8 @@
           "value": 0.982,
           "units": "",
           "rating": 0.0,
-          "comment": "Ratios are consistent with reforestation projects, but lifecycle boundaries are not explicit. Specifically, no detail provided on methane emissions from livestock expansion and/or any soil carbon benefits.",
           "claim": "",
+          "comment": "Ratios are consistent with reforestation projects, but lifecycle boundaries are not explicit. Specifically, no detail provided on methane emissions from livestock expansion and/or any soil carbon benefits.",
           "removal": 56.0,
           "emissions": 1.0,
           "kind": "project"
@@ -1147,8 +1171,8 @@
           "value": 30.0,
           "units": "years",
           "rating": 1.0,
-          "comment": "We report 30 as the minimum of the claimed range. Location has relatively low physical risk, and land is owned by project proponent. Stated minimum time horizon could be assured in a contract with a buyer.",
-          "claim": "Reports a range of 30 to 100."
+          "claim": "Reports a range of 30 to 100.",
+          "comment": "We report 30 as the minimum of the claimed range. Location has relatively low physical risk, and land is owned by project proponent. Stated minimum time horizon could be assured in a contract with a buyer."
         },
         {
           "type": "Metric",
@@ -1156,6 +1180,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "No analysis available in public materials.",
           "counterfactual": "Counterfactual scenario not specified."
         },
@@ -1165,8 +1190,8 @@
           "value": 100.0,
           "units": "$/tCO2",
           "rating": 1.0,
-          "comment": "Cost is conservative as it is based on total costs divided by a lower bound on volume estimate. The average cost per acre in year 1 of each project is $3,500.",
-          "claim": ""
+          "claim": "",
+          "comment": "Cost is conservative as it is based on total costs divided by a lower bound on volume estimate. The average cost per acre in year 1 of each project is $3,500."
         },
         {
           "type": "Metric",
@@ -1174,6 +1199,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
+          "claim": "",
           "comment": "Methods publicly described and shapefiles for locations provided, but model parameters and life cycle boundaries are missing."
         }
       ],
