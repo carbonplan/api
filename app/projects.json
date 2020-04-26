@@ -177,7 +177,7 @@
       ],
       "id": "STRP02",
       "description": "Carbon reductions in concrete.",
-      "score": "10",
+      "score": "9",
       "location": {
         "name": "North America",
         "geometry": {
@@ -271,7 +271,7 @@
       ],
       "id": "STRP03",
       "description": "Increasing soil carbon sequestration and soil health.",
-      "score": "7",
+      "score": "6",
       "location": {
         "name": "USA",
         "geometry": {
@@ -365,7 +365,7 @@
       ],
       "id": "STRP04",
       "description": "Rgenerative farming practices for soil carbon sequestration.",
-      "score": "3",
+      "score": "2",
       "location": {
         "name": "Mid-West and Southern USA",
         "geometry": {
@@ -459,7 +459,7 @@
       ],
       "id": "STRP05",
       "description": "Supporting bio-energy with carbon capture and storage.",
-      "score": "7",
+      "score": "6",
       "location": {
         "name": "North America / Europe",
         "geometry": {
@@ -553,7 +553,7 @@
       ],
       "id": "STRP06",
       "description": "Turning woody biomass waste into biochar.",
-      "score": "7",
+      "score": "6",
       "location": {
         "name": "Central Valley, CA, USA",
         "geometry": {
@@ -647,7 +647,7 @@
       ],
       "id": "STRP07",
       "description": "Reforestation using drone swarms and seed enablement.",
-      "score": "8",
+      "score": "6",
       "location": {
         "name": "WA, USA",
         "geometry": {
@@ -741,7 +741,7 @@
       ],
       "id": "STRP08",
       "description": "Reforestation projects with verification and monitoring.",
-      "score": "5",
+      "score": "4",
       "location": {
         "name": "Uruguay & CA, USA",
         "geometry": {
@@ -929,7 +929,7 @@
       ],
       "id": "STRP10",
       "description": "Regenerative land management.",
-      "score": "7",
+      "score": "5",
       "location": {
         "name": "",
         "geometry": {
@@ -1023,7 +1023,7 @@
       ],
       "id": "STRP11",
       "description": "CO2 removal with olivine.",
-      "score": "9",
+      "score": "8",
       "location": {
         "name": "Netherlands",
         "geometry": {
@@ -1117,7 +1117,7 @@
       ],
       "id": "STRP12",
       "description": "Forest carbon rental markets.",
-      "score": "9",
+      "score": "7",
       "location": {
         "name": "Southern USA",
         "geometry": {
@@ -1211,7 +1211,7 @@
       ],
       "id": "STRP13",
       "description": "Conversion of annual cropland to sheep/chestnut silvopasture.",
-      "score": "8",
+      "score": "7",
       "location": {
         "name": "Johnsonville, NY, USA",
         "geometry": {
@@ -1305,7 +1305,7 @@
       ],
       "id": "STRP14",
       "description": "Biochar production through pyrolysis.",
-      "score": "9",
+      "score": "8",
       "location": {
         "name": "South Sweden",
         "geometry": {
@@ -1399,7 +1399,7 @@
       ],
       "id": "STRP15",
       "description": "Laminated log production from lumber with CO2 sequestration.",
-      "score": "8",
+      "score": "7",
       "location": {
         "name": "Finland",
         "geometry": {
@@ -1493,7 +1493,7 @@
       ],
       "id": "STRP16",
       "description": "Net-negative wood products.",
-      "score": "7",
+      "score": "6",
       "location": {
         "name": "Kouvola, Finland",
         "geometry": {
@@ -1775,7 +1775,7 @@
       ],
       "id": "STRP19",
       "description": "Reforestation offset model.",
-      "score": "8",
+      "score": "6",
       "location": {
         "name": "Scotland",
         "geometry": {
@@ -1963,7 +1963,7 @@
       ],
       "id": "STRP21",
       "description": "Protecting forest carbon stock.",
-      "score": "9",
+      "score": "7",
       "location": {
         "name": "Mountain City, TN, USA",
         "geometry": {
@@ -2061,7 +2061,7 @@
       ],
       "id": "STRP22",
       "description": "Bamboo reforestation and engineered lumber.",
-      "score": "5",
+      "score": "4",
       "location": {
         "name": "Philippines",
         "geometry": {
