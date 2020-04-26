@@ -77,7 +77,7 @@ def maybe_float(value):
 
 if __name__ == '__main__':
 
-    data = get_sheet('Sheet1', 'Stripe reports 0.1 [internal]').loc[:3]
+    data = get_sheet('Sheet1', 'Stripe reports 0.1 [internal]').loc[:6]
 
     metrics = [
         'mechanism',

@@ -364,6 +364,279 @@
         "name": "Stripe Decrement 2020",
         "url": "https://stripe.com/climate"
       }
+    },
+    {
+      "type": "Project",
+      "name": "Biorecro",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "Facilities late-stage BECCS projects, which avoid emissions from biogenic carbon sources to atmosphere and instead capture that carbon for geologic sequestration in rocks' pore space.",
+          "removal": 1.0,
+          "avoided": 1.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 50000.0,
+          "units": "tCO2",
+          "rating": 0.0,
+          "comment": "Overall volume reasonable given technology, but no specifics available to determine proportion related to carbon removal rather than avoided emissions.",
+          "claim": "No public details available on any specific projects."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.9475,
+          "units": "",
+          "rating": 0.0,
+          "comment": "No information provided on specific projects. Based on available data, lifecycle emisisons do not include injection, and appear to exclude biogenic CO2 emissions not captured from production process. Possible uses for enhanced oil recovery would affect overall lifecycle emissions.",
+          "claim": "Range expected to vary across sites from 0.9 to 0.995.",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 1000.0,
+          "units": "years",
+          "rating": 1.0,
+          "comment": "Successful geologic sequestration produces reliable, effectively permanent carbon storage.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": "",
+          "comment": "No detail provided. BECCS projects are likely additioinal, but additionality depends on the economics of any applicable tax credits or policy incentives.",
+          "counterfactual": "Counterfactual scenario not specified."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 99.0,
+          "units": "$/tCO2",
+          "rating": 1.0,
+          "comment": "Cost commensurate with existing estimates.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "No data on specific projects, no publications on technologies, and no references or third-party analyses for LCA."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "biomass",
+        "beccs"
+      ],
+      "id": "STRP05",
+      "description": "Supporting bio-energy with carbon capture and storage.",
+      "location": {
+        "name": "North America / Europe",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "Carbo Culture",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 1.0,
+          "comment": "Avoids emissions from biomass resources and transforms them into long-lived biochar materials.",
+          "removal": 0.0,
+          "avoided": 1.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 62.0,
+          "units": "tCO2",
+          "rating": 0.0,
+          "comment": "Volume is based on producing 20t of biochar with fraction C of at least 85%. Complete accounting would require comparing the C in biochar to the expected emissions from the feedstock, but detailed information on feedstock and conversion process not available.",
+          "claim": "Demonstration project in California's central valley, converting walnut shell waste into biochar."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.965,
+          "units": "",
+          "rating": 0.0,
+          "comment": "Biogenic CO2 emissions are excluded from ratio and few details available on LCA, but boundary conditions seem reasonably specified.",
+          "claim": "",
+          "removal": "N/A",
+          "emissions": "N/A",
+          "kind": "N/A"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 100.0,
+          "units": "years",
+          "rating": 1.0,
+          "comment": "Permanence of biochar depends on chemical composition, storage conditons, and other factors. Using the reported O:C ratio of 0.08 we estimate 100 years as the duration during which 90% of biochar C volume remains.",
+          "claim": "100 years or more."
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": "",
+          "comment": "Feedstock is walnut shells that are otherwise dumped on the ground or on roads, e.g. for dust reduction purposes. No analysis provided of competing uses for feedstock.",
+          "counterfactual": "Walnut shells dumped on ground or burned in biomass electricity plant."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 1000.0,
+          "units": "$/tCO2",
+          "rating": 0.0,
+          "comment": "Notably higher than other biochar projects without justification.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "Minimal data on specific projects and no publications or public data on underlying process."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "biomass",
+        "biochar"
+      ],
+      "id": "STRP06",
+      "description": "Turning woody biomass waste into biochar.",
+      "location": {
+        "name": "Central Valley, CA, USA",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "Droneseed",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 0.0,
+          "comment": "Removes carbon from atmosphere for sequestration in forests",
+          "removal": 1.0,
+          "avoided": 0.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 510.0,
+          "units": "tCO2",
+          "rating": 0.0,
+          "comment": "Independently validated for consistency with USFS yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Note that project materials list both 584 and 510 for the same project; we use the latter.",
+          "claim": "Volume based on a specific pilot project in the Pacific Northwest, East. Volume computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.9831372549,
+          "units": "",
+          "rating": 1.0,
+          "comment": "Boundary conditions well specified and drone-related emissions seem thoroughly documented.",
+          "claim": "Reported ratio is based on sequestration only in 2020 but the estimated 8.6 tCO2 emissions are fixed over entire project lifetime. Considering carbon removed over the full project lifetime would increase the ratio to 1.000.",
+          "removal": 510.0,
+          "emissions": 8.6,
+          "kind": "project"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 51.0,
+          "units": "years",
+          "rating": 0.0,
+          "comment": "We report 51 as the minimum of the claimed range. Location may have high risk for wildfire and insects, detailed quantification pending exact location. Stated minimum time horizon could be better assured through contractual agreements with buyers.",
+          "claim": "51 years with economic incentives for longer durations."
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": "",
+          "comment": "Can reasonably be considered an investment in a new technology to lower the cost of reforestation and aforestation, rather than an investment in a particular project.",
+          "counterfactual": "Reforestation to occur manually or not at all."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 3.98,
+          "units": "$/tCO2",
+          "rating": 1.0,
+          "comment": "Costs of $500.20/tCO2 were reported using only the carbon removal expected in 2020. Over the project lifetime, however, an estimated 64,031 tCO2 will be removed. We have adjusted the reported $/tCO2 value to reflect standard industry practice of using total expected benefits across the project's lifetime in order to facilitate comparison with other forestry projects.",
+          "claim": ""
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 0.0,
+          "units": "",
+          "rating": "",
+          "comment": "Public project description is thorough, but specific data on project location pending, and no publications or public data are available on the approach."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "forests",
+        "reforestation"
+      ],
+      "id": "STRP07",
+      "description": "Reforestation using drone swarms and seed enablement.",
+      "location": {
+        "name": "WA, USA",
+        "geometry": {
+          "type": null
+        }
+      },
+      "source": {
+        "name": "Stripe Decrement 2020",
+        "url": "https://stripe.com/climate"
+      }
     }
   ]
 }
