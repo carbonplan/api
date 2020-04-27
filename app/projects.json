@@ -209,7 +209,7 @@
           "name": "volume",
           "value": 14011.0,
           "units": "tCO2",
-          "rating": -1.0,
+          "rating": 0.0,
           "notes": "Volume based on a single supplier, Harborview Farms, which includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. The Nori platform offers a larger portfolio of projects, but they are not considered here.",
           "comment": "Value reported is the average of range. While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the one published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates (including the range Nori provides in its Croplands Methodology of 0.5 to 7.4 tCO2 / ha / yr), raising concerns."
         },
