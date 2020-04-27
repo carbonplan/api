@@ -2132,7 +2132,7 @@
           "name": "cost",
           "value": 50.0,
           "units": "$/tCO2",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "",
           "comment": "Costs commensurate with similar projects."
         },
@@ -2155,7 +2155,7 @@
       ],
       "id": "STRP23",
       "description": "Accelerating olivine weathering with wave power for CO2 removal.",
-      "score": "6",
+      "score": "7",
       "location": {
         "name": "Caribbean",
         "geometry": {
