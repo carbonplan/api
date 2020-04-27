@@ -191,7 +191,7 @@
     },
     {
       "type": "Project",
-      "name": "Nori",
+      "name": "Nori Harborview Farms",
       "metrics": [
         {
           "type": "Metric",
@@ -207,10 +207,10 @@
         {
           "type": "Metric",
           "name": "volume",
-          "value": 400000.0,
+          "value": 14011.0,
           "units": "tCO2",
           "rating": -1.0,
-          "notes": "Total volume reflects the stated range of 300k-500k tCO2 across the Nori supply pipeline. Detailed information only available for one supplier, Harborview Farms, which itself includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori.",
+          "notes": "Volume based on a single supplier, Harborview Farms, which includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. The Nori platform offers a larger portfolio of projects, but they are not considered here.",
           "comment": "Value reported is the average of range. While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the one published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates (including the range Nori provides in its Croplands Methodology of 0.5 to 7.4 tCO2 / ha / yr), raising concerns."
         },
         {
@@ -586,7 +586,7 @@
           "value": 510.0,
           "units": "tCO2",
           "rating": 1.0,
-          "notes": "Volume based on a pilot project in the Pacific Northwest, East. Volume computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years.",
+          "notes": "Volume based on a pilot project in the Pacific Northwest, East. Volume stated as computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years.",
           "comment": "Independently validated for consistency with USFS yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Note that project materials list both 584 and 510 for the same project; we use the latter."
         },
         {
@@ -607,7 +607,7 @@
           "value": 51.0,
           "units": "years",
           "rating": 0.0,
-          "notes": "Claims 51 years with economic incentives for longer durations.",
+          "notes": "Claims 51 years with potential economic incentives for longer durations.",
           "comment": "We report 51 as the minimum of the claimed range. Location may have high risk for wildfire and insects, detailed quantification pending exact location. Stated minimum time horizon could be better assured through contractual agreements with buyers."
         },
         {
@@ -661,7 +661,7 @@
     },
     {
       "type": "Project",
-      "name": "Pachama",
+      "name": "Pachama Rip's Redwoods and Guanare",
       "metrics": [
         {
           "type": "Metric",
@@ -670,7 +670,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Supports verification and evaluation of forest projects, avoiding emissions due to forest loss and removing atmospheric carbon for sequestration in forests and forest products.",
-          "comment": "Difficult to assess Pachama's precise role without more transparency.",
+          "comment": "Difficult to assess Pachama's precise contribution without more transparency.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -680,7 +680,7 @@
           "value": 165850.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Volume based on two exemplar projects, Rip's Redwoods and Guanare, and thus does not represent all projects offered by Pachama.",
+          "notes": "Volume is the total of two exemplar projects, Rip's Redwoods and Guanare. The Pachama platform offers a larger portfolio of projects, but they are not considered here.",
           "comment": "Sequestration rates of 16 and 26 tCO2 / ha / year are within bounds of independent estimates. No evidence provided for specific utility of advanced monitoring methods for improving volume estimates."
         },
         {
@@ -702,7 +702,7 @@
           "units": "years",
           "rating": 0.0,
           "notes": "Claims 60 years from 2006 for one project and 100 years from 2013 for the other.",
-          "comment": "We report the minimum across the estimated permanence for the underlying projects (46 and 97), relative to the current year. Standard forest carbon permanence risk considerations apply, and risks of wildfire are particularly high for one of the projects. Stated minimum time horizon could be better assured through contractual agreements with buyers."
+          "comment": "We report the minimum across the estimated permanence for the underlying projects (46 and 97), relative to the current year. Standard forest carbon permanence risk considerations apply, and risks of wildfire are high for one of the projects. Stated minimum time horizon could be better assured through contractual agreements with buyers."
         },
         {
           "type": "Metric",
@@ -1789,7 +1789,7 @@
     },
     {
       "type": "Project",
-      "name": "Carbon Sequestration Inc",
+      "name": "Carbon Sequestration",
       "metrics": [
         {
           "type": "Metric",
