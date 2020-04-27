@@ -21,9 +21,9 @@
           "name": "volume",
           "value": 50.0,
           "units": "tCO2",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Volume based on a pilot plant in Iceland commissioned in October 2017.",
-          "comment": "No publication or public data available on volume estimates, but scale is approximately consistent with literature. Actual volumes will be straightforward to verify."
+          "comment": "No specific public data or publications on volume estimates, but scale is commensurate with proven technology and existing deployments."
         },
         {
           "type": "Metric",
@@ -83,7 +83,7 @@
       ],
       "id": "STRP01",
       "description": "Direct air capture and mineralization.",
-      "score": "8",
+      "score": "9",
       "location": {
         "name": "Iceland",
         "geometry": {
@@ -117,7 +117,7 @@
           "units": "tCO2",
           "rating": 1.0,
           "notes": "Volume reflects 200 cement production facilities using technology. Claims 60,000 tCO2 removed in previous years and 60,000 tCO2 removed in 2020. Every 1 tCO2 used results in 0.85 tCO2 mineralized and 44.45 tCO2 avoided by reducing conventional concrete production emissions from 0.263 tCO\u200b2\u200b / m3\u200b to 0.220 tCO\u200b2\u200b / m\u200b3.",
-          "comment": "Reporting 60k as an estimate of current annual volume. Total claimed reduction combines direct sequestration and avoided emissions. Based on ratios provided in LCA, we infer 1,126 total tCO2 removed and 58,874 tCO2 avoided, though we have yet to validate this breakdown based on specific project parameters."
+          "comment": "Reporting 60k as an estimate of current annual volume. Total claimed reduction combines direct sequestration and avoided emissions. Based on ratios provided in LCA, we infer 1,126 total tCO2 removed and 58,874 tCO2 avoided, though we have not validated this breakdown based on specific project parameters."
         },
         {
           "type": "Metric",
@@ -585,7 +585,7 @@
           "name": "volume",
           "value": 510.0,
           "units": "tCO2",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Volume based on a pilot project in the Pacific Northwest, East. Volume computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years.",
           "comment": "Independently validated for consistency with USFS yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Note that project materials list both 584 and 510 for the same project; we use the latter."
         },
@@ -647,7 +647,7 @@
       ],
       "id": "STRP07",
       "description": "Reforestation using drone swarms and seed enablement.",
-      "score": "6",
+      "score": "7",
       "location": {
         "name": "WA, USA",
         "geometry": {
@@ -688,7 +688,7 @@
           "name": "negativity",
           "value": 0.19,
           "units": "",
-          "rating": -1.0,
+          "rating": 0.0,
           "notes": "Claims a range of 0.19 to 0.59 across exemplar projects.",
           "comment": "Self-reported value appears unreasonably high, but not enough data is provided for validation. We report the lowest, most conservative ratio, but based on project type, we would expect a much higher ratio.",
           "removal": "N/A",
@@ -961,9 +961,9 @@
           "name": "volume",
           "value": 1000.0,
           "units": "tCO2",
-          "rating": 1.0,
+          "rating": 0.0,
           "notes": "Claimed volume is calculated based on expected weathering over 100 years, not removal in a single year.",
-          "comment": "Details on specific projects underlying volume, including size and duration, are public and appear reasonable."
+          "comment": "Details on specific projects, including size and duration, are public, but volumes yet to be demonstrated and reflect long time scales."
         },
         {
           "type": "Metric",
@@ -1023,7 +1023,7 @@
       ],
       "id": "STRP11",
       "description": "CO2 removal with olivine.",
-      "score": "8",
+      "score": "7",
       "location": {
         "name": "Netherlands",
         "geometry": {
@@ -1149,9 +1149,9 @@
           "name": "volume",
           "value": 98.0,
           "units": "tCO2",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Volume estimated as range based on calculations using USDA COMET-Planner model (56 tCO2) and Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2). Reflects 3.2 current ha and 4.9 ha to be added.",
-          "comment": "Average of range reported. Methods publicly described but not yet independently validated. Overall rate of 12.1 tCO2 / ha is consistent with existing litearture."
+          "comment": "We report the average of the range. Methods publicly described but not yet independently validated. Overall rate of 12.1 tCO2 / ha is consistent with existing litearture."
         },
         {
           "type": "Metric",
@@ -1211,7 +1211,7 @@
       ],
       "id": "STRP13",
       "description": "Conversion of annual cropland to sheep/chestnut silvopasture.",
-      "score": "7",
+      "score": "8",
       "location": {
         "name": "Johnsonville, NY, USA",
         "geometry": {
@@ -1903,7 +1903,7 @@
           "units": "tCO2",
           "rating": 1.0,
           "notes": "Improved forest management project on 8,485 acres on state-owned land in Tennessee. Project is projected to generate 770,543 tCO2 beneifts over 20 years, the dominant majority of which (545,254 tCO2 or 71%) are avoided emissions from forest harvesting. An 18% risk buffer pool is set aside to mitigate against potential reversals, producing a net expected removal of 631,845 tCO2. No specific method for calculating forest carbon benefits identified. Buffer pool calculated using American Carbon Registry methods.",
-          "comment": "Methods for quantiying existing stocks well documented. Estimates of 167 tCO2 / ha for standing stock and 2.2 - 4.5 tCO2 / ha / year for future growth is within a plausible range."
+          "comment": "Methods for quantiying existing stocks well documented. Estimates of 167 tCO2 / ha for standing stock and 2.2 - 4.5 tCO2 / ha / year for future growth falls within a plausible range."
         },
         {
           "type": "Metric",
@@ -2008,7 +2008,7 @@
           "name": "negativity",
           "value": 0.98,
           "units": "",
-          "rating": -1.0,
+          "rating": 0.0,
           "notes": "Minimal information reported.",
           "comment": "Difficult to evaluate without more specific information. Lack of details on the manufacturing process raise questions about the high ratio.",
           "removal": "N/A",
@@ -2082,10 +2082,10 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "notes": "Project removes carbon from the atmosphere for sequestration in the ocean in mineral form.",
           "comment": "Early-stage technology with pilot demonstrations still in progress.",
-          "removal": 0.0,
+          "removal": 1.0,
           "avoided": 0.0
         },
         {
@@ -2093,9 +2093,9 @@
           "name": "volume",
           "value": 200.0,
           "units": "tCO2",
-          "rating": 1.0,
+          "rating": 0.0,
           "notes": "Volume projected based on total crushed olivine supply to pilot project site.",
-          "comment": ""
+          "comment": "Volumes can be more reliably estimated following pilot demonstrations."
         },
         {
           "type": "Metric",
@@ -2155,7 +2155,7 @@
       ],
       "id": "STRP23",
       "description": "Accelerating olivine weathering with wave power for CO2 removal.",
-      "score": "8",
+      "score": "6",
       "location": {
         "name": "Caribbean",
         "geometry": {
