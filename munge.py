@@ -65,6 +65,7 @@ def make_metric(name):
         'value': '',
         'units': '',
         'rating': '',
+        'notes': '',   
         'comment': ''   
     }
 
@@ -77,18 +78,20 @@ def maybe_float(value):
 
 if __name__ == '__main__':
 
-    data = get_sheet('Sheet1', 'Stripe reports 0.1 [internal]').loc[:22]
+    data = get_sheet('Sheet1', 'Stripe reports 0.1 [internal]').loc[:23]
 
     metrics = [
+        'mechanism',
         'volume',
         'negativity',
         'permanence',
         'additionality',
         'cost',
+        'transparency',
     ]
 
-    metric_keys = ['name', 'geometry', 'value', 'units', 'comment', 'cycle', 'rating', 
-         'removal', 'emissions', 'kind', 'counterfactual']
+    metric_keys = ['name', 'geometry', 'value', 'units', 'notes', 'comment', 'rating', 
+         'removal', 'emissions', 'kind', 'counterfactual', 'removal', 'avoided']
 
     tag_keys = data.columns.levels[0][data.columns.levels[0].str.startswith('tag')]
     tag_keys = [(t, '') for t in tag_keys]
@@ -102,6 +105,7 @@ if __name__ == '__main__':
         tags = [t.lower().strip() for t in tags]
         project['tags'].extend(tags)
         project['id'] = row[('id', '')]
+        project['score'] = row[('score', '')]
         project['description'] = row[('description', '')]
         project['location'] = {'name': row[('location', 'name')], 'geometry': json.loads(row[('location', 'geometry')])}
         project['source'] = {'name': row[('source', 'name')], 'url': row[('source', 'url')]}
@@ -112,11 +116,6 @@ if __name__ == '__main__':
                     val = row[(name, key)]
                 except KeyError:
                     continue
-                if key == 'cycle':
-                    try:
-                        m[key] = json.loads(val)
-                    except:
-                        print(row[('Name', '')], val)
                 else:
                     m[key] = maybe_float(val)
                 
