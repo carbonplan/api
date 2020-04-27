@@ -305,7 +305,7 @@
           "units": "tCO2",
           "rating": -1.0,
           "notes": "Range of 100k-1M tCO2 based on potential participants in program.",
-          "comment": "Reported as average of range. Validation of volume would at a minimum require public information on specific projects, values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment."
+          "comment": "We report the average of the range. Validation of volume would at a minimum require public information on specific projects, values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment."
         },
         {
           "type": "Metric",
