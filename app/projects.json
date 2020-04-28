@@ -764,7 +764,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Removes carbon from atmosphere via sequestration in phytoplankton and transport of phytoplankton biomass to deep ocean.",
-          "comment": "Early-stage technology with pilot demonstrations still in progress.",
+          "comment": "Novel early-stage technology with pilot demonstrations still in progress.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -1798,7 +1798,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Avoids biomass emissions by burying wood waste in covered pits.",
-          "comment": "Speculative technology with pilot demonstrations still in progress.",
+          "comment": "Somewhat speculative technology and pilot pit has yet to be constructed.",
           "removal": 0.0,
           "avoided": 0.0
         },
@@ -2082,9 +2082,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Project removes carbon from the atmosphere for sequestration in the ocean in mineral form.",
-          "comment": "Early-stage technology with pilot demonstrations still in progress.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -2155,7 +2155,7 @@
       ],
       "id": "STRP23",
       "description": "Accelerating olivine weathering with wave power for CO2 removal.",
-      "score": "7",
+      "score": "8",
       "location": {
         "name": "Caribbean",
         "geometry": {
