@@ -11,7 +11,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "notes": "Removes carbon from the atmosphere for geologic sequestration in mineral form.",
+          "notes": "Remove carbon from the atmosphere using a solid chemical sorbent and thermal swing. Carbon dioxide from that process is geologically sequestered in mineral form.",
           "comment": "",
           "removal": 1.0,
           "avoided": 0.0
@@ -22,8 +22,8 @@
           "value": 50.0,
           "units": "tCO2",
           "rating": 1.0,
-          "notes": "Volume based on a pilot plant in Iceland commissioned in October 2017.",
-          "comment": "No specific public data or publications on volume estimates, but scale is commensurate with proven technology and existing deployments."
+          "notes": "Volume based on the annual capacity of a pilot plant in Iceland commissioned in October 2017. Larger-scale plants are under construction that may have larger volume.",
+          "comment": "Scale of volume is commensurate with published sorbent technology."
         },
         {
           "type": "Metric",
@@ -32,7 +32,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Claims total emissions are 0.1 tCO2 for every 1 tCO2 removed.",
-          "comment": "Minimal public justification provided, and detailed assessment in collaboration with research group is pending publication. Low ratio likely depends on availability of low-carbon energy in Iceland.",
+          "comment": "Minimal justification provided, and detailed assessment in collaboration with research group is pending publication. Low ratio likely depends on availability of low-carbon energy in Iceland.",
           "removal": 1.0,
           "emissions": 0.1,
           "kind": "ratio"
@@ -107,7 +107,7 @@
           "rating": 1.0,
           "notes": "Removes carbon from the atmophere for sequestration in mineralized building materials, and also reduces emissions associated with conventional concrete production.",
           "comment": "",
-          "removal": 1.0,
+          "removal": 0.0,
           "avoided": 1.0
         },
         {
@@ -211,7 +211,7 @@
           "units": "tCO2",
           "rating": 0.0,
           "notes": "Volume based on a single supplier, Harborview Farms, which includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. The Nori platform offers a larger portfolio of projects, but they are not considered here.",
-          "comment": "Project locations are specified and COMET-Farm is a publicaly available tool, but volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. Inspection of exemplar plots implies sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates (including the range Nori provides in its Croplands Methodology of 0.5 to 7.4 tCO2 / ha / yr), raising questions."
+          "comment": "Project locations are specified and COMET-Farm is a publicaly available tool, but volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. Inspection of exemplar plots suggests sequestration totals of 6-11 tCO2/ha, but it is unclear what time duration this represents."
         },
         {
           "type": "Metric",
@@ -755,7 +755,7 @@
     },
     {
       "type": "Project",
-      "name": "Ocean-based Climate Solutions Inc",
+      "name": "Ocean-based Climate Solutions",
       "metrics": [
         {
           "type": "Metric",
@@ -951,7 +951,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "notes": "Project removes carbon from atmosphere for geologic sequestration in mineral form.",
+          "notes": "Project removes carbon from atmosphere through enhanced weathering of olivine and serpentine.",
           "comment": "",
           "removal": 1.0,
           "avoided": 0.0
@@ -962,8 +962,8 @@
           "value": 1000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Claimed volume is calculated based on expected weathering over 100 years, not removal in a single year.",
-          "comment": "Details on specific projects, including size and duration, are public, but volumes yet to be demonstrated and reflect long time scales."
+          "notes": "Not clear whether calculated volume is based on expected weathering in 1 year or 100 year.",
+          "comment": "Based on public details on project website, expected weathering for deposits since 2007 totals 306 tCO2, so claimed number may be reasonable depending on assumed timeframe."
         },
         {
           "type": "Metric",
@@ -1007,11 +1007,11 @@
         {
           "type": "Metric",
           "name": "transparency",
-          "value": 2.0,
+          "value": 1.0,
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Project details (including locations and durations) are publicly available."
+          "comment": "Several project details (including locations and durations) are publicly available."
         }
       ],
       "geometry": {
@@ -1023,7 +1023,7 @@
       ],
       "id": "STRP11",
       "description": "CO2 removal with olivine.",
-      "score": "7",
+      "score": "6",
       "location": {
         "name": "Netherlands",
         "geometry": {
@@ -1713,7 +1713,7 @@
           "name": "volume",
           "value": 6380.0,
           "units": "tCO2",
-          "rating": -1.0,
+          "rating": 0.0,
           "notes": "Volume projected for a 174 ha land project in Scotland. Claimed breakdown of total volume includes 18.3 - 25.7 tCO2 / ha / year for above ground biomass, 7.3 - 25.7 tCO2E / ha / year for soil carbon, and 11 - 22 tCO2 / ha / year for biochar.",
           "comment": "Project provides references, but claimed volume per hectare exceeds most published estimates."
         },
@@ -1775,7 +1775,7 @@
       ],
       "id": "STRP19",
       "description": "Reforestation offset model.",
-      "score": "6",
+      "score": "7",
       "location": {
         "name": "Scotland",
         "geometry": {
@@ -2075,7 +2075,7 @@
     },
     {
       "type": "Project",
-      "name": "Vesta",
+      "name": "Project Vesta",
       "metrics": [
         {
           "type": "Metric",
@@ -2083,7 +2083,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "notes": "Project removes carbon from the atmosphere for sequestration in the ocean in mineral form.",
+          "notes": "Project removes carbon from atmosphere through enhanced weathering of olivine.",
           "comment": "",
           "removal": 1.0,
           "avoided": 0.0
