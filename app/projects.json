@@ -200,7 +200,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
-          "comment": "Multiple established soil carbon removal pathways exist, but none are specified for the specific project. Nori only identifies that the project uses its Nori Croplands methodlogy, and Section 2.3 of Version 1.1 of the Nori Croplands methodology specifies five potential categories of cropland-related soil carbon management.",
+          "comment": "Multiple established soil carbon removal pathways exist, but none are specified for the specific project. Nori only identifies that the project uses its Nori Croplands methodlogy, and Section 2.3 of Version 1.1 specifies five potential categories of cropland-related soil carbon management.",
           "removal": 1.0,
           "avoided": 0.0
         },
