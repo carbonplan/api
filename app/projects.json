@@ -1800,7 +1800,7 @@
           "notes": "Avoids biomass emissions by burying wood waste in covered pits.",
           "comment": "Somewhat speculative technology and pilot pit has yet to be constructed.",
           "removal": 0.0,
-          "avoided": 0.0
+          "avoided": 1.0
         },
         {
           "type": "Metric",
