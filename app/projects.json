@@ -198,9 +198,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "notes": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
-          "comment": "",
+          "comment": "Multiple established soil carbon removal pathways exist, but none are specified for the specific project. Nori only identifies that the project uses its Nori Croplands methodlogy, and Section 2.3 of Version 1.1 of the Nori Croplands methodology specifies five potential categories of cropland-related soil carbon management.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -211,7 +211,7 @@
           "units": "tCO2",
           "rating": 0.0,
           "notes": "Volume based on a single supplier, Harborview Farms, which includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. The Nori platform offers a larger portfolio of projects, but they are not considered here.",
-          "comment": "Value reported is the average of range. While Nori provides specific locations for exemplar projects and COMET-Farm is a publicaly available tool, volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. For the one published project (Harborview Farms), volumes for exemplar plots imply sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates (including the range Nori provides in its Croplands Methodology of 0.5 to 7.4 tCO2 / ha / yr), raising concerns."
+          "comment": "Project locations are specified and COMET-Farm is a publicaly available tool, but volumes are difficult to independently validate without transparency around model parameters used, or complete plot details. Inspection of exemplar plots implies sequestration rates of 6-11 tCO2/ha/year, which are higher than most published estimates (including the range Nori provides in its Croplands Methodology of 0.5 to 7.4 tCO2 / ha / yr), raising questions."
         },
         {
           "type": "Metric",
@@ -294,7 +294,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
-          "comment": "Difficult to assess IndigoAg's precise role without more transparency.",
+          "comment": "Difficult to assess projects' specific removal mechanisms without more transparency. Multiple established soil carbon removal pathways exist, but none are specified in public proposal.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -305,7 +305,7 @@
           "units": "tCO2",
           "rating": -1.0,
           "notes": "Range of 100k-1M tCO2 based on potential participants in program.",
-          "comment": "We report the average of the range. Validation of volume would at a minimum require public information on specific projects, values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment."
+          "comment": "We report the average of the range. Validation of volume would at a minimum require public information on specific projects, and values are only plausible under a significant scale of participation. Carbon crediting methodology from Verra not specified, and carbon crediting methodology from Climate Action Reserve not yet released in draft form for public comment."
         },
         {
           "type": "Metric",
@@ -386,9 +386,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Facilitates late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space.",
-          "comment": "Biorecro's precise role not clear.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -587,12 +587,12 @@
           "units": "tCO2",
           "rating": 1.0,
           "notes": "Volume based on a pilot project in the Pacific Northwest, East. Volume stated as computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020) and 64,031 tCO2 over 100 years.",
-          "comment": "Independently validated for consistency with USFS yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Note that project materials list both 584 and 510 for the same project; we use the latter."
+          "comment": "Independently validated for consistency with U.S. Forest Service yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Note that project materials list both 584 and 510 for the same project; we use the latter because the project's technical documentation uses the lower number."
         },
         {
           "type": "Metric",
           "name": "negativity",
-          "value": 0.9831372549,
+          "value": 0.983,
           "units": "",
           "rating": 1.0,
           "notes": "Reported ratio based on sequestration only in 2020 but the estimated 8.6 tCO2 emissions are fixed over entire project lifetime. Considering carbon removed over the full project lifetime would increase the ratio to 1.000.",
@@ -668,9 +668,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Supports verification and evaluation of forest projects, avoiding emissions due to forest loss and removing atmospheric carbon for sequestration in forests and forest products.",
-          "comment": "Difficult to assess Pachama's precise contribution without more transparency.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -741,7 +741,7 @@
       ],
       "id": "STRP08",
       "description": "Reforestation projects with verification and monitoring.",
-      "score": "4",
+      "score": "5",
       "location": {
         "name": "Uruguay & CA, USA",
         "geometry": {
@@ -764,7 +764,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Removes carbon from atmosphere via sequestration in phytoplankton and transport of phytoplankton biomass to deep ocean.",
-          "comment": "Very early-stage technology with pilot demonstrations still in progress.",
+          "comment": "Early-stage technology with pilot demonstrations still in progress.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -1796,9 +1796,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": -1.0,
+          "rating": 0.0,
           "notes": "Avoids biomass emissions by burying wood waste in covered pits.",
-          "comment": "Approach is based on a highly speculative research proposal, not a demonstration. Proposal raises several concerns that have not been addressed in future work.",
+          "comment": "Speculative technology with pilot demonstrations still in progress.",
           "removal": 0.0,
           "avoided": 0.0
         },
@@ -1869,7 +1869,7 @@
       ],
       "id": "STRP20",
       "description": "Carbon sequestration via logging and wood burial.",
-      "score": "3",
+      "score": "4",
       "location": {
         "name": "East Texas, USA",
         "geometry": {
@@ -1988,9 +1988,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Project removes carbon from atmosphere for sequestration in bamboo and bamboo building materials.",
-          "comment": "Approach is complex, including both large-scale planting and manufacturing, and many details not documented.",
+          "comment": "",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -2061,7 +2061,7 @@
       ],
       "id": "STRP22",
       "description": "Bamboo reforestation and engineered lumber.",
-      "score": "4",
+      "score": "5",
       "location": {
         "name": "Philippines",
         "geometry": {
