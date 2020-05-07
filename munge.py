@@ -107,7 +107,7 @@ if __name__ == '__main__':
         project['id'] = row[('id', '')]
         project['description'] = row[('description', '')]
         project['location'] = {'name': row[('location', 'name')], 'geometry': json.loads(row[('location', 'geometry')])}
-        project['source'] = {'name': row[('source', 'name')], 'url': row[('source', 'url')]}
+        project['program'] = {'name': row[('program', 'name')], 'url': row[('program', 'url')]}
         for name in metrics:
             m = make_metric(name)
             for key in metric_keys:

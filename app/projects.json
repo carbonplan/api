@@ -11,7 +11,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "notes": "Remove carbon from the atmosphere using a solid chemical sorbent and thermal swing. Carbon dioxide from that process is geologically sequestered in mineral form.",
+          "notes": "Removes carbon from the atmosphere using a solid chemical sorbent and thermal swing. Carbon dioxide from that process is geologically sequestered in mineral form.",
           "comment": "",
           "removal": 1.0,
           "avoided": 0.0
@@ -71,7 +71,7 @@
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Publications on LCA are pending and basic technology is well understood, but no publications or public datasets on specific approaches are available."
+          "comment": "Basic technology is well understood through both demonstrations and published litearture. Publications on LCA are pending. No publications or public datasets on specific approaches are available."
         }
       ],
       "geometry": {
@@ -89,8 +89,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -146,7 +146,7 @@
           "units": "",
           "rating": "",
           "notes": "Counterfactual not specified.",
-          "comment": "Project appears to be monetizing the environmental attributes of cement already sold to others."
+          "comment": "Cement will already be purchased and used separate from its carbon removal benefits. The carbon removal benefits are being offered separately, albeit for the first time for this company."
         },
         {
           "type": "Metric",
@@ -164,7 +164,7 @@
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "No publications on primary techology, but references to several third-party LCAs that are available upon request."
+          "comment": "No publications on primary techology available, but references to several third-party LCAs are provided and available upon request."
         }
       ],
       "geometry": {
@@ -182,8 +182,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -239,7 +239,7 @@
           "units": "",
           "rating": "",
           "notes": "Counterfactual not specified.",
-          "comment": "Changes to land management practices not specified. Significant co-benefits to land managers claimed alongside climate benefits offered for sale."
+          "comment": "Changes to land management practices not specified. Significant co-benefits to land managers claimed alongside climate benefits offered for sale. The Nori Croplands methodology requires additionality, but does not specify how it is determined how to independently identify or validate additionality claims."
         },
         {
           "type": "Metric",
@@ -275,8 +275,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -368,8 +368,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -451,7 +451,7 @@
       },
       "tags": [
         "biomass",
-        "beccs"
+        "broker"
       ],
       "id": "STRP05",
       "description": "Supporting bio-energy with carbon capture and storage.",
@@ -461,8 +461,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -554,8 +554,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -607,11 +607,11 @@
         {
           "type": "Metric",
           "name": "additionality",
-          "value": 1.0,
+          "value": 0.0,
           "units": "",
           "rating": -2.0,
           "notes": "Counterfactual is reforesting manually or not at all.",
-          "comment": "This project can reasonably be considered an investment in a new technology to lower the cost of reforestation and aforestation. As an investment in a specific quantity of carbon removal, however, it raises important concerns. Although we were able to validate the expected volume for this project, we identified a significant risk of double-counting. The project explicitly disclaims that it is not offering the tons, which Droneseed suggests the landowner may attempt to separately monetize using a carbon offset protocol. Instead, Droneseed specifically notes that any funds raised would go toward the development of future afforestation projects. Any future projects would also be subject to double-counting risks, as the pattern is capable of being repeated without additional clarification."
+          "comment": "This project can reasonably be considered an investment in a new technology to lower the cost of reforestation and aforestation. As an investment in a specific quantity of carbon removal, however, it raises important concerns. Although we were able to validate the expected volume for this project, we identified a significant risk of double-counting. The project explicitly disclaims that it is not offering the tons associated with the described project, which Droneseed suggests the landowner may attempt to separately monetize using a carbon offset protocol. Instead, Droneseed specifically notes that any funds raised would go toward the development of future afforestation projects. Any future projects would also be subject to double-counting risks, as the pattern is capable of being repeated without additional clarification."
         },
         {
           "type": "Metric",
@@ -647,8 +647,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -704,7 +704,7 @@
           "units": "",
           "rating": -2.0,
           "notes": "Counterfactual scenarios specified for both projects.",
-          "comment": "Guanare afforestation project began in 2006, and thus future carbon removals are already assured under historical land management practices. Rip's Redwood project already credited for standing carbon stock above regional baseline, which indicates a promise not to harvest normally and therefore raises questions about the additionality of ongoing carbon removal credits."
+          "comment": "Guanare afforestation project began in 2006, and thus future carbon removals are already assured under these historical land management practices. Rip's Redwood project already credited for standing carbon stock above regional baseline, which indicates a promise not to harvest normally and therefore raises questions about the additionality of ongoing carbon removal credits."
         },
         {
           "type": "Metric",
@@ -740,8 +740,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -833,8 +833,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -926,8 +926,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -983,7 +983,7 @@
           "units": "",
           "rating": "",
           "notes": "Counterfactual is using alternative rocks without carbon removal benefits.",
-          "comment": "Carbon removal certificates are offered separately from the olivine sand purchase, because olivine sand will be purchased and used, with the reported use indicated on certificate."
+          "comment": "Olivine sand will already be purchased and used separate from its carbon removal benefits. The carbon removal benefits are offered separately via certificates."
         },
         {
           "type": "Metric",
@@ -1019,8 +1019,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1112,8 +1112,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1165,7 +1165,7 @@
         {
           "type": "Metric",
           "name": "additionality",
-          "value": 1.0,
+          "value": 0.0,
           "units": "",
           "rating": "",
           "notes": "Counterfactual not specified.",
@@ -1205,8 +1205,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1298,8 +1298,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1351,7 +1351,7 @@
         {
           "type": "Metric",
           "name": "additionality",
-          "value": 1.0,
+          "value": 0.0,
           "units": "",
           "rating": "",
           "notes": "Counterfactual is either decomposing biomass resources or using to generate heat or electrical energy.",
@@ -1391,8 +1391,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1444,11 +1444,11 @@
         {
           "type": "Metric",
           "name": "additionality",
-          "value": 1.0,
+          "value": 0.0,
           "units": "",
           "rating": "",
           "notes": "Counterfactual not specified.",
-          "comment": "Existing industry has been in produciton since the 1980s."
+          "comment": "Existing industry has been in produciton since the 1980s, so the production of insulation doesn't seem contingent on carbon incentives."
         },
         {
           "type": "Metric",
@@ -1484,8 +1484,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1577,8 +1577,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1634,7 +1634,7 @@
           "units": "",
           "rating": "",
           "notes": "Counterfactual not specified.",
-          "comment": "Project involves initial production from carbon negative building materials using relatively expensive CO2 inputs (\u20ac75/tCO2)."
+          "comment": "Project involves initial production from carbon sequestering building materials using relatively expensive CO2 inputs (\u20ac75/tCO2)."
         },
         {
           "type": "Metric",
@@ -1670,8 +1670,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1697,7 +1697,7 @@
           "units": "tCO2",
           "rating": 0.0,
           "notes": "Volume projected for a 174 ha land project in Scotland. Claimed breakdown of total volume includes 18.3 - 25.7 tCO2 / ha / year for above ground biomass, 7.3 - 25.7 tCO2E / ha / year for soil carbon, and 11 - 22 tCO2 / ha / year for biochar.",
-          "comment": "Project provides references, but claimed rates of tCO2 / ha / year exceed most published estimates."
+          "comment": "Project provides references for forest growth rates, though claimed rates of tCO2 / ha / year are on the higher end of published estimates. Estimates for soil carbon difficult to validate without more specifics on planned management practices or site properties."
         },
         {
           "type": "Metric",
@@ -1706,7 +1706,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Emission calculations based on one-time planting and fencing emissions amortized over 60 years. Various ongoing operations including raising pigs and transporation.",
-          "comment": "Boundary conditions and emission sources well specified, and consistent with similar projects. However, claimed carbon removal benefits exceed most published estimates and may inappropriately inflate reported value here.",
+          "comment": "Boundary conditions and emission sources well specified, and consistent with similar projects. However, claimed carbon removal benefits are on the high end of published estimates, so may inflate the values reported here.",
           "removal": 6380.0,
           "emissions": 29.72,
           "kind": "project"
@@ -1763,8 +1763,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1856,8 +1856,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1953,8 +1953,8 @@
           ]
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -1978,9 +1978,9 @@
           "name": "volume",
           "value": 19700.0,
           "units": "tCO2",
-          "rating": 1.0,
+          "rating": 0.0,
           "notes": "Volume based on a 1,000 ha pilot, using an unspecified Verified Carbon Standard protocol for calculations. Total includes both 15,680 tCO2 based on reforestation and 4,020 tCO2 based on storage of existing culms.",
-          "comment": "Inferred rate of 15.7 tCO2 / ha / year for the first year of growth is plausible given published allometric estimates for similar bamboo species."
+          "comment": "Inferred rate of 15.7 tCO2 / ha / year for the first year of growth is high, but within the range of published allometric estimates for other bamboo species. Given large potential variability due to regional conditions, further validation would require ground measurements and/or the project-referenced VCS biomass methodology to be released in 2021."
         },
         {
           "type": "Metric",
@@ -1989,7 +1989,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Minimal information reported.",
-          "comment": "Difficult to evaluate without more specific information. Lack of detail on the manufacturing process raises questions about the high ratio.",
+          "comment": "Difficult to evaluate without more specific information. Lack of detail on the manufacturing process raises questions about the high ratio. Frequent harvests may affect emissions due to harvesting.",
           "removal": "N/A",
           "emissions": "N/A",
           "kind": "N/A"
@@ -2046,8 +2046,8 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     },
@@ -2071,7 +2071,7 @@
           "name": "volume",
           "value": 200.0,
           "units": "tCO2",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Volume projected based on total crushed olivine supply to pilot project site.",
           "comment": "Early stage technology difficult to validate. Volumes should be more reliably estimated following pilot demonstrations."
         },
@@ -2121,7 +2121,7 @@
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Project details provided in public proposal with several public white papers and references. Further detail could be provided through pubilc data on pilot deployments."
+          "comment": "Project details provided in public proposal with several public white papers and references. Further detail could be provided in the future through pubilc data on pilot deployments."
         }
       ],
       "geometry": {
@@ -2139,8 +2139,101 @@
           "type": null
         }
       },
-      "source": {
-        "name": "Stripe Decrement 2020",
+      "program": {
+        "name": "Stripe Climate 2020",
+        "url": "https://stripe.com/climate"
+      }
+    },
+    {
+      "type": "Project",
+      "name": "Charm Industrial",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+          "value": "",
+          "units": "",
+          "rating": 1.0,
+          "notes": "Project procures bio-oil, which is converted from biomass via fast pyrolysis. That bio-oil is pumped into an underground waste disposal well for geological storage.",
+          "comment": "Both components of the process are well established, and their combination has been proposed but not yet performed. From a narrow lifecycle perspective, project only avoids CO2 emissions by sourcing bio-oil that would otherwise be burned producing CO2 emissions. From a broad perspective, the biomass and bio-oil production coupled to injection forms a carbon removal pathway. Geological sequestration capacity could become a constraint at larger scales.",
+          "removal": 0.0,
+          "avoided": 1.0
+        },
+        {
+          "type": "Metric",
+          "name": "volume",
+          "value": 10000.0,
+          "units": "tCO2",
+          "rating": 1.0,
+          "notes": "Volume based on the amount of bio-oil that will be procured for inejection. Bio-oil production is stated as a limiting factor.",
+          "comment": "Given the stated ratio of 1.55 tCO2 for 1 t of bio-oil, we infer 6,452 t of bio-oil will be procured, with a C fraction of 0.42."
+        },
+        {
+          "type": "Metric",
+          "name": "negativity",
+          "value": 0.781,
+          "units": "",
+          "rating": 1.0,
+          "notes": "Reported ratio based on 0.34 tCO2 emitted for 1.55 tCO2 sequestered, including emissions due to bio-oil production, transporation to well, and injection.",
+          "comment": "While comprehensive LCA is pending analysis via independent consultant, boundary conditions for process are well specified and all numbers derived from plausible, if approximate, sources.",
+          "removal": 1.55,
+          "emissions": 0.34,
+          "kind": "ratio"
+        },
+        {
+          "type": "Metric",
+          "name": "permanence",
+          "value": 1000.0,
+          "units": "years",
+          "rating": 1.0,
+          "notes": "Claims 300,000,000 based on permanence of existing crude oil in the same geological formation (Permian Basin).",
+          "comment": "Successful geological injection produces reliable, effectively permanent carbon storage."
+        },
+        {
+          "type": "Metric",
+          "name": "additionality",
+          "value": 1.0,
+          "units": "",
+          "rating": "",
+          "notes": "Counterfactual is bio-oil suppliers selling to other parties.",
+          "comment": "Competing uses of bio-oil assumed to be burning for energy, but no specific analysis provided."
+        },
+        {
+          "type": "Metric",
+          "name": "cost",
+          "value": 600.0,
+          "units": "$/tCO2",
+          "rating": "",
+          "notes": "",
+          "comment": "Costs based on bio-oil procurement (72%), transport (18%) and injection (10%)"
+        },
+        {
+          "type": "Metric",
+          "name": "transparency",
+          "value": 2.0,
+          "units": "",
+          "rating": "",
+          "notes": "",
+          "comment": "Project specifies process and plan in detail, and both the process components and their combination are based on existing demonstrations and published literature. Further detail could be provided in the future through public data on pilot deployments."
+        }
+      ],
+      "geometry": {
+        "type": null
+      },
+      "tags": [
+        "biomass",
+        "injection"
+      ],
+      "id": "STRP24",
+      "description": "Geological sequestration of bio-oil",
+      "location": {
+        "name": "CA, USA",
+        "geometry": {
+          "type": null
+        }
+      },
+      "program": {
+        "name": "Stripe Climate 2020",
         "url": "https://stripe.com/climate"
       }
     }
