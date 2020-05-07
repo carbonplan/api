@@ -2173,9 +2173,9 @@
           "name": "negativity",
           "value": 0.781,
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "notes": "Reported ratio based on 0.34 tCO2 emitted for 1.55 tCO2 sequestered, including emissions due to bio-oil production, transporation to well, and injection.",
-          "comment": "While comprehensive LCA is pending analysis via independent consultant, boundary conditions for process are well specified and all numbers derived from plausible, if approximate, sources.",
+          "comment": "Comprehensive LCA is pending analysis via independent consultant. Boundary conditions for process are well specified and numbers derived from plausible, though still approximate, sources.",
           "removal": 1.55,
           "emissions": 0.34,
           "kind": "ratio"
@@ -2186,7 +2186,7 @@
           "value": 1000.0,
           "units": "years",
           "rating": 1.0,
-          "notes": "Claims 300,000,000 based on permanence of existing crude oil in the same geological formation (Permian Basin).",
+          "notes": "Claims 300M based on permanence of existing crude oil in the same geological formation (Permian Basin).",
           "comment": "Successful geological injection produces reliable, effectively permanent carbon storage."
         },
         {
@@ -2195,7 +2195,7 @@
           "value": 1.0,
           "units": "",
           "rating": "",
-          "notes": "Counterfactual is bio-oil suppliers selling to other parties.",
+          "notes": "Competing uses of bio-oil assumed to be burning for energy, but no specific analysis provided. Some possibility that procurement of bio-oil will expand production.",
           "comment": "Competing uses of bio-oil assumed to be burning for energy, but no specific analysis provided."
         },
         {
