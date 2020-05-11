@@ -11,7 +11,7 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "notes": "Removes carbon from the atmosphere using a solid chemical sorbent and thermal swing. Carbon dioxide from that process is geologically sequestered in mineral form.",
+          "notes": "Removes carbon from the atmosphere using a solid chemical sorbent. Carbon dioxide from that process is geologically sequestered in mineral form.",
           "comment": "",
           "removal": 1.0,
           "avoided": 0.0
@@ -115,8 +115,8 @@
           "value": 60000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Volume reflects 200 cement production facilities using the technology. Every 1 tCO2 used is corresponds to 0.85 tCO2 mineralized and 44.45 tCO2 avoided by reducing conventional concrete production emissions from 0.263 tCO\u200b2\u200b / m3\u200b to 0.220 tCO\u200b2\u200b / m\u200b3.",
-          "comment": "Reporting 60k tCO2 as an estimate of current annual volume. Total volume combines utilization and avoided emissions from reducing conventional concrete production. Based on ratios provided in LCA, we infer 1,126 total tCO2 utilitized and 58,874 tCO2 avoided, though we have not validated this breakdown based on specific project parameters."
+          "notes": "Volume reflects 200 cement production facilities using the technology. Every 1 tCO2 used is corresponds to 0.85 tCO2 mineralized and 44.45 tCO2 avoided by reducing conventional concrete production emissions from 0.26 tCO2 / m3 to 0.22 tCO2 / m3.",
+          "comment": "Reporting 60000 tCO2 as an estimate of current annual volume. Total volume combines utilization and avoided emissions from reducing conventional concrete production. Based on ratios provided in LCA, we infer 1126 total tCO2 utilitized and 58874 tCO2 avoided, though we have not validated this breakdown based on specific project parameters."
         },
         {
           "type": "Metric",
@@ -208,7 +208,7 @@
           "value": 14011.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Volume based on a single supplier, Harborview Farms, which includes 27 plots totaling 14,011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. The Nori platform offers a larger portfolio of projects, but they are not considered here.",
+          "notes": "Volume based on a single supplier, Harborview Farms, which includes 27 plots totaling 14011 tCO2. Volumes calculated using USDA COMET-Farm model, using project-level data collected by Nori. The Nori platform offers a larger portfolio of projects, but they are not considered here.",
           "comment": "Project locations are specified and COMET-Farm is a publicly available tool, but volumes are difficult to independently validate without more transparency around practices applied at project sites, model parameters used, or complete plot details."
         },
         {
@@ -382,9 +382,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "notes": "Facilitates late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space.",
-          "comment": "",
+          "comment": "BECCS is a well established technology but project does not provide any specifics on biomass, capture, or sequestration implementation.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -484,11 +484,11 @@
         {
           "type": "Metric",
           "name": "volume",
-          "value": 62.0,
+          "value": 56.0,
           "units": "tCO2",
           "rating": 0.0,
           "notes": "Demonstration project in California's central valley, converting walnut shell waste into biochar.",
-          "comment": "Volume is based on producing 20 tC of biochar with fraction C of at least 85%."
+          "comment": "Volume is based on producing 16.89 tC of biochar with fraction C of at least 85%. For consistency with other biochar projects, volume is reduced to 90% because permanence assumes the duration over which at least 90% of volume will remain. Further validation of volume would require knowing the decay rates of the feedstock."
         },
         {
           "type": "Metric",
@@ -505,11 +505,11 @@
         {
           "type": "Metric",
           "name": "permanence",
-          "value": 100.0,
+          "value": 152.0,
           "units": "years",
           "rating": 1.0,
           "notes": "Claims 100 years or more.",
-          "comment": "Permanence of biochar depends on chemical composition, storage conditons, and other factors. Using the reported O:C ratio of 0.08 we estimate 100 years as the duration during which 90% of biochar C remains."
+          "comment": "Permanence of biochar depends on chemical composition, storage conditons, and other factors. Using the reported O:C ratio of 0.08 we estimate 152 years as the duration during which 90% of biochar C remains."
         },
         {
           "type": "Metric",
@@ -580,8 +580,8 @@
           "value": 31027.0,
           "units": "tCO2",
           "rating": 1.0,
-          "notes": "Volume based on a pilot project in the Pacific Northwest, East. Volume stated as computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020), 31026 tCO2 in 51 years (the project lifetime), and 64,031 tCO2 over 100 years.",
-          "comment": "Independently validated for consistency with U.S. Forest Service yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Assumes reforestation approach works as effectively as assumed, for which there is not yet published data."
+          "notes": "Volume based on a pilot project in the Pacific Northwest, East. Volume stated as computed using Climate Action Reserve's Climate Forward Reforestation Forecast Methodology Version 1.0, which appears in this case to use direct projections based on USFS yield tables for Ponderosa Pine. Claim is 510 tCO2 in the first year (2020), 31026 tCO2 in 51 years (the project lifetime), and 64031 tCO2 over 100 years.",
+          "comment": "We independently validated for consistency with U.S. Forest Service yield tables, assuming Ponderosa Pine in Pacific Northwest, East and project size of 211 ha. Assumes reforestation approach works as effectively as assumed, for which there is not yet published data."
         },
         {
           "type": "Metric",
@@ -625,11 +625,11 @@
         {
           "type": "Metric",
           "name": "transparency",
-          "value": 0.0,
+          "value": 1.0,
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "No publications or public data are available on the technology and its performance in reforestation projects."
+          "comment": "Details are provided on plan and process, but no publications or public data are available on the technology and its performance in reforestation projects."
         }
       ],
       "geometry": {
@@ -718,11 +718,11 @@
         {
           "type": "Metric",
           "name": "transparency",
-          "value": 0.0,
+          "value": 2.0,
           "units": "",
-          "rating": "",
+          "rating": -2.0,
           "notes": "",
-          "comment": "No public details on projects other than shapefiles, and no public or published materials on their proprietary quantification methods."
+          "comment": "Basic project characteristics described in detail. No public or published materials on proprietary quantification methods are available, but these methods also do not appear relavant to the stated project carbon removal claims."
         }
       ],
       "geometry": {
@@ -811,7 +811,7 @@
         {
           "type": "Metric",
           "name": "transparency",
-          "value": 0.0,
+          "value": 1.0,
           "units": "",
           "rating": "",
           "notes": "",
@@ -847,9 +847,9 @@
           "name": "mechanism",
           "value": "",
           "units": "",
-          "rating": 1.0,
+          "rating": 0.0,
           "notes": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
-          "comment": "",
+          "comment": "Multiple established soil carbon removal pathways exist, but specific mechnaisms for individual projects are not detailed in public proposal.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -859,7 +859,7 @@
           "value": 33000.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Specific projects not identified. Claimed volume reflects 10-30 plots totaling 13,355 ha with an average of 2.5 tCO2 / ha / year.",
+          "notes": "Specific projects not identified. Claimed volume reflects 10-30 plots totaling 13355 ha with an average of 2.5 tCO2 / ha / year.",
           "comment": "Lack of detail on projects raises questions about overall volume, but claimed rate of 2.5 tCO2 / ha / year is commensurate with existing literature and models."
         },
         {
@@ -941,8 +941,8 @@
           "value": "",
           "units": "",
           "rating": 1.0,
-          "notes": "Project removes carbon from atmosphere through enhanced weathering of olivine and serpentine.",
-          "comment": "",
+          "notes": "Project removes carbon from atmosphere through enhanced weathering of olivine.",
+          "comment": "Final form of carbon not specified and depends on sediment transfer. Potential additional benefits to ocean alkalinity.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -953,7 +953,7 @@
           "units": "tCO2",
           "rating": 0.0,
           "notes": "Timeframe over which expected volume of carbon reductions occurs is not stated.",
-          "comment": "Based on public details on project website, expected weathering for all GreenSand deposits since 2007 totals 306 tCO2. Given the $/tCO2 cost of project, it is likely that the claimed volume is over a longter time horizon than a single year."
+          "comment": "Based on public details on project website, expected weathering for all GreenSand deposits since 2007 totals 306 tCO2. Given the $/tCO2 cost of project, it is likely that the claimed volume is over a longer time horizon than a single year."
         },
         {
           "type": "Metric",
@@ -1090,11 +1090,11 @@
         {
           "type": "Metric",
           "name": "transparency",
-          "value": 0.0,
+          "value": 1.0,
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "No public details on specific projects or methods for project quantification or selection are currently available."
+          "comment": "Reasonably thorough description of program design, but no public details on specific projects or methods for project quantification or selection are currently available."
         }
       ],
       "geometry": {
@@ -1128,7 +1128,7 @@
           "units": "",
           "rating": 1.0,
           "notes": "Project integrates tree crops and grazing livestock as silvopasture systems, to sequester carbon in both soil and aboveground biomass.",
-          "comment": "",
+          "comment": "Planting of chestnut trees is clearly specified, but other aspects of practices to enhance soil carbon remain vague.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -1138,8 +1138,8 @@
           "value": 56.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Volume estimated from calculations using USDA COMET-Planner model (56 tCO2). A higher volume was also provided in parallel using Eric Toensmeier's The Carbon Farming Solution (Chelsea Green Books, 2016) (140 tCO2). Project has 3.2 current ha and intends to add 4.9 ha.",
-          "comment": "We report the lower value offered because it is based on a method that includes a broader range of lifecycle emissions and because the project used the lower volume number to calculate project costs. While COMET-Farm is a publicly available tool, volumes are difficult to independently validate without model parameters used. Overall rate of 11 tCO2 / ha is commensurate with existing litearture."
+          "notes": "Volume estimated from calculations using USDA COMET-Planner model (56 tCO2). A higher volume was also provided in parallel using Eric Toensmeier's The Carbon Farming Solution (140 tCO2). Project has 3.2 current ha and intends to add 4.9 ha.",
+          "comment": "We report the lower value offered because it is based on a method that includes a broader range of lifecycle emissions and because the project used the lower volume number to calculate project costs. While COMET-Farm is a publicly available tool, volumes are difficult to independently validate without model parameters used. Overall rate of 11.4 tCO2 / ha is commensurate with existing litearture."
         },
         {
           "type": "Metric",
@@ -1228,11 +1228,11 @@
         {
           "type": "Metric",
           "name": "volume",
-          "value": 5000.0,
+          "value": 4500.0,
           "units": "tCO2",
           "rating": 0.0,
           "notes": "Biochar produced from established production facility.",
-          "comment": "Volume is based on producing 1,746 tC of biochar with fraction C of 78%."
+          "comment": "Volume is based on producing 1746.66 tC of biochar with fraction C of 78%. For consistency with other biochar projects, volume is reduced to 90% because permanence assumes the duration over which at least 90% of volume will remain. Further validation of volume would require knowing the decay rates of the feedstock."
         },
         {
           "type": "Metric",
@@ -1249,11 +1249,11 @@
         {
           "type": "Metric",
           "name": "permanence",
-          "value": 500.0,
+          "value": 760.0,
           "units": "years",
           "rating": 1.0,
           "notes": "Claims 500 to 4000 years.",
-          "comment": "Permanence of biochar depends on chemical composition, storage conditons, and other factors. Using the reported O:C ratio of 0.039 we estimate 100 years as the duration over which 90% of biochar C remains."
+          "comment": "Permanence of biochar depends on chemical composition, storage conditons, and other factors. Using the reported O:C ratio of 0.039 we estimate 760 years as the duration over which 90% of biochar C remains."
         },
         {
           "type": "Metric",
@@ -1321,11 +1321,11 @@
         {
           "type": "Metric",
           "name": "volume",
-          "value": 35000.0,
+          "value": 25000.0,
           "units": "tCO2",
-          "rating": 0.0,
-          "notes": "Volume sourced from multiple facilities across Finland to produce laminated lumber from kiln-dried pine and spruce. Claims an annual production capacity of 40,000 tCO2. Project is based on the Puro platform.",
-          "comment": "Volume seems plausible but difficult to assess without more production details."
+          "rating": 1.0,
+          "notes": "Volume sourced from multiple facilities across Finland to produce laminated lumber from kiln-dried pine and spruce. Claims an annual production capacity of 40000 tCO2. Project is based on the Puro platform.",
+          "comment": "Species and composition of wood and wood products are well characterized."
         },
         {
           "type": "Metric",
@@ -1416,9 +1416,9 @@
           "name": "volume",
           "value": 21847.0,
           "units": "tCO2",
-          "rating": 0.0,
+          "rating": 1.0,
           "notes": "Volume sourced from multiple facilities across Finland. Project is based on the Puro platform.",
-          "comment": "Volume seems plausible but difficult to assess without more production details."
+          "comment": "Carbon content of wood products well characterized."
         },
         {
           "type": "Metric",
@@ -1507,11 +1507,11 @@
         {
           "type": "Metric",
           "name": "volume",
-          "value": 2000.0,
+          "value": 2250.0,
           "units": "tCO2",
           "rating": 0.0,
           "notes": "Volume sourced from a biochar facility in Finland. Project is based on the Puro platform.",
-          "comment": "Volume is based on producing 681 tC of biochar with fraction C of 92%. Referenced Puro verification reports a different removal rate (3.1 tCO2 stored for 1 t of biochar rather than 3.4 tCO2), implying a fraction C of 85%."
+          "comment": "Volume is based on producing 681.20 tC of biochar with fraction C of 92%. For consistency with other biochar projects, volume is reduced to 90% because permanence assumes the duration over which at least 90% of volume will remain. Further validation of volume would require knowing the decay rates of the feedstock. Also, note that the referenced Puro verification reports a rate of 3.1 tCO2 stored for 1 t of biochar rather than 3.4 tCO2, which would imply a C fraction of 85% rather than 92%."
         },
         {
           "type": "Metric",
@@ -1528,11 +1528,11 @@
         {
           "type": "Metric",
           "name": "permanence",
-          "value": 100.0,
+          "value": 1000.0,
           "units": "years",
           "rating": 1.0,
           "notes": "Claims 100 to 5000 years.",
-          "comment": "Permanence of biochar depends on chemical composition and storage conditons. Using the reported O:C ratio of 0.021 we estimate 100 years as the duration during which 90% of biochar C remains."
+          "comment": "Permanence of biochar depends on chemical composition and storage conditons. Using the reported O:C ratio of 0.021 we estimate 1520 years as the duration during which 90% of biochar C remains."
         },
         {
           "type": "Metric",
@@ -1603,7 +1603,7 @@
           "value": 10.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Volume based on initial production of 100 tons of underlying product. Project is based on the Puro platform.",
+          "notes": "Volume based on initial production of 100 t of underlying product. Project is based on the Puro platform.",
           "comment": "Early stage technology is difficult to independently evaluate."
         },
         {
@@ -1686,7 +1686,7 @@
           "units": "",
           "rating": 1.0,
           "notes": "Removes carbon from atmosphere for sequestration in forest and soil carbon stocks, and avoids emissions from lost forest carbon.",
-          "comment": "",
+          "comment": "Reforestration of degraded lands is clearly specified, but other aspects of practices to enhance soil carbon remain vague.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -1696,7 +1696,7 @@
           "value": 6380.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Volume projected for a 174 ha land project in Scotland. Claimed breakdown of total volume includes 18.3 - 25.7 tCO2 / ha / year for above ground biomass, 7.3 - 25.7 tCO2E / ha / year for soil carbon, and 11 - 22 tCO2 / ha / year for biochar.",
+          "notes": "Volume projected for one year on a 174 ha land project in Scotland. Claimed breakdown of total volume includes 18.3 - 25.7 tCO2 / ha / year for above ground biomass, 7.3 - 25.7 tCO2E / ha / year for soil carbon, and 11 - 22 tCO2 / ha / year for biochar.",
           "comment": "Project provides references for forest growth rates, though claimed rates of tCO2 / ha / year are on the higher end of published estimates. Estimates for soil carbon difficult to validate without more specifics on planned management practices or site properties."
         },
         {
@@ -1789,8 +1789,8 @@
           "value": 71019.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Volume based on loblolly pine waste (slash) to be stored in partially above-ground sealed pits. Total claimed volume reflects pit capacity of 71,019 tCO2.",
-          "comment": "Could be plausible if sufficient slash volume can be obtained."
+          "notes": "Volume based on loblolly pine waste (slash) to be stored in partially above-ground sealed pits. Total claimed volume reflects pit capacity of 71019 tCO2.",
+          "comment": "Could be plausible if sufficient slash volume can be obtained. Additionally depends on validation of pit design."
         },
         {
           "type": "Metric",
@@ -1834,7 +1834,7 @@
         {
           "type": "Metric",
           "name": "transparency",
-          "value": 0.0,
+          "value": 1.0,
           "units": "",
           "rating": "",
           "notes": "",
@@ -1882,8 +1882,8 @@
           "value": 631845.0,
           "units": "tCO2",
           "rating": 1.0,
-          "notes": "Improved forest management project on 8,485 acres on state-owned land in Tennessee. Project is projected to generate 770,543 tCO2 beneifts over 20 years, the dominant majority of which (545,254 tCO2 or 71%) are avoided emissions from forest harvesting. An 18% risk buffer pool is set aside to mitigate against potential reversals, producing a net expected removal of 631,845 tCO2. No specific method for calculating forest carbon benefits identified. Buffer pool calculated using American Carbon Registry methods.",
-          "comment": "Methods for quantiying existing stocks well documented. Estimates of 167 tCO2 / ha for standing stock and 2.2 - 4.5 tCO2 / ha / year for future growth fall within a plausible range."
+          "notes": "Improved forest management project on 8485 acres on state-owned land in Tennessee. Project is projected to generate 770543 tCO2 beneifts over 20 years, the dominant majority of which (545254 tCO2 or 71%) are avoided emissions from forest harvesting. An 18% risk buffer pool is set aside to mitigate against potential reversals, producing a net expected removal of 631845 tCO2. No specific method for calculating forest carbon benefits identified. Buffer pool calculated using American Carbon Registry methods.",
+          "comment": "Estimates of 166.7 tCO2 / ha for standing stock and 2.9 tCO2 / ha / year for future growth fall within a highly plausible range based on USFS yield tables."
         },
         {
           "type": "Metric",
@@ -1931,7 +1931,7 @@
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Significant project information available from multiple public sources (Stripe Decrement 2020 proposal and American Carbon Registry). Shapefiles could not be found."
+          "comment": "Significant project information available from multiple public sources (Stripe Climate 2020 proposal and American Carbon Registry). Shapefiles could not be found."
         }
       ],
       "geometry": {
@@ -1979,7 +1979,7 @@
           "value": 19700.0,
           "units": "tCO2",
           "rating": 0.0,
-          "notes": "Volume based on a 1,000 ha pilot, using an unspecified Verified Carbon Standard protocol for calculations. Total includes both 15,680 tCO2 based on reforestation and 4,020 tCO2 based on storage of existing culms.",
+          "notes": "Volume based on a 1000 ha pilot, using an unspecified Verified Carbon Standard protocol for calculations. Total includes both 15680 tCO2 based on reforestation and 4020 tCO2 based on storage of existing culms.",
           "comment": "Inferred rate of 15.7 tCO2 / ha / year for the first year of growth is high, but within the range of published allometric estimates for other bamboo species. Given large potential variability due to regional conditions, further validation would require ground measurements and/or the project-referenced VCS biomass methodology to be released in 2021."
         },
         {
@@ -2062,7 +2062,7 @@
           "units": "",
           "rating": 1.0,
           "notes": "Project removes carbon from atmosphere through enhanced weathering of olivine.",
-          "comment": "",
+          "comment": "Potential additional benefits to ocean alkalinity.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -2073,7 +2073,7 @@
           "units": "tCO2",
           "rating": 1.0,
           "notes": "Volume projected based on total crushed olivine supply to pilot project site.",
-          "comment": "Early stage technology difficult to validate. Volumes should be more reliably estimated following pilot demonstrations."
+          "comment": "Given the stated ratio of 1.25 tCO2 removed per 1 tCO2 of olivine, we infer 160 t of olivine used. Assuming that amount is procudred, the volume is plausible."
         },
         {
           "type": "Metric",
@@ -2166,7 +2166,7 @@
           "units": "tCO2",
           "rating": 1.0,
           "notes": "Volume based on the amount of bio-oil that will be procured for inejection. Bio-oil production is stated as a limiting factor.",
-          "comment": "Given the stated ratio of 1.55 tCO2 for 1 t of bio-oil, we infer 6,452 t of bio-oil will be procured, with a C fraction of 0.42."
+          "comment": "Given the stated ratio of 1.55 tCO2 for 1 t of bio-oil, we infer 6452 t of bio-oil will be procured, with a C fraction of 0.42. Assuming that amount is procured, the volume is plausible."
         },
         {
           "type": "Metric",
