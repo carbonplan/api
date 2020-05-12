@@ -67,8 +67,8 @@ def root():
     """ base endpoint for API """
     return {
         "docs_url": "https://api.carbonplan.org/docs",
-        "schema_url": "https://api.carbonplan.org/schema",
-        "projects_url": "https://api.carbonplan.org/projects",
+        "schema_url": "https://api.carbonplan.org/schema.json",
+        "projects_url": "https://api.carbonplan.org/projects.json",
     }
 
 
@@ -90,8 +90,8 @@ def projects(id: str = None):
     return out
 
 
-@app.get("/schema")
-@app.get(f"/{VERSION}/schema", include_in_schema=False)
+@app.get("/schema.json")
+@app.get(f"/{VERSION}/schema.json", include_in_schema=False)
 def schema(obj: str = None):
     """ return a the list of objects defined in the schema """
     return {"objects": list(json_schema.objects.keys())}
