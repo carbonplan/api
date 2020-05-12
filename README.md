@@ -21,7 +21,7 @@ Currently we are storing all metrics within a JSON file in this repository (see 
 To generate a fresh copy of the metrics based on the latest Google Sheet, make sure you have Google credentials stored in a file local to this repository called `key.json` and then run:
 
 ```shell
-$ python scripts/munge.py
+$ python scripts/build_projects.py
 ```
 
 To run the unit and integration tests for this API, run:
