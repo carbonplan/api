@@ -6,31 +6,43 @@ The CarbonPlan Projects API provides access to our collection of carbon removal 
 
 ## Current version
 
-This is `v0` of the Projects REST API. You can explicitly request this version of the API via the `Accept` header.
+This is `v0` of the Projects REST API. You can explicitly request this version of the API by specifying the version as a prefix in API urls. For example,
+
+```
+https://api.carbonplan.org/{version}/{endpoint}
+# or
+https://api.carbonplan.org/v0/projects.json
+```
+
+When the version prefix is not provided, the API will route requests to the current stable version of the API.
 
 ```shell
-$ curl -i https://api.carbonplan.org
+$ curl -i https://api.carbonplan.org/v0/projects.json?id=STRP02
 HTTP/1.1 200 OK
 Date: Tue, 12 May 2020 19:25:41 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Robots-Tag: noindex
 cache-control: no-cache
-x-carbonplan-media-type: carbonplan.v0; format=json
 content-length: 161
-x-vercel-cache: MISS
-x-now-cache: MISS
 age: 0
-x-now-trace: pdx1
-server: now
-x-vercel-id: pdx1::sfo1::9cvcd-1589311541284-3d0f4584205c
-x-now-id: pdx1::sfo1::9cvcd-1589311541284-3d0f4584205c
 strict-transport-security: max-age=63072000; includeSubDomains; preload
+{
+  "type": "ProjectCollection",
+  "projects": [
+    {
+      "type": "Project",
+      "name": "Climeworks",
+      "metrics": [
+        {
+          "type": "Metric",
+          "name": "mechanism",
+...
 ```
 
 ## Schema
 
-The API is accessed over HTTPS at `https://api.carbonplan.org`. All data is sent and recieved as JSON. The full JSON schema is available at `https://api.carbonplan.org/schema/{object}.json` where `{object}` one of the following:
+The API is accessed over HTTPS at `https://api.carbonplan.org`. All data is sent and recieved as JSON. The full JSON schema is available at `https://api.carbonplan.org/{version}/schema/{object}.json` where `{object}` one of the following:
 
 - `Project`: A JSON object defining a single carbon removal project. Click [here](../schema/Project.json) to see the full schema.
 - `ProjectCollection`: A JSON object defining a group of `Project`s. Click [here](../schema/ProjectCollection.json) to see the full schema.

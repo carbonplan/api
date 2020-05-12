@@ -7,8 +7,6 @@ client = TestClient(app)
 
 
 def test_validate_schema():
-    print(app)
-    # validate against schema
     schema = client.get("schema/ProjectCollection.json").json()
     assert schema
     project_collection = client.get("/projects").json()

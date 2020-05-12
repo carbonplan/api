@@ -79,8 +79,7 @@ def maybe_float(value):
         return value.strip()
 
 
-if __name__ == "__main__":
-
+def make_projects():
     data = get_sheet("Sheet1", "Stripe reports 0.1 [internal]").loc[:23]
 
     metrics = [
@@ -142,6 +141,6 @@ if __name__ == "__main__":
 
     project_collection = {"type": "ProjectCollection", "projects": projects}
 
-    projects_file = pathlib.Path(__file__).parents[1] / "app" / "data" / "test.json"
+    projects_file = pathlib.Path(__file__).parents[2] / "app" / "data" / "projects.json"
     with open(projects_file, "w") as outfile:
         json.dump(project_collection, outfile, indent=2)

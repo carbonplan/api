@@ -4,7 +4,7 @@ This repository includes CarbonPlan's Projects API.
 
 ## Usage Documentation
 
-For usage documentation of the API, see https://api.carbonplan.org/doc.
+For usage documentation of the API, see https://api.carbonplan.org/docs.
 
 -----
 

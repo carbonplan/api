@@ -62,6 +62,7 @@ async def add_custom_header(request: Request, call_next):
 
 
 @app.get("/")
+@app.get(f"/{VERSION}/", include_in_schema=False)
 def root():
     """ base endpoint for API """
     return {
@@ -71,7 +72,8 @@ def root():
     }
 
 
-@app.get("/projects")
+@app.get("/projects.json")
+@app.get(f"/{VERSION}/projects.json", include_in_schema=False)
 def projects(id: str = None):
     """ return a `ProjectCollection` if `id` is None, otherwise return a `Project`"""
     data = get_data("projects")
@@ -89,12 +91,14 @@ def projects(id: str = None):
 
 
 @app.get("/schema")
+@app.get(f"/{VERSION}/schema", include_in_schema=False)
 def schema(obj: str = None):
     """ return a the list of objects defined in the schema """
     return {"objects": list(json_schema.objects.keys())}
 
 
 @app.get("/schema/{obj}.json")
+@app.get(f"/{VERSION}/schema/{{obj}}.json", include_in_schema=False)
 def schema_object(obj: str):
     """Return the schema for `obj`"""
     try:
