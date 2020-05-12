@@ -11,12 +11,21 @@ This is `v0` of the Projects REST API. You can explicitly request this version o
 ```shell
 $ curl -i https://api.carbonplan.org
 HTTP/1.1 200 OK
-date: Tue, 12 May 2020 19:06:15 GMT
-server: uvicorn
-content-length: 161
-content-type: application/json; charset=utf-8
+Date: Tue, 12 May 2020 19:25:41 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Robots-Tag: noindex
 cache-control: no-cache
 x-carbonplan-media-type: carbonplan.v0; format=json
+content-length: 161
+x-vercel-cache: MISS
+x-now-cache: MISS
+age: 0
+x-now-trace: pdx1
+server: now
+x-vercel-id: pdx1::sfo1::9cvcd-1589311541284-3d0f4584205c
+x-now-id: pdx1::sfo1::9cvcd-1589311541284-3d0f4584205c
+strict-transport-security: max-age=63072000; includeSubDomains; preload
 ```
 
 ## Schema
