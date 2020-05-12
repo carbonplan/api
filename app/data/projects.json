@@ -1174,11 +1174,11 @@
         {
           "type": "Metric",
           "name": "cost",
-          "value": 100.0,
+          "value": 4.14,
           "units": "$/tCO2",
           "rating": "",
           "notes": "",
-          "comment": "Cost is conservative as it is based on total costs divided by a lower bound on volume estimate. The average cost per acre in year 1 of each project is $3,500."
+          "comment": "Rather than use the reported cost of $100, for consistency with other forest projects, we estimate a cost over the 30 year project lifetime using the provided rate of $1416.43 / ha and the information on provide size and volume."
         },
         {
           "type": "Metric",
@@ -1845,7 +1845,7 @@
         "type": null
       },
       "tags": [
-        "forests",
+        "biomass",
         "burial"
       ],
       "id": "STRP20",
