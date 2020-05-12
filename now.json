@@ -1,14 +1,14 @@
 {
-    "builds": [
-        {
-            "src": "/app/main.py",
-            "use": "@now/python"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "app/main.py"
-        }
-    ]
+  "builds": [
+    {
+      "src": "/app/main.py",
+      "use": "@now/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app/main.py"
+    }
+  ]
 }

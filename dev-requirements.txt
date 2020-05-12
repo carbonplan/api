@@ -1,0 +1,6 @@
+jsonschema
+gspread
+oauth2client
+pandas
+pytest
+-r requirements.txt
