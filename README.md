@@ -1,19 +1,31 @@
-# api
+# CarbonPlan Projects API
 
-This repo provides an API for project metrics.
+This repository includes CarbonPlan's Projects API.
 
-See [`schema`](https://github.com/carbonplan/schema) for the underlying JSON schema.
+## Usage Documentation
 
-To run the API locally use
+For usage documentation of the API, see https://api.carbonplan.org/doc.
 
+-----
+
+## Developer Documentation
+
+This API is a [FastAPI application](https://fastapi.tiangolo.com/). To run the API locally use:
+
+```shell
+$ uvicorn app.main:app --reload
 ```
-uvicorn app.main:app --reload
+
+Currently we are storing all metrics within a JSON file in this repository (see `./app/data/projects.json`), derived from a Google Sheet.
+
+To generate a fresh copy of the metrics based on the latest Google Sheet, make sure you have Google credentials stored in a file local to this repository called `key.json` and then run:
+
+```shell
+$ python scripts/munge.py
 ```
 
-Currently we are storing all metrics within a JSON file in this repository, derived from a Google Sheet.
+To run the unit and integration tests for this API, run:
 
-To generate a fresh copy of the metrics based on the latest Google Sheet, make sure you have Google credentials stored in a file local to this repository called `key.json` and then run
-
-```
-python scripts/munge.py
+```shell
+$ py.test -v
 ```

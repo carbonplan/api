@@ -12,6 +12,7 @@ def test_read_main():
     expected = {
         "projects_url": "https://api.carbonplan.org/projects",
         "schema_url": "https://api.carbonplan.org/schema",
+        "docs_url": "https://api.carbonplan.org/docs",
     }
     assert response.json() == expected
 
@@ -21,15 +22,23 @@ def test_endpoints(endpoint):
     response = client.get(endpoint)
     assert response.status_code == 200
     assert response.json()
+    assert response.headers["content-type"] == "application/json; charset=utf-8"
 
 
 def test_project_query_arg():
     response = client.get("projects?id=STRP05")
     assert response.status_code == 200
     assert response.json()
+    assert response.headers["content-type"] == "application/json; charset=utf-8"
 
 
 def test_project_bad_query_arg_returns_empty():
     response = client.get("projects?id=NOTAPROJECT")
     assert response.status_code == 200
     assert response.json() == {}
+    assert response.headers["content-type"] == "application/json; charset=utf-8"
+
+
+def test_docs_render():
+    response = client.get("docs")
+    assert response.status_code == 200
