@@ -1,5 +1,7 @@
 # CarbonPlan Projects API
 
+![CI](https://github.com/carbonplan/api/workflows/CI/badge.svg)
+
 This repository includes CarbonPlan's Projects API.
 
 ## Usage Documentation
