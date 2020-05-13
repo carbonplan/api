@@ -32,7 +32,6 @@ def AppException(status_code=404):
     return PrettyJSONResponse(data, status_code=status_code)
 
 
-@lru_cache(maxsize=32, typed=False)
 def get_data(kind):
     """ load the projects dataset """
     if kind == "projects":
@@ -63,6 +62,7 @@ async def add_custom_header(request: Request, call_next):
 
 @app.get("/")
 @app.get(f"/{VERSION}/", include_in_schema=False)
+@lru_cache(maxsize=32)
 def root():
     """ base endpoint for API """
     return {
@@ -74,6 +74,7 @@ def root():
 
 @app.get("/projects.json")
 @app.get(f"/{VERSION}/projects.json", include_in_schema=False)
+@lru_cache(maxsize=32)
 def projects(id: str = None):
     """ return a `ProjectCollection` if `id` is None, otherwise return a `Project`"""
     data = get_data("projects")
@@ -92,6 +93,7 @@ def projects(id: str = None):
 
 @app.get("/projects.csv")
 @app.get(f"/{VERSION}/projects.csv", include_in_schema=False)
+@lru_cache(maxsize=32)
 def projects_csv(id: str = None):
     """ return a `ProjectCollection` if `id` is None, otherwise return a `Project`"""
     data = get_data("projects")
@@ -103,6 +105,7 @@ def projects_csv(id: str = None):
 
 @app.get("/schema.json")
 @app.get(f"/{VERSION}/schema.json", include_in_schema=False)
+@lru_cache(maxsize=32)
 def schema(obj: str = None):
     """ return a the list of objects defined in the schema """
     return {"objects": list(json_schema.objects.keys())}
@@ -110,6 +113,7 @@ def schema(obj: str = None):
 
 @app.get("/schema/{obj}.json")
 @app.get(f"/{VERSION}/schema/{{obj}}.json", include_in_schema=False)
+@lru_cache(maxsize=32)
 def schema_object(obj: str):
     """Return the schema for `obj`"""
     try:
