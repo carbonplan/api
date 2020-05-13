@@ -1,5 +1,7 @@
 import pathlib
 
+import pandas as pd
+
 # custom openapi schema info
 INFO = {
     "termsOfService": "https://carbonplan.org/terms",
@@ -19,3 +21,37 @@ def get_title_and_description():
         lines = f.readlines()
         header = lines[0].strip().replace("#", "")
     return header, "\n".join(lines[1:])
+
+
+def projects_to_csv(projects, id=None):
+    print("projects", projects)
+    df = pd.DataFrame.from_dict(projects).set_index("id").drop(columns=["type", "geometry"])
+
+    metrics = {}
+    programs = {}
+    tags = {}
+    for i, row in df.iterrows():
+
+        # metrics
+        metrics[i] = pd.DataFrame(row.metrics).set_index("name").drop(columns="type").stack()
+
+        # program
+        programs[i] = pd.Series(row.program)
+        programs[i].index = [("program", name) for name in programs[i].index]
+
+        # tags
+        tags[i] = pd.Series(row.tags)
+        tags[i].index = [("tag", name) for name in tags[i].index]
+
+    metrics = pd.DataFrame.from_dict(metrics, orient="index")
+    programs = pd.DataFrame.from_dict(programs, orient="index")
+    tags = pd.DataFrame.from_dict(tags, orient="index")
+
+    drop = ["metrics", "location", "program", "tags"]
+
+    out = pd.concat([df.drop(columns=drop), metrics, programs, tags], axis=1)
+
+    if id:
+        out = out.loc[[id]]
+
+    return out.to_csv()

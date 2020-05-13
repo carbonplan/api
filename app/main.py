@@ -6,11 +6,11 @@ from functools import lru_cache
 from fastapi import FastAPI, Request
 from fastapi.openapi.utils import get_openapi
 from starlette.exceptions import HTTPException as StarletteHTTPException
-from starlette.responses import Response
+from starlette.responses import PlainTextResponse, Response
 
 from . import __version__ as VERSION
 from .schema import json_schema
-from .utils import INFO, get_title_and_description
+from .utils import INFO, get_title_and_description, projects_to_csv
 
 CHARSET = "utf-8"
 
@@ -88,6 +88,17 @@ def projects(id: str = None):
             break
 
     return out
+
+
+@app.get("/projects.csv")
+@app.get(f"/{VERSION}/projects.csv", include_in_schema=False)
+def projects_csv(id: str = None):
+    """ return a `ProjectCollection` if `id` is None, otherwise return a `Project`"""
+    data = get_data("projects")
+
+    csv = projects_to_csv(data["projects"], id)
+
+    return PlainTextResponse(csv, media_type="text/csv")
 
 
 @app.get("/schema.json")
