@@ -1,3 +1,6 @@
+import io
+
+import pandas as pd
 import pytest
 from fastapi.testclient import TestClient
 
@@ -25,6 +28,15 @@ def test_endpoints(endpoint):
     assert response.status_code == 200
     assert response.json()
     assert response.headers["content-type"] == "application/json; charset=utf-8"
+
+
+@pytest.mark.parametrize("endpoint", ["projects.csv", "v0/projects.csv"])
+def test_endpoints_csv(endpoint):
+    response = client.get(endpoint)
+    assert response.status_code == 200
+    str_data = io.StringIO(response.content.decode())
+    assert len(pd.read_csv(str_data))
+    assert response.headers["content-type"] == "text/csv; charset=utf-8"
 
 
 def test_project_query_arg():
