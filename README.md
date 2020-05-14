@@ -1,6 +1,8 @@
 # CarbonPlan Projects API
 
 ![CI](https://github.com/carbonplan/api/workflows/CI/badge.svg)
+![status](https://badgen.net/uptime-robot/status/m784948136-95d37dbf3887fb1e45468070)
+![uptime](https://badgen.net/uptime-robot/month/m784948136-95d37dbf3887fb1e45468070)
 
 This repository includes [CarbonPlan's](https://carbonplan.org/) Projects API. To browse the data in this API via an interactive dashboard, check out [reports.carbonplan.org](https://reports.carbonplan.org/).
 
