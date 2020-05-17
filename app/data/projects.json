@@ -66,7 +66,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -159,7 +159,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -198,7 +198,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
-          "comment": "Multiple established soil carbon removal pathways exist, including five referenced in the Nori Croplands methodlogy (Section 2.3 of Version 1.1). Assessing specific removal mechanisms would require more project details.",
+          "comment": "Multiple established soil carbon removal pathways exist, including five referenced in the Nori Croplands methodlogy (Section 2.3 of Version 1.1). Validating specific removal mechanisms would require more project details.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -252,7 +252,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -291,7 +291,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Broker that facilitates removal of carbon from the atmosphere by incentivizing changes in agricultural practices that increase sequestration in soils.",
-          "comment": "Multiple established soil carbon removal pathways exist. Assessing specific removal mechanisms would require more details on specific projects.",
+          "comment": "Multiple established soil carbon removal pathways exist, but validating project mechanisms would require specific project details.",
           "removal": 1.0,
           "avoided": 0.0
         },
@@ -345,7 +345,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 0.0,
           "units": "",
           "rating": "",
@@ -361,7 +361,7 @@
         "broker"
       ],
       "id": "STRP004",
-      "description": "Rgenerative farming practices for soil carbon sequestration.",
+      "description": "Regenerative farming practices for soil carbon sequestration.",
       "location": {
         "name": "Mid-West and Southern USA",
         "geometry": {
@@ -384,7 +384,7 @@
           "units": "",
           "rating": 0.0,
           "notes": "Facilitates late-stage BECCS projects, which avoid emissions from biogenic carbon sources and instead capture it for geologic sequestration in rocks' pore space.",
-          "comment": "BECCS is a well established technology. Project acts as a broker, rather than deploying a particular technology or process, and specific projects are not described.",
+          "comment": "BECCS is a well established technology. Project acts as a broker, rather than deploying a particular technology or process, so specific mechanisms could vary across sites.",
           "removal": 1.0,
           "avoided": 1.0
         },
@@ -416,7 +416,7 @@
           "units": "years",
           "rating": 0.0,
           "notes": "",
-          "comment": "Successful geologic sequestration produces reliable, effectively permanent carbon storage. However, geologic storage stability depends on sound management practices, and project provides no specifics on approach."
+          "comment": "Successful geologic sequestration produces reliable, effectively permanent carbon storage. However, geologic storage stability depends on sound management practices, which could vary by specific project sites."
         },
         {
           "type": "Metric",
@@ -438,7 +438,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 0.0,
           "units": "",
           "rating": "",
@@ -518,7 +518,7 @@
           "units": "",
           "rating": "",
           "notes": "Counterfactual is dumping walnut shells on ground or burning in biomass electricity plant.",
-          "comment": "Feedstock is walnut shells that are otherwise dumped on the ground or on roads, e.g. for dust reduction purposes. No analysis available on competing uses for feedstock."
+          "comment": "Feedstock is walnut shells that are otherwise dumped on the ground or on roads, e.g. for dust reduction purposes. Further analysis would require knowing competing uses for feedstock."
         },
         {
           "type": "Metric",
@@ -531,7 +531,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -602,7 +602,7 @@
           "units": "years",
           "rating": 0.0,
           "notes": "Claims 51 years with potential economic incentives for longer durations.",
-          "comment": "Physical risks are unknown as exact location is unknown, but could be large given coarse location in the Pacific Northwest. Socioeconomic risks are significant due to the risk of default or bankruptcy on this time horizon. In addition, because funds will be used to reforest another, unspecified project, there is uncertainty as to the landowner committments and associated risks for this particular project. See our comment on additionality for additional discussion."
+          "comment": "Physical risks are unknown as exact location is unknown, but could be large given coarse location in the Pacific Northwest. Socioeconomic risks are significant due to the risk of default or bankruptcy on this time horizon. In addition, because funds will be used to reforest another project, there is uncertainty as to the landowner committments and associated risks. See our comment on additionality for additional discussion."
         },
         {
           "type": "Metric",
@@ -611,7 +611,7 @@
           "units": "",
           "rating": "",
           "notes": "Counterfactual is reforesting manually or not at all.",
-          "comment": "This project can be considered an investment in a new technology to lower the cost of reforestation, with funding going to future projects. As an investment in a specific quantity of carbon removal, however, there is a significant risk of double-counting. The project explicitly disclaims that it is not offering the tons associated with the described project, which the landowner may attempt to separately monetize using a carbon offset protocol. Instead, Droneseed specifically notes that any funds raised would go toward the development of future afforestation projects. Any future projects would also be subject to double-counting risks, as the pattern is capable of being repeated without additional clarification."
+          "comment": "This project can be considered an investment in a new technology to lower the cost of reforestation, with funding likely going to future reforetation projects. As an investment in a specific quantity of carbon removal, however, there are signficant concerns about double-counting, as the landowner may attempt to separately monetize the same carbon benefits using a carbon offset protocol, and this pattern could repeat in future iterations."
         },
         {
           "type": "Metric",
@@ -624,12 +624,12 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Details are provided on plan and process, but no publications or public data are available on the technology and its performance in reforestation projects."
+          "comment": "Details are provided on plan and process, but no publications or public data are available on the new technology and its performance in reforestation projects."
         }
       ],
       "geometry": {
@@ -674,7 +674,7 @@
           "units": "tCO2",
           "rating": 0.0,
           "notes": "Volume is the total of two exemplar projects, Rip's Redwoods and Guanare. The Pachama platform offers a larger portfolio of projects, but they are not considered here.",
-          "comment": "Claimed sequestration rates of 16 and 26 tCO2 / ha / yr for Rip's Redwoods and Guanare, respectively, are high but broadly commensurate with published literature. Additional details (e.g. stand age) would be required for a more precise comparison. No evidence provided for specific utility of advanced monitoring methods for improving volume estimates."
+          "comment": "Claimed sequestration rates of 16 and 26 tCO2 / ha / yr for Rip's Redwoods and Guanare, respectively, are high but broadly commensurate with published literature. Additional details on project (e.g. stand age) or public proprietary monitoring-based methods would be required for validating volume."
         },
         {
           "type": "Metric",
@@ -717,12 +717,12 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Basic project characteristics described in detail. Proprietary quantification methods are not published or publicly available, but these methods also do not appear relavant to the stated project carbon removal claims."
+          "comment": "Basic project characteristics described in detail. Proprietary quantification methods are not published or publicly available."
         }
       ],
       "geometry": {
@@ -810,7 +810,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -903,7 +903,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 0.0,
           "units": "",
           "rating": "",
@@ -996,7 +996,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1089,7 +1089,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1182,7 +1182,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1262,7 +1262,7 @@
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Feedstock is agricultural (seed) waste. No analysis available of competing uses for feedstock."
+          "comment": "Feedstock is agricultural (seed) waste. Further analysis would require knowing competing uses for feedstock."
         },
         {
           "type": "Metric",
@@ -1275,7 +1275,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1368,7 +1368,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1461,7 +1461,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1541,7 +1541,7 @@
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Feedstock is residual wood (thinnings). No analysis available of competing uses for feedstock."
+          "comment": "Feedstock is residual wood (thinnings). Further analysis would require knowing competing uses for feedstock."
         },
         {
           "type": "Metric",
@@ -1554,7 +1554,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 2.0,
           "units": "",
           "rating": "",
@@ -1647,7 +1647,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1740,7 +1740,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1820,7 +1820,7 @@
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "No commercial value to storing wood waste in pits. No analysis available of alternative feedstock uses such as bioenergy."
+          "comment": "No commercial value to storing wood waste in pits. Further analysis would require knowing competing uses for feedstock."
         },
         {
           "type": "Metric",
@@ -1833,7 +1833,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -1926,7 +1926,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 2.0,
           "units": "",
           "rating": "",
@@ -2010,7 +2010,7 @@
           "units": "",
           "rating": "",
           "notes": "Counterfactual not specified. Project appears to target degraded land and suggests alternative land uses, such as native forest plantations, might be feasible but would produce lower overall carbon removal services due to bamboo's extremely high annual productivity.",
-          "comment": "Project claims that bamboo building materials have reached parity with conventional wood products. This suggests bamboo planting may not require climate policy incentives. No analysis available of competing economics of conventional wood products or alternative land management available."
+          "comment": "Project claims that bamboo building materials have reached parity with conventional wood products. This suggests bamboo planting may not require climate policy incentives. No analysis available of competing economics of conventional wood products or alternative land management."
         },
         {
           "type": "Metric",
@@ -2023,7 +2023,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 1.0,
           "units": "",
           "rating": "",
@@ -2116,7 +2116,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 2.0,
           "units": "",
           "rating": "",
@@ -2196,7 +2196,7 @@
           "units": "",
           "rating": "",
           "notes": "",
-          "comment": "Competing uses of bio-oil assumed to be burning for energy, but no specific analysis available. Some possibility that procurement of bio-oil will expand production."
+          "comment": "Competing uses of bio-oil assumed to be burning for energy. Further analysis would require more information on competing uses. Some possibility that procurement of bio-oil will expand production."
         },
         {
           "type": "Metric",
@@ -2209,7 +2209,7 @@
         },
         {
           "type": "Metric",
-          "name": "transparency",
+          "name": "specificity",
           "value": 2.0,
           "units": "",
           "rating": "",

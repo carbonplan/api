@@ -89,7 +89,7 @@ def make_projects():
         "permanence",
         "additionality",
         "cost",
-        "transparency",
+        "specificity",
     ]
 
     metric_keys = [
