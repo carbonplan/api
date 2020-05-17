@@ -28,28 +28,28 @@ def projects_to_csv(projects, id=None):
     df = pd.DataFrame.from_dict(projects).set_index("id").drop(columns=["type", "geometry"])
 
     metrics = {}
-    programs = {}
+    sources = {}
     tags = {}
     for i, row in df.iterrows():
 
         # metrics
         metrics[i] = pd.DataFrame(row.metrics).set_index("name").drop(columns="type").stack()
 
-        # program
-        programs[i] = pd.Series(row.program)
-        programs[i].index = [("program", name) for name in programs[i].index]
+        # source
+        sources[i] = pd.Series(row.source)
+        sources[i].index = [("source", name) for name in sources[i].index]
 
         # tags
         tags[i] = pd.Series(row.tags)
         tags[i].index = [("tag", name) for name in tags[i].index]
 
     metrics = pd.DataFrame.from_dict(metrics, orient="index")
-    programs = pd.DataFrame.from_dict(programs, orient="index")
+    sources = pd.DataFrame.from_dict(sources, orient="index")
     tags = pd.DataFrame.from_dict(tags, orient="index")
 
-    drop = ["metrics", "location", "program", "tags"]
+    drop = ["metrics", "location", "source", "tags"]
 
-    out = pd.concat([df.drop(columns=drop), metrics, programs, tags], axis=1)
+    out = pd.concat([df.drop(columns=drop), metrics, sources, tags], axis=1)
 
     if id:
         out = out.loc[[id]]

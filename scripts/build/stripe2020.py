@@ -125,7 +125,11 @@ def make_projects():
             "name": row[("location", "name")],
             "geometry": json.loads(row[("location", "geometry")]),
         }
-        project["program"] = {"name": row[("program", "name")], "url": row[("program", "url")]}
+        project["source"] = {
+            "name": row[("source", "name")], 
+            "license": row[("source", "license")],
+            "url": row[("source", "url")]
+        }
         for name in metrics:
             m = make_metric(name)
             for key in metric_keys:

@@ -1,18 +1,18 @@
-# CarbonPlan Projects API
+# (carbon)plan / API
 
 ![CI](https://github.com/carbonplan/api/workflows/CI/badge.svg)
 ![status](https://badgen.net/uptime-robot/status/m784948136-95d37dbf3887fb1e45468070)
 ![uptime](https://badgen.net/uptime-robot/month/m784948136-95d37dbf3887fb1e45468070)
 
-This repository includes [CarbonPlan's](https://carbonplan.org/) Projects API. To browse the data in this API via an interactive dashboard, check out [reports.carbonplan.org](https://reports.carbonplan.org/).
+This repository includes our API for data on carbon removal projects. To browse the data served by this API in an interactive dashboard, check out [carbonplan.org/reports](https://carbonplan.org/reports).
 
-## Usage Documentation
+## usage documentation
 
-For usage documentation of the API, see https://api.carbonplan.org/docs.
+For usage documentation on the API, see https://api.carbonplan.org/docs.
 
 -----
 
-## Developer Documentation
+## developer documentation
 
 This API is a [FastAPI application](https://fastapi.tiangolo.com/). To run the API locally use:
 
@@ -34,6 +34,11 @@ To run the unit and integration tests for this API, run:
 $ py.test -v
 ```
 
-## About CarbonPlan
+## license
+
+All the code in this repository is MIT licensed. Some of the data provided by this API is sourced from content made available under a CC-BY license. We include appropriate attribution for this content, and we please request that you also maintain that attribution if using this data.
+
+## about us
 
 CarbonPlan is a non-profit organization that uses data and science for carbon removal. We aim to improve the transparency and scientific integrity of carbon removal and climate solutions through open data and tools. Find out more at [carbonplan.org](https://carbonplan.org/) or get in touch by [opening an issue](https://github.com/carbonplan/api/issues/new) or [sending us an email](mailto:hello@carbonplan.org).
+
