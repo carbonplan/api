@@ -1,10 +1,10 @@
-# CarbonPlan Projects API
+# (carbon)plan / API
 
-## Overview
+## overview
 
-The CarbonPlan Projects API provides access to our collection of carbon removal projects. If you have any problems or questions, please [send us an email](mailto:hello@carbonplan.org) or open a [GitHub Issue](https://github.com/carbonplan/api).
+This API provides access to our data on carbon removal projects. If you have any problems or questions, please [send us an email](mailto:hello@carbonplan.org) or open a [GitHub Issue](https://github.com/carbonplan/api).
 
-## Current version
+## current version
 
 This is `v0` of the Projects REST API. You can explicitly request this version of the API by specifying the version as a prefix in API urls. For example,
 
@@ -40,7 +40,7 @@ strict-transport-security: max-age=63072000; includeSubDomains; preload
 ...
 ```
 
-## Schema
+## schema
 
 The API is accessed over HTTPS at `https://api.carbonplan.org`. All data is sent and recieved as JSON. The full JSON schema is available at `https://api.carbonplan.org/{version}/schema/{object}.json` where `{object}` one of the following:
 
