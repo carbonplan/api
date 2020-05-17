@@ -40,7 +40,7 @@ def test_endpoints_csv(endpoint):
 
 
 def test_project_query_arg():
-    response = client.get("projects.json?id=STRP05")
+    response = client.get("projects.json?id=STRP005")
     assert response.status_code == 200
     assert response.json()
     assert response.headers["content-type"] == "application/json; charset=utf-8"
