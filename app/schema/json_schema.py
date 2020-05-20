@@ -18,10 +18,7 @@ revision = {
     "title": "Revision",
     "type": "object",
     "required": ["date", "note"],
-    "properties": {
-        "date": {"type": "string"},
-        "note": {"type": "string"}
-    }
+    "properties": {"date": {"type": "string"}, "note": {"type": "string"}},
 }
 
 
