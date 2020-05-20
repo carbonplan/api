@@ -14,6 +14,16 @@ metric = {
     },
 }
 
+revision = {
+    "title": "Revision",
+    "type": "object",
+    "required": ["date", "note"],
+    "properties": {
+        "date": {"type": "string"},
+        "note": {"type": "string"}
+    }
+}
+
 
 def geojson(name):
     return requests.get(f"https://geojson.org/schema/{name}.json").json()
@@ -24,7 +34,7 @@ geometry = geojson("Feature")["properties"]["geometry"]
 project = {
     "title": "CarbonPlan Project",
     "type": "object",
-    "required": ["type", "name", "metrics", "geometry", "tags", "id", "description"],
+    "required": ["type", "name", "metrics", "geometry", "tags", "id", "description", "revisions"],
     "properties": {
         "type": {"type": "string", "enum": ["Project"]},
         "name": {"type": "string"},
@@ -32,6 +42,7 @@ project = {
         "tags": {"type": "array", "items": {"type": "string"}},
         "id": {"type": "string"},
         "description": {"type": "string"},
+        "revisions": {"type": "array", "items": revision},
         "geometry": {"type": geometry},
     },
 }
