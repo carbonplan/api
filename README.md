@@ -1,4 +1,4 @@
-# (carbon)plan / API
+# carbonplan / api
 
 ![CI](https://github.com/carbonplan/api/workflows/CI/badge.svg)
 ![status](https://badgen.net/uptime-robot/status/m784948136-95d37dbf3887fb1e45468070)
