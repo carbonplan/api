@@ -1,8 +1,26 @@
-# (carbon)plan / API
+<img
+  src='https://carbonplan-assets.s3.amazonaws.com/monogram/dark-small.png'
+  height='48'
+/>
 
-![CI](https://github.com/carbonplan/api/workflows/CI/badge.svg)
-![status](https://badgen.net/uptime-robot/status/m784948136-95d37dbf3887fb1e45468070)
-![uptime](https://badgen.net/uptime-robot/month/m784948136-95d37dbf3887fb1e45468070)
+# carbonplan / api
+
+**public api for carbonplan data**
+
+[![GitHub][github-badge]][github]
+![Build Status][]
+![dependabot][]
+![MIT License][]
+![status][]
+![uptime][]
+
+[github]: https://github.com/carbonplan/api
+[github-badge]: https://flat.badgen.net/badge/-/github?icon=github&label
+[build status]: https://flat.badgen.net/github/checks/carbonplan/api
+[dependabot]: https://flat.badgen.net/dependabot/carbonplan/api?icon=dependabot
+[mit license]: https://flat.badgen.net/badge/license/MIT/blue
+[status]: https://flat.badgen.net/uptime-robot/status/m784948136-95d37dbf3887fb1e45468070
+[uptime]: https://flat.badgen.net/uptime-robot/month/m784948136-95d37dbf3887fb1e45468070
 
 This repository includes our API for data on carbon removal projects. To browse the data served by this API in an interactive dashboard, check out [carbonplan.org/reports](https://carbonplan.org/reports).
 
