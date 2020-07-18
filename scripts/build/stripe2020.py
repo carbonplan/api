@@ -130,6 +130,7 @@ def make_projects():
             "license": row[("source", "license")],
             "url": row[("source", "url")],
         }
+        project["revisions"] = json.loads(row[("revisions", "")])
         for name in metrics:
             m = make_metric(name)
             for key in metric_keys:
