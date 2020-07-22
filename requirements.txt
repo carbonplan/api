@@ -1,4 +1,4 @@
-fastapi==0.60.0
+fastapi==0.60.1
 async-exit-stack
 async-generator
 requests
