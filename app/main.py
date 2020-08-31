@@ -130,7 +130,10 @@ def custom_openapi():
     title, description = get_title_and_description()
 
     openapi_schema = get_openapi(
-        title=title, version=VERSION, description=description, routes=app.routes,
+        title=title,
+        version=VERSION,
+        description=description,
+        routes=app.routes,
     )
 
     openapi_schema["info"].update(INFO)
